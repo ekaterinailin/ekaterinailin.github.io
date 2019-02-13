@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Astronomy, GitHub, Statistics, Writing, Teaching, Python
+percentage: 90, 60, 30, 70, 40, 65

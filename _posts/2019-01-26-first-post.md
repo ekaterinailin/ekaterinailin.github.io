@@ -10,6 +10,8 @@ image:
   creditlink: http://phdcomics.com/comics/archive.php?comicid=294
 ---
 
+This is a non-post, and meant only for testing the website generator for now.
+
 ## What should be your parameters?
 
 First of all - be clear about your intentions. You can broadly divide your goals for what you want to happen **during** and **after** your PhD.

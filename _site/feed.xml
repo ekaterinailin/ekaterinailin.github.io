@@ -3,15 +3,17 @@
   <channel>
     <title>astronomy, effective altruism</title>
     <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2019-01-27</pubDate>
-    <lastBuildDate>Sun, 27 Jan 2019 11:58:05 +0100</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2019-02-22</pubDate>
+    <lastBuildDate>Fri, 22 Feb 2019 08:55:08 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>Choosing your PhD supervisor</title>
-        <description>&lt;h2 id=&quot;what-should-be-your-parameters&quot;&gt;What should be your parameters?&lt;/h2&gt;
+        <description>&lt;p&gt;This is a non-post, and meant only for testing the website generator for now.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-should-be-your-parameters&quot;&gt;What should be your parameters?&lt;/h2&gt;
 
 &lt;p&gt;First of all - be clear about your intentions. You can broadly divide your goals for what you want to happen &lt;strong&gt;during&lt;/strong&gt; and &lt;strong&gt;after&lt;/strong&gt; your PhD.&lt;/p&gt;
 
@@ -26,9 +28,9 @@
 &lt;p&gt;There is, of course, a lot of chance in all of this. But you can avoid major mistakes in interviews with potential supervisors, their students (former and present). It is worth your time if you consider spending the next few year working mostly with that person. This is heavier than sharing your apartment with someone you do not yet know. This is sharing your apartment with someone you do not yet know, and who can make &lt;em&gt;you&lt;/em&gt; move out in the end.&lt;/p&gt;
 
 </description>
-        <pubDate>2019-01-27</pubDate>
-        <link>http://localhost:4000/articles/2019-01/first-post</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-01/first-post</guid>
+        <pubDate>2019-02-22</pubDate>
+        <link>/articles/2019-01/first-post</link>
+        <guid isPermaLink="true">/articles/2019-01/first-post</guid>
         
         
         <category>astronomy</category>

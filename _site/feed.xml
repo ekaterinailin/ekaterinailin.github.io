@@ -3,39 +3,60 @@
   <channel>
     <title>astronomy, effective altruism</title>
     <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2019-02-22</pubDate>
-    <lastBuildDate>Fri, 22 Feb 2019 08:55:08 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2019-02-26</pubDate>
+    <lastBuildDate>Tue, 26 Feb 2019 15:26:54 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Choosing your PhD supervisor</title>
-        <description>&lt;p&gt;This is a non-post, and meant only for testing the website generator for now.&lt;/p&gt;
+        <title>Moral orbits</title>
+        <description>&lt;p&gt;It is of no concern where, spatio-temporally, a moral patient is situated. If a sentient being is or will be suffering, I am morally obliged to help to stop or prevent that suffering. The more this patient is, or will be, suffering, the worse it is not to act.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-should-be-your-parameters&quot;&gt;What should be your parameters?&lt;/h2&gt;
+&lt;p&gt;If you are familiar with the statements above, read on. You need not agree, or disagree. If you are, however, greatly uncertain about what all of this just meant, this post will be difficult to follow. I may elaborate on details about these statements later, but for now, I just want to jot one idea down:&lt;/p&gt;
 
-&lt;p&gt;First of all - be clear about your intentions. You can broadly divide your goals for what you want to happen &lt;strong&gt;during&lt;/strong&gt; and &lt;strong&gt;after&lt;/strong&gt; your PhD.&lt;/p&gt;
+&lt;p&gt;Consider the expanding moral circle. It is common sense in western societies to regard all humans as having equal moral value. But this was a long and hard road. It was paved with slavery, antisemitism, racism, and misogyny. We are far from reaching high moral ground, but things have generally improved. This somewhat encouraging development can be put on a trajectory of a growing number of potential moral patients. From closest to you to complete strangers, it looks approximately like this:&lt;/p&gt;
 
-&lt;p class=&quot;notice&quot;&gt;Your goals should be aligned with what your supervisor is willing to support.&lt;/p&gt;
+&lt;p&gt;myself → family and friends → local community → extended community → nation → supranational level → world.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-can-you-ask-for&quot;&gt;What can you ask for?&lt;/h2&gt;
+&lt;p&gt;For most people, the moral circle encloses, beyond themselves, their relatives and dear friends. Others, many fewer, are equally concerned about everyone and everywhere, even if they do not yet exist. You can add another axis to this range if you include non-human sentient beings, say elephants or chicken, and a time axis. Attitudes probably exist everywhere on this range, from a very narrow towards a extraordinarily wide moral circle.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-can-you-not-ask-for&quot;&gt;What can you not ask for?&lt;/h2&gt;
+&lt;p&gt;On the one hand, there is no obvious way to go further left on the line above. You might speculate about someone who is mostly morally concerned only about some part of theirs. I, personally, will set aside the though of an even narrower moral circle than pure self-interest. On the other hand, the obvious question for the right edge of the line is this. Is there, outside of Earth’s closest vicinity (hey there, ISS), a moral patient whom I should care about?&lt;/p&gt;
 
-&lt;h2 id=&quot;how-do-you-spot-a-good-supervisor&quot;&gt;How do you spot a good supervisor?&lt;/h2&gt;
+&lt;p&gt;If the answer is yes, and the statements at the beginning of this post are convincing enough, I ought to include these sentient beings into my moral circle. However, we are highly uncertain about the existence of extraterrestrial sentient beings (ESBs). Anything goes, from millions of civilizations in the Milky Way to Our Lonely Human Race (OLHR) being the only one out there.&lt;/p&gt;
 
-&lt;p&gt;There is, of course, a lot of chance in all of this. But you can avoid major mistakes in interviews with potential supervisors, their students (former and present). It is worth your time if you consider spending the next few year working mostly with that person. This is heavier than sharing your apartment with someone you do not yet know. This is sharing your apartment with someone you do not yet know, and who can make &lt;em&gt;you&lt;/em&gt; move out in the end.&lt;/p&gt;
+&lt;p&gt;The question is this: Am I morally obliged to help find out if there is anyone out there other than OLHR, who deserves my attention as a moral patient? I believe that the answer is yes. Let me explain.&lt;/p&gt;
 
+&lt;p&gt;The answer is yes because, while nobody knows everything, we want, all considered, to make &lt;em&gt;informed&lt;/em&gt; moral decisions. We can call&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;striving to learn all the morally relevant facts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;a secondary moral value. This can justify a very general exploration directive but I will talk about this moral value in a qualified sense:&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;&lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt; If we have reason to believe that there is a morally relevant fact within our reach, we ought to strive to learn this morally relevant fact or to disprove its existence.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The crucial word is &lt;em&gt;relevant&lt;/em&gt;, and there’s the rub. As mentioned before, the uncertainty about the existence of ESBs is very high. If we suspect moral patients in a gold mine in China, we have a strong prior that we will find great numbers of people working hard under awful conditions, dying prematurely, and painfully. Most, I believe, would agree, that in this case, we ought to go to these mines. &lt;em&gt;At the very least, we should check&lt;/em&gt; if there is any truth behind this suspicion. And even in cases where there is often less compelling evidence that suffering might be underway, we agree that we should try to add transparency to the process. Think food security, or physician-patient relations. In other situations, we have little moral obligation to search for suffering. No-one should be morally concerned with what happens inside your dishwasher while it cleans your dinner plates.&lt;/p&gt;
+
+&lt;p&gt;But what if we are &lt;em&gt;very&lt;/em&gt; uncertain? To some degree, we can turn to the expected amount of suffering we may find if we search. If the chances are very high that something that is just a tiny bit morally concerning is true, the overall suffering may still be considerable and worth relieving. If the risk of a grand catastrophe happening is very low but the impact would be disastrous, we still ought to prevent it or be prepared to keep the effects at bay. In our case, however, we are very uncertain about a probability distribution. So talking expected values is of little use. But must try something different.&lt;/p&gt;
+
+&lt;p&gt;The number of ESBs in our Galaxy (to keep arguments about causality limits out of this debate) ranges from zero to maybe 10^16 (a million populations with 10 billion individuals each). If we are clueless our probability distribution will be flat. Any number will be very unlikely. After finding any evidence, in favor or against some range of population size, we can update our distribution, and re-assess the case for further exploration. This is what we should do, according to &lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now there is a number of objections. To name a few:&lt;/p&gt;
+
+&lt;p&gt;Even if we learn something morally revelant, we will be unable to do anything about it, at least for now. Another objection is that we should rather use our scarce resources on problems much more salient to us, and these give us more than enough causes to focus on for the upcoming centuries and beyond. Yet another objection appeals to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Fermi_paradox&quot;&gt;Fermi paradox&lt;/a&gt;. And you could think of marginal returns: Why bother about something that would happen sooner or later anyway (but certainly on time). Then the costs of making it happen earlier may simply be too high for the benefits.&lt;/p&gt;
+
+&lt;p&gt;I will attempt to complement this list of objections, and I will try to answer them with appropriate rigor in later posts. The bottom line in this post shall, for the moment, be just this:&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;It is well possible that we have a moral reason to dedicate considerable resources to research that will help us constrain the population size of extraterrestrial sentient beings.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thoughts on this? Tag @astroilin and #moralorbit on twitter, or let me know: ekaterina dot ilin at posteo dot de&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>2019-02-22</pubDate>
-        <link>/articles/2019-01/first-post</link>
-        <guid isPermaLink="true">/articles/2019-01/first-post</guid>
+        <pubDate>2019-02-26</pubDate>
+        <link>http://localhost:4000/articles/2019-02/moral-circle</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-02/moral-circle</guid>
         
         
-        <category>astronomy</category>
-        
-        <category>PhD</category>
+        <category>EFFECTIVE ALTRUISM</category>
         
       </item>
     

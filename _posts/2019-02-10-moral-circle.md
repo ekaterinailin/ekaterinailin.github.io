@@ -2,9 +2,13 @@
 layout: post
 title: "Moral orbits"
 excerpt: "Not only can astronomy and moral philosophy be thought together, they likely ought to."
-tags: [effective altruism]
+categories: [EFFECTIVE ALTRUISM]
 author: ekaterina
 comments: true
+image:
+  feature: https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  credit: yuting gao
+  creditlink: https://www.pexels.com/photo/silhouette-of-two-person-standing-during-nighttime-1567069/
 ---
 
 It is of no concern where, spatio-temporally, a moral patient is situated. If a sentient being is or will be suffering, I am morally obliged to help to stop or prevent that suffering. The more this patient is, or will be, suffering, the worse it is not to act.
@@ -13,7 +17,7 @@ If you are familiar with the statements above, read on. You need not agree, or d
 
 Consider the expanding moral circle. It is common sense in western societies to regard all humans as having equal moral value. But this was a long and hard road. It was paved with slavery, antisemitism, racism, and misogyny. We are far from reaching high moral ground, but things have generally improved. This somewhat encouraging development can be put on a trajectory of a growing number of potential moral patients. From closest to you to complete strangers, it looks approximately like this:
 
-myself &rarr family and friends &rarr local community &rarr extended community &rarr nation &rarr supranational level &rarr world.
+myself &rarr; family and friends &rarr; local community &rarr; extended community &rarr; nation &rarr; supranational level &rarr; world.
 
 For most people, the moral circle encloses, beyond themselves, their relatives and dear friends. Others, many fewer, are equally concerned about everyone and everywhere, even if they do not yet exist. You can add another axis to this range if you include non-human sentient beings, say elephants or chicken, and a time axis. Attitudes probably exist everywhere on this range, from a very narrow towards a extraordinarily wide moral circle.
 
@@ -47,4 +51,4 @@ I will attempt to complement this list of objections, and I will try to answer t
 It is well possible that we have a moral reason to dedicate considerable resources to research that will help us constrain the population size of extraterrestrial sentient beings.
 {: .notice}
 
-_More objections? Comment below &darr_
+_Thoughts on this? Tag @astroilin and #moralorbit on twitter, or let me know: ekaterina dot ilin at posteo dot de_

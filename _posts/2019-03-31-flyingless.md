@@ -2,7 +2,7 @@
 layout: post
 title: "Flying is bad, I feel bad, and I need to do something about it"
 excerpt: "I should not be okay with having complete strangers suffering from severe consequences of unpredictable weather extremes, just because I need to meet with those scientists somewhere around the globe."
-tags: [academia]
+tags: [academia, flying]
 author: ekaterina
 comments: true
 ---

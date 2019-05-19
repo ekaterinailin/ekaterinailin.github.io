@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Flying in academia is wrong, and I need to do something about it"
+title: "Flying is bad, I feel bad, and I need to do something about it"
 excerpt: "I should not be okay with having complete strangers suffering from severe consequences of unpredictable weather extremes, just because I need to meet with those scientists somewhere around the globe."
-categories: [ACADEMIA]
 tags: [academia, flying]
 author: ekaterina
 comments: true
@@ -16,15 +15,13 @@ Claiming that the scientific progress for which I am doing the flying is more im
 
 I feel bad about it. I like meeting all these other amazing scientists. I like listening to their talks in person, engage in scientific discussion, being given the chance to present my own ideas and results, feel good about the atmosphere and being part of this sort of ritual. I see how this exchange enriches my field, I also feel the warm touch of exclusiveness of being with the crowd, let it be in the audience, on stage, or at some nice restaurant in the evening. Not all about these gatherings is great. There is a lot of signalling happening during these events, talks or sessions sometimes are of low quality but you may just be stuck in the middle of the lecture hall. The participation costs keep many from joining in the first place, let alone outright discrimination. Also, travelling long distances takes a toll on the health. But I believe that the positive features outweigh the cons. This is, however, only true if I neglect the environmental impact. This is the tipping point where I change my opinion. I'd rather quit participating in such events. 
 
-I am fully aware of the discrepancy between my actions and my words. The information is out there in heaps, proving that I cannot tolerate negative effects on future generations, and even myself, if I do not do anything about my irresponsible standard of living. 
+I am fully aware of the discrepancy between my actions and my words. The information is out there in heaps, proving that I cannot tolerating negative effects on future generations, and even myself, if I do not do anything about my irresponsible standard of living. 
 
 Why do I not leave academia and do something else, if it bugs me so much? Because then someone else would fly. I am in no way irreplaceable in my field, just like everybody else in academia is. It is not the appropriate answer to the dissonance between my actions and my words. The call to action should be that I ultimately reduce my actual flying and that of those in my field. Or flying in acamedia in general. 
 
 I do not think we can wait until a law comes about that will prohibit flying without absolute necessity. It may never happen soon enough, and if it did, we would not be prepared. We would need time to adapt to such a radical change, and scientific research would suffer. A better solution is to adapt now, gradually, but systematically. We have all the magic of the _internet_ at our fingertips. Real-time communication is nearly free today. The initiative [flyingless](https://academicflyingblog.wordpress.com/) has some really good suggestions, and a [petition](https://www.change.org/p/universities-and-professional-associations-call-on-universities-and-professional-associations-to-greatly-reduce-flying?recruiter=294645973&utm_source=share_petition&utm_medium=copylink) that sums up their claims. The claims are aimed at university departments and similar organisations, and there is no way I can resort to "But I am just a [...] with little power in this respect.". If you are in academia, as undergrad, graduate, post-doc, or professor - you are part of the problem. Unless you accept that you live in fully hierarchical system with no element of democracy in your department, this is no excuse.
 
 At this point, I have somethng to do. I will not write about this topic again until I will have done something about it. 
-
-_Footnotes:_
 
 [^1]: You can see my results using the German carbon footprint calculator (in German, obviously) [here](http://www.uba.co2-rechner.de/de_DE/?bookmark=R5tPXniBc5ZWl7oH). The 3 non-flying metric tons of CO2 equivalent that I produce according to this calculator could be reduced in the long term by changing my diet from vegetarian to vegan and regional, heating less, switching to renewable energy sources for heating and electricity, moving into a smaller apartment, and the like. All of these interventions are small changes I am implementing step by step. But I cannot go below 2 tons without large cuts on my standard of living. Also, the effectiveness of these changes compared to what I could achieve by just giving up flying is negligible.  
 

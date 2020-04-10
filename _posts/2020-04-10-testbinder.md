@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>astronomy, effective altruism</title>
-    <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-04-10</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2020 11:19:24 +0200</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
-    
-      <item>
-        <title>TEST</title>
-        <description>&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-&lt;html&gt;
-&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;
+---
+layout: post
+title: "TEST"
+excerpt: "TEST2
+"
+categories: [ASTRONOMY]
+author: ekaterina
+comments: true
+---
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" />
 
 
-&lt;title&gt;Test&lt;/title&gt;
+<title>Test</title>
 
-&lt;style type=&quot;text/css&quot;&gt;
+<style type="text/css">
     /*!
 *
 * Twitter Bootstrap
@@ -149,9 +145,9 @@ select {
   text-transform: none;
 }
 button,
-html input[type=&quot;button&quot;],
-input[type=&quot;reset&quot;],
-input[type=&quot;submit&quot;] {
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -167,21 +163,21 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-input[type=&quot;checkbox&quot;],
-input[type=&quot;radio&quot;] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
-input[type=&quot;number&quot;]::-webkit-inner-spin-button,
-input[type=&quot;number&quot;]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-input[type=&quot;search&quot;] {
+input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
-input[type=&quot;search&quot;]::-webkit-search-cancel-button,
-input[type=&quot;search&quot;]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 fieldset {
@@ -221,14 +217,14 @@ th {
     text-decoration: underline;
   }
   a[href]:after {
-    content: &quot; (&quot; attr(href) &quot;)&quot;;
+    content: " (" attr(href) ")";
   }
   abbr[title]:after {
-    content: &quot; (&quot; attr(title) &quot;)&quot;;
+    content: " (" attr(title) ")";
   }
-  a[href^=&quot;#&quot;]:after,
-  a[href^=&quot;javascript:&quot;]:after {
-    content: &quot;&quot;;
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
   }
   pre,
   blockquote {
@@ -258,8 +254,8 @@ th {
   .navbar {
     display: none;
   }
-  .btn &gt; .caret,
-  .dropup &gt; .btn &gt; .caret {
+  .btn > .caret,
+  .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
   .label {
@@ -294,791 +290,791 @@ th {
   -moz-osx-font-smoothing: grayscale;
 }
 .glyphicon-asterisk:before {
-  content: &quot;\002a&quot;;
+  content: "\002a";
 }
 .glyphicon-plus:before {
-  content: &quot;\002b&quot;;
+  content: "\002b";
 }
 .glyphicon-euro:before,
 .glyphicon-eur:before {
-  content: &quot;\20ac&quot;;
+  content: "\20ac";
 }
 .glyphicon-minus:before {
-  content: &quot;\2212&quot;;
+  content: "\2212";
 }
 .glyphicon-cloud:before {
-  content: &quot;\2601&quot;;
+  content: "\2601";
 }
 .glyphicon-envelope:before {
-  content: &quot;\2709&quot;;
+  content: "\2709";
 }
 .glyphicon-pencil:before {
-  content: &quot;\270f&quot;;
+  content: "\270f";
 }
 .glyphicon-glass:before {
-  content: &quot;\e001&quot;;
+  content: "\e001";
 }
 .glyphicon-music:before {
-  content: &quot;\e002&quot;;
+  content: "\e002";
 }
 .glyphicon-search:before {
-  content: &quot;\e003&quot;;
+  content: "\e003";
 }
 .glyphicon-heart:before {
-  content: &quot;\e005&quot;;
+  content: "\e005";
 }
 .glyphicon-star:before {
-  content: &quot;\e006&quot;;
+  content: "\e006";
 }
 .glyphicon-star-empty:before {
-  content: &quot;\e007&quot;;
+  content: "\e007";
 }
 .glyphicon-user:before {
-  content: &quot;\e008&quot;;
+  content: "\e008";
 }
 .glyphicon-film:before {
-  content: &quot;\e009&quot;;
+  content: "\e009";
 }
 .glyphicon-th-large:before {
-  content: &quot;\e010&quot;;
+  content: "\e010";
 }
 .glyphicon-th:before {
-  content: &quot;\e011&quot;;
+  content: "\e011";
 }
 .glyphicon-th-list:before {
-  content: &quot;\e012&quot;;
+  content: "\e012";
 }
 .glyphicon-ok:before {
-  content: &quot;\e013&quot;;
+  content: "\e013";
 }
 .glyphicon-remove:before {
-  content: &quot;\e014&quot;;
+  content: "\e014";
 }
 .glyphicon-zoom-in:before {
-  content: &quot;\e015&quot;;
+  content: "\e015";
 }
 .glyphicon-zoom-out:before {
-  content: &quot;\e016&quot;;
+  content: "\e016";
 }
 .glyphicon-off:before {
-  content: &quot;\e017&quot;;
+  content: "\e017";
 }
 .glyphicon-signal:before {
-  content: &quot;\e018&quot;;
+  content: "\e018";
 }
 .glyphicon-cog:before {
-  content: &quot;\e019&quot;;
+  content: "\e019";
 }
 .glyphicon-trash:before {
-  content: &quot;\e020&quot;;
+  content: "\e020";
 }
 .glyphicon-home:before {
-  content: &quot;\e021&quot;;
+  content: "\e021";
 }
 .glyphicon-file:before {
-  content: &quot;\e022&quot;;
+  content: "\e022";
 }
 .glyphicon-time:before {
-  content: &quot;\e023&quot;;
+  content: "\e023";
 }
 .glyphicon-road:before {
-  content: &quot;\e024&quot;;
+  content: "\e024";
 }
 .glyphicon-download-alt:before {
-  content: &quot;\e025&quot;;
+  content: "\e025";
 }
 .glyphicon-download:before {
-  content: &quot;\e026&quot;;
+  content: "\e026";
 }
 .glyphicon-upload:before {
-  content: &quot;\e027&quot;;
+  content: "\e027";
 }
 .glyphicon-inbox:before {
-  content: &quot;\e028&quot;;
+  content: "\e028";
 }
 .glyphicon-play-circle:before {
-  content: &quot;\e029&quot;;
+  content: "\e029";
 }
 .glyphicon-repeat:before {
-  content: &quot;\e030&quot;;
+  content: "\e030";
 }
 .glyphicon-refresh:before {
-  content: &quot;\e031&quot;;
+  content: "\e031";
 }
 .glyphicon-list-alt:before {
-  content: &quot;\e032&quot;;
+  content: "\e032";
 }
 .glyphicon-lock:before {
-  content: &quot;\e033&quot;;
+  content: "\e033";
 }
 .glyphicon-flag:before {
-  content: &quot;\e034&quot;;
+  content: "\e034";
 }
 .glyphicon-headphones:before {
-  content: &quot;\e035&quot;;
+  content: "\e035";
 }
 .glyphicon-volume-off:before {
-  content: &quot;\e036&quot;;
+  content: "\e036";
 }
 .glyphicon-volume-down:before {
-  content: &quot;\e037&quot;;
+  content: "\e037";
 }
 .glyphicon-volume-up:before {
-  content: &quot;\e038&quot;;
+  content: "\e038";
 }
 .glyphicon-qrcode:before {
-  content: &quot;\e039&quot;;
+  content: "\e039";
 }
 .glyphicon-barcode:before {
-  content: &quot;\e040&quot;;
+  content: "\e040";
 }
 .glyphicon-tag:before {
-  content: &quot;\e041&quot;;
+  content: "\e041";
 }
 .glyphicon-tags:before {
-  content: &quot;\e042&quot;;
+  content: "\e042";
 }
 .glyphicon-book:before {
-  content: &quot;\e043&quot;;
+  content: "\e043";
 }
 .glyphicon-bookmark:before {
-  content: &quot;\e044&quot;;
+  content: "\e044";
 }
 .glyphicon-print:before {
-  content: &quot;\e045&quot;;
+  content: "\e045";
 }
 .glyphicon-camera:before {
-  content: &quot;\e046&quot;;
+  content: "\e046";
 }
 .glyphicon-font:before {
-  content: &quot;\e047&quot;;
+  content: "\e047";
 }
 .glyphicon-bold:before {
-  content: &quot;\e048&quot;;
+  content: "\e048";
 }
 .glyphicon-italic:before {
-  content: &quot;\e049&quot;;
+  content: "\e049";
 }
 .glyphicon-text-height:before {
-  content: &quot;\e050&quot;;
+  content: "\e050";
 }
 .glyphicon-text-width:before {
-  content: &quot;\e051&quot;;
+  content: "\e051";
 }
 .glyphicon-align-left:before {
-  content: &quot;\e052&quot;;
+  content: "\e052";
 }
 .glyphicon-align-center:before {
-  content: &quot;\e053&quot;;
+  content: "\e053";
 }
 .glyphicon-align-right:before {
-  content: &quot;\e054&quot;;
+  content: "\e054";
 }
 .glyphicon-align-justify:before {
-  content: &quot;\e055&quot;;
+  content: "\e055";
 }
 .glyphicon-list:before {
-  content: &quot;\e056&quot;;
+  content: "\e056";
 }
 .glyphicon-indent-left:before {
-  content: &quot;\e057&quot;;
+  content: "\e057";
 }
 .glyphicon-indent-right:before {
-  content: &quot;\e058&quot;;
+  content: "\e058";
 }
 .glyphicon-facetime-video:before {
-  content: &quot;\e059&quot;;
+  content: "\e059";
 }
 .glyphicon-picture:before {
-  content: &quot;\e060&quot;;
+  content: "\e060";
 }
 .glyphicon-map-marker:before {
-  content: &quot;\e062&quot;;
+  content: "\e062";
 }
 .glyphicon-adjust:before {
-  content: &quot;\e063&quot;;
+  content: "\e063";
 }
 .glyphicon-tint:before {
-  content: &quot;\e064&quot;;
+  content: "\e064";
 }
 .glyphicon-edit:before {
-  content: &quot;\e065&quot;;
+  content: "\e065";
 }
 .glyphicon-share:before {
-  content: &quot;\e066&quot;;
+  content: "\e066";
 }
 .glyphicon-check:before {
-  content: &quot;\e067&quot;;
+  content: "\e067";
 }
 .glyphicon-move:before {
-  content: &quot;\e068&quot;;
+  content: "\e068";
 }
 .glyphicon-step-backward:before {
-  content: &quot;\e069&quot;;
+  content: "\e069";
 }
 .glyphicon-fast-backward:before {
-  content: &quot;\e070&quot;;
+  content: "\e070";
 }
 .glyphicon-backward:before {
-  content: &quot;\e071&quot;;
+  content: "\e071";
 }
 .glyphicon-play:before {
-  content: &quot;\e072&quot;;
+  content: "\e072";
 }
 .glyphicon-pause:before {
-  content: &quot;\e073&quot;;
+  content: "\e073";
 }
 .glyphicon-stop:before {
-  content: &quot;\e074&quot;;
+  content: "\e074";
 }
 .glyphicon-forward:before {
-  content: &quot;\e075&quot;;
+  content: "\e075";
 }
 .glyphicon-fast-forward:before {
-  content: &quot;\e076&quot;;
+  content: "\e076";
 }
 .glyphicon-step-forward:before {
-  content: &quot;\e077&quot;;
+  content: "\e077";
 }
 .glyphicon-eject:before {
-  content: &quot;\e078&quot;;
+  content: "\e078";
 }
 .glyphicon-chevron-left:before {
-  content: &quot;\e079&quot;;
+  content: "\e079";
 }
 .glyphicon-chevron-right:before {
-  content: &quot;\e080&quot;;
+  content: "\e080";
 }
 .glyphicon-plus-sign:before {
-  content: &quot;\e081&quot;;
+  content: "\e081";
 }
 .glyphicon-minus-sign:before {
-  content: &quot;\e082&quot;;
+  content: "\e082";
 }
 .glyphicon-remove-sign:before {
-  content: &quot;\e083&quot;;
+  content: "\e083";
 }
 .glyphicon-ok-sign:before {
-  content: &quot;\e084&quot;;
+  content: "\e084";
 }
 .glyphicon-question-sign:before {
-  content: &quot;\e085&quot;;
+  content: "\e085";
 }
 .glyphicon-info-sign:before {
-  content: &quot;\e086&quot;;
+  content: "\e086";
 }
 .glyphicon-screenshot:before {
-  content: &quot;\e087&quot;;
+  content: "\e087";
 }
 .glyphicon-remove-circle:before {
-  content: &quot;\e088&quot;;
+  content: "\e088";
 }
 .glyphicon-ok-circle:before {
-  content: &quot;\e089&quot;;
+  content: "\e089";
 }
 .glyphicon-ban-circle:before {
-  content: &quot;\e090&quot;;
+  content: "\e090";
 }
 .glyphicon-arrow-left:before {
-  content: &quot;\e091&quot;;
+  content: "\e091";
 }
 .glyphicon-arrow-right:before {
-  content: &quot;\e092&quot;;
+  content: "\e092";
 }
 .glyphicon-arrow-up:before {
-  content: &quot;\e093&quot;;
+  content: "\e093";
 }
 .glyphicon-arrow-down:before {
-  content: &quot;\e094&quot;;
+  content: "\e094";
 }
 .glyphicon-share-alt:before {
-  content: &quot;\e095&quot;;
+  content: "\e095";
 }
 .glyphicon-resize-full:before {
-  content: &quot;\e096&quot;;
+  content: "\e096";
 }
 .glyphicon-resize-small:before {
-  content: &quot;\e097&quot;;
+  content: "\e097";
 }
 .glyphicon-exclamation-sign:before {
-  content: &quot;\e101&quot;;
+  content: "\e101";
 }
 .glyphicon-gift:before {
-  content: &quot;\e102&quot;;
+  content: "\e102";
 }
 .glyphicon-leaf:before {
-  content: &quot;\e103&quot;;
+  content: "\e103";
 }
 .glyphicon-fire:before {
-  content: &quot;\e104&quot;;
+  content: "\e104";
 }
 .glyphicon-eye-open:before {
-  content: &quot;\e105&quot;;
+  content: "\e105";
 }
 .glyphicon-eye-close:before {
-  content: &quot;\e106&quot;;
+  content: "\e106";
 }
 .glyphicon-warning-sign:before {
-  content: &quot;\e107&quot;;
+  content: "\e107";
 }
 .glyphicon-plane:before {
-  content: &quot;\e108&quot;;
+  content: "\e108";
 }
 .glyphicon-calendar:before {
-  content: &quot;\e109&quot;;
+  content: "\e109";
 }
 .glyphicon-random:before {
-  content: &quot;\e110&quot;;
+  content: "\e110";
 }
 .glyphicon-comment:before {
-  content: &quot;\e111&quot;;
+  content: "\e111";
 }
 .glyphicon-magnet:before {
-  content: &quot;\e112&quot;;
+  content: "\e112";
 }
 .glyphicon-chevron-up:before {
-  content: &quot;\e113&quot;;
+  content: "\e113";
 }
 .glyphicon-chevron-down:before {
-  content: &quot;\e114&quot;;
+  content: "\e114";
 }
 .glyphicon-retweet:before {
-  content: &quot;\e115&quot;;
+  content: "\e115";
 }
 .glyphicon-shopping-cart:before {
-  content: &quot;\e116&quot;;
+  content: "\e116";
 }
 .glyphicon-folder-close:before {
-  content: &quot;\e117&quot;;
+  content: "\e117";
 }
 .glyphicon-folder-open:before {
-  content: &quot;\e118&quot;;
+  content: "\e118";
 }
 .glyphicon-resize-vertical:before {
-  content: &quot;\e119&quot;;
+  content: "\e119";
 }
 .glyphicon-resize-horizontal:before {
-  content: &quot;\e120&quot;;
+  content: "\e120";
 }
 .glyphicon-hdd:before {
-  content: &quot;\e121&quot;;
+  content: "\e121";
 }
 .glyphicon-bullhorn:before {
-  content: &quot;\e122&quot;;
+  content: "\e122";
 }
 .glyphicon-bell:before {
-  content: &quot;\e123&quot;;
+  content: "\e123";
 }
 .glyphicon-certificate:before {
-  content: &quot;\e124&quot;;
+  content: "\e124";
 }
 .glyphicon-thumbs-up:before {
-  content: &quot;\e125&quot;;
+  content: "\e125";
 }
 .glyphicon-thumbs-down:before {
-  content: &quot;\e126&quot;;
+  content: "\e126";
 }
 .glyphicon-hand-right:before {
-  content: &quot;\e127&quot;;
+  content: "\e127";
 }
 .glyphicon-hand-left:before {
-  content: &quot;\e128&quot;;
+  content: "\e128";
 }
 .glyphicon-hand-up:before {
-  content: &quot;\e129&quot;;
+  content: "\e129";
 }
 .glyphicon-hand-down:before {
-  content: &quot;\e130&quot;;
+  content: "\e130";
 }
 .glyphicon-circle-arrow-right:before {
-  content: &quot;\e131&quot;;
+  content: "\e131";
 }
 .glyphicon-circle-arrow-left:before {
-  content: &quot;\e132&quot;;
+  content: "\e132";
 }
 .glyphicon-circle-arrow-up:before {
-  content: &quot;\e133&quot;;
+  content: "\e133";
 }
 .glyphicon-circle-arrow-down:before {
-  content: &quot;\e134&quot;;
+  content: "\e134";
 }
 .glyphicon-globe:before {
-  content: &quot;\e135&quot;;
+  content: "\e135";
 }
 .glyphicon-wrench:before {
-  content: &quot;\e136&quot;;
+  content: "\e136";
 }
 .glyphicon-tasks:before {
-  content: &quot;\e137&quot;;
+  content: "\e137";
 }
 .glyphicon-filter:before {
-  content: &quot;\e138&quot;;
+  content: "\e138";
 }
 .glyphicon-briefcase:before {
-  content: &quot;\e139&quot;;
+  content: "\e139";
 }
 .glyphicon-fullscreen:before {
-  content: &quot;\e140&quot;;
+  content: "\e140";
 }
 .glyphicon-dashboard:before {
-  content: &quot;\e141&quot;;
+  content: "\e141";
 }
 .glyphicon-paperclip:before {
-  content: &quot;\e142&quot;;
+  content: "\e142";
 }
 .glyphicon-heart-empty:before {
-  content: &quot;\e143&quot;;
+  content: "\e143";
 }
 .glyphicon-link:before {
-  content: &quot;\e144&quot;;
+  content: "\e144";
 }
 .glyphicon-phone:before {
-  content: &quot;\e145&quot;;
+  content: "\e145";
 }
 .glyphicon-pushpin:before {
-  content: &quot;\e146&quot;;
+  content: "\e146";
 }
 .glyphicon-usd:before {
-  content: &quot;\e148&quot;;
+  content: "\e148";
 }
 .glyphicon-gbp:before {
-  content: &quot;\e149&quot;;
+  content: "\e149";
 }
 .glyphicon-sort:before {
-  content: &quot;\e150&quot;;
+  content: "\e150";
 }
 .glyphicon-sort-by-alphabet:before {
-  content: &quot;\e151&quot;;
+  content: "\e151";
 }
 .glyphicon-sort-by-alphabet-alt:before {
-  content: &quot;\e152&quot;;
+  content: "\e152";
 }
 .glyphicon-sort-by-order:before {
-  content: &quot;\e153&quot;;
+  content: "\e153";
 }
 .glyphicon-sort-by-order-alt:before {
-  content: &quot;\e154&quot;;
+  content: "\e154";
 }
 .glyphicon-sort-by-attributes:before {
-  content: &quot;\e155&quot;;
+  content: "\e155";
 }
 .glyphicon-sort-by-attributes-alt:before {
-  content: &quot;\e156&quot;;
+  content: "\e156";
 }
 .glyphicon-unchecked:before {
-  content: &quot;\e157&quot;;
+  content: "\e157";
 }
 .glyphicon-expand:before {
-  content: &quot;\e158&quot;;
+  content: "\e158";
 }
 .glyphicon-collapse-down:before {
-  content: &quot;\e159&quot;;
+  content: "\e159";
 }
 .glyphicon-collapse-up:before {
-  content: &quot;\e160&quot;;
+  content: "\e160";
 }
 .glyphicon-log-in:before {
-  content: &quot;\e161&quot;;
+  content: "\e161";
 }
 .glyphicon-flash:before {
-  content: &quot;\e162&quot;;
+  content: "\e162";
 }
 .glyphicon-log-out:before {
-  content: &quot;\e163&quot;;
+  content: "\e163";
 }
 .glyphicon-new-window:before {
-  content: &quot;\e164&quot;;
+  content: "\e164";
 }
 .glyphicon-record:before {
-  content: &quot;\e165&quot;;
+  content: "\e165";
 }
 .glyphicon-save:before {
-  content: &quot;\e166&quot;;
+  content: "\e166";
 }
 .glyphicon-open:before {
-  content: &quot;\e167&quot;;
+  content: "\e167";
 }
 .glyphicon-saved:before {
-  content: &quot;\e168&quot;;
+  content: "\e168";
 }
 .glyphicon-import:before {
-  content: &quot;\e169&quot;;
+  content: "\e169";
 }
 .glyphicon-export:before {
-  content: &quot;\e170&quot;;
+  content: "\e170";
 }
 .glyphicon-send:before {
-  content: &quot;\e171&quot;;
+  content: "\e171";
 }
 .glyphicon-floppy-disk:before {
-  content: &quot;\e172&quot;;
+  content: "\e172";
 }
 .glyphicon-floppy-saved:before {
-  content: &quot;\e173&quot;;
+  content: "\e173";
 }
 .glyphicon-floppy-remove:before {
-  content: &quot;\e174&quot;;
+  content: "\e174";
 }
 .glyphicon-floppy-save:before {
-  content: &quot;\e175&quot;;
+  content: "\e175";
 }
 .glyphicon-floppy-open:before {
-  content: &quot;\e176&quot;;
+  content: "\e176";
 }
 .glyphicon-credit-card:before {
-  content: &quot;\e177&quot;;
+  content: "\e177";
 }
 .glyphicon-transfer:before {
-  content: &quot;\e178&quot;;
+  content: "\e178";
 }
 .glyphicon-cutlery:before {
-  content: &quot;\e179&quot;;
+  content: "\e179";
 }
 .glyphicon-header:before {
-  content: &quot;\e180&quot;;
+  content: "\e180";
 }
 .glyphicon-compressed:before {
-  content: &quot;\e181&quot;;
+  content: "\e181";
 }
 .glyphicon-earphone:before {
-  content: &quot;\e182&quot;;
+  content: "\e182";
 }
 .glyphicon-phone-alt:before {
-  content: &quot;\e183&quot;;
+  content: "\e183";
 }
 .glyphicon-tower:before {
-  content: &quot;\e184&quot;;
+  content: "\e184";
 }
 .glyphicon-stats:before {
-  content: &quot;\e185&quot;;
+  content: "\e185";
 }
 .glyphicon-sd-video:before {
-  content: &quot;\e186&quot;;
+  content: "\e186";
 }
 .glyphicon-hd-video:before {
-  content: &quot;\e187&quot;;
+  content: "\e187";
 }
 .glyphicon-subtitles:before {
-  content: &quot;\e188&quot;;
+  content: "\e188";
 }
 .glyphicon-sound-stereo:before {
-  content: &quot;\e189&quot;;
+  content: "\e189";
 }
 .glyphicon-sound-dolby:before {
-  content: &quot;\e190&quot;;
+  content: "\e190";
 }
 .glyphicon-sound-5-1:before {
-  content: &quot;\e191&quot;;
+  content: "\e191";
 }
 .glyphicon-sound-6-1:before {
-  content: &quot;\e192&quot;;
+  content: "\e192";
 }
 .glyphicon-sound-7-1:before {
-  content: &quot;\e193&quot;;
+  content: "\e193";
 }
 .glyphicon-copyright-mark:before {
-  content: &quot;\e194&quot;;
+  content: "\e194";
 }
 .glyphicon-registration-mark:before {
-  content: &quot;\e195&quot;;
+  content: "\e195";
 }
 .glyphicon-cloud-download:before {
-  content: &quot;\e197&quot;;
+  content: "\e197";
 }
 .glyphicon-cloud-upload:before {
-  content: &quot;\e198&quot;;
+  content: "\e198";
 }
 .glyphicon-tree-conifer:before {
-  content: &quot;\e199&quot;;
+  content: "\e199";
 }
 .glyphicon-tree-deciduous:before {
-  content: &quot;\e200&quot;;
+  content: "\e200";
 }
 .glyphicon-cd:before {
-  content: &quot;\e201&quot;;
+  content: "\e201";
 }
 .glyphicon-save-file:before {
-  content: &quot;\e202&quot;;
+  content: "\e202";
 }
 .glyphicon-open-file:before {
-  content: &quot;\e203&quot;;
+  content: "\e203";
 }
 .glyphicon-level-up:before {
-  content: &quot;\e204&quot;;
+  content: "\e204";
 }
 .glyphicon-copy:before {
-  content: &quot;\e205&quot;;
+  content: "\e205";
 }
 .glyphicon-paste:before {
-  content: &quot;\e206&quot;;
+  content: "\e206";
 }
 .glyphicon-alert:before {
-  content: &quot;\e209&quot;;
+  content: "\e209";
 }
 .glyphicon-equalizer:before {
-  content: &quot;\e210&quot;;
+  content: "\e210";
 }
 .glyphicon-king:before {
-  content: &quot;\e211&quot;;
+  content: "\e211";
 }
 .glyphicon-queen:before {
-  content: &quot;\e212&quot;;
+  content: "\e212";
 }
 .glyphicon-pawn:before {
-  content: &quot;\e213&quot;;
+  content: "\e213";
 }
 .glyphicon-bishop:before {
-  content: &quot;\e214&quot;;
+  content: "\e214";
 }
 .glyphicon-knight:before {
-  content: &quot;\e215&quot;;
+  content: "\e215";
 }
 .glyphicon-baby-formula:before {
-  content: &quot;\e216&quot;;
+  content: "\e216";
 }
 .glyphicon-tent:before {
-  content: &quot;\26fa&quot;;
+  content: "\26fa";
 }
 .glyphicon-blackboard:before {
-  content: &quot;\e218&quot;;
+  content: "\e218";
 }
 .glyphicon-bed:before {
-  content: &quot;\e219&quot;;
+  content: "\e219";
 }
 .glyphicon-apple:before {
-  content: &quot;\f8ff&quot;;
+  content: "\f8ff";
 }
 .glyphicon-erase:before {
-  content: &quot;\e221&quot;;
+  content: "\e221";
 }
 .glyphicon-hourglass:before {
-  content: &quot;\231b&quot;;
+  content: "\231b";
 }
 .glyphicon-lamp:before {
-  content: &quot;\e223&quot;;
+  content: "\e223";
 }
 .glyphicon-duplicate:before {
-  content: &quot;\e224&quot;;
+  content: "\e224";
 }
 .glyphicon-piggy-bank:before {
-  content: &quot;\e225&quot;;
+  content: "\e225";
 }
 .glyphicon-scissors:before {
-  content: &quot;\e226&quot;;
+  content: "\e226";
 }
 .glyphicon-bitcoin:before {
-  content: &quot;\e227&quot;;
+  content: "\e227";
 }
 .glyphicon-btc:before {
-  content: &quot;\e227&quot;;
+  content: "\e227";
 }
 .glyphicon-xbt:before {
-  content: &quot;\e227&quot;;
+  content: "\e227";
 }
 .glyphicon-yen:before {
-  content: &quot;\00a5&quot;;
+  content: "\00a5";
 }
 .glyphicon-jpy:before {
-  content: &quot;\00a5&quot;;
+  content: "\00a5";
 }
 .glyphicon-ruble:before {
-  content: &quot;\20bd&quot;;
+  content: "\20bd";
 }
 .glyphicon-rub:before {
-  content: &quot;\20bd&quot;;
+  content: "\20bd";
 }
 .glyphicon-scale:before {
-  content: &quot;\e230&quot;;
+  content: "\e230";
 }
 .glyphicon-ice-lolly:before {
-  content: &quot;\e231&quot;;
+  content: "\e231";
 }
 .glyphicon-ice-lolly-tasted:before {
-  content: &quot;\e232&quot;;
+  content: "\e232";
 }
 .glyphicon-education:before {
-  content: &quot;\e233&quot;;
+  content: "\e233";
 }
 .glyphicon-option-horizontal:before {
-  content: &quot;\e234&quot;;
+  content: "\e234";
 }
 .glyphicon-option-vertical:before {
-  content: &quot;\e235&quot;;
+  content: "\e235";
 }
 .glyphicon-menu-hamburger:before {
-  content: &quot;\e236&quot;;
+  content: "\e236";
 }
 .glyphicon-modal-window:before {
-  content: &quot;\e237&quot;;
+  content: "\e237";
 }
 .glyphicon-oil:before {
-  content: &quot;\e238&quot;;
+  content: "\e238";
 }
 .glyphicon-grain:before {
-  content: &quot;\e239&quot;;
+  content: "\e239";
 }
 .glyphicon-sunglasses:before {
-  content: &quot;\e240&quot;;
+  content: "\e240";
 }
 .glyphicon-text-size:before {
-  content: &quot;\e241&quot;;
+  content: "\e241";
 }
 .glyphicon-text-color:before {
-  content: &quot;\e242&quot;;
+  content: "\e242";
 }
 .glyphicon-text-background:before {
-  content: &quot;\e243&quot;;
+  content: "\e243";
 }
 .glyphicon-object-align-top:before {
-  content: &quot;\e244&quot;;
+  content: "\e244";
 }
 .glyphicon-object-align-bottom:before {
-  content: &quot;\e245&quot;;
+  content: "\e245";
 }
 .glyphicon-object-align-horizontal:before {
-  content: &quot;\e246&quot;;
+  content: "\e246";
 }
 .glyphicon-object-align-left:before {
-  content: &quot;\e247&quot;;
+  content: "\e247";
 }
 .glyphicon-object-align-vertical:before {
-  content: &quot;\e248&quot;;
+  content: "\e248";
 }
 .glyphicon-object-align-right:before {
-  content: &quot;\e249&quot;;
+  content: "\e249";
 }
 .glyphicon-triangle-right:before {
-  content: &quot;\e250&quot;;
+  content: "\e250";
 }
 .glyphicon-triangle-left:before {
-  content: &quot;\e251&quot;;
+  content: "\e251";
 }
 .glyphicon-triangle-bottom:before {
-  content: &quot;\e252&quot;;
+  content: "\e252";
 }
 .glyphicon-triangle-top:before {
-  content: &quot;\e253&quot;;
+  content: "\e253";
 }
 .glyphicon-console:before {
-  content: &quot;\e254&quot;;
+  content: "\e254";
 }
 .glyphicon-superscript:before {
-  content: &quot;\e255&quot;;
+  content: "\e255";
 }
 .glyphicon-subscript:before {
-  content: &quot;\e256&quot;;
+  content: "\e256";
 }
 .glyphicon-menu-left:before {
-  content: &quot;\e257&quot;;
+  content: "\e257";
 }
 .glyphicon-menu-right:before {
-  content: &quot;\e258&quot;;
+  content: "\e258";
 }
 .glyphicon-menu-down:before {
-  content: &quot;\e259&quot;;
+  content: "\e259";
 }
 .glyphicon-menu-up:before {
-  content: &quot;\e260&quot;;
+  content: "\e260";
 }
 * {
   -webkit-box-sizing: border-box;
@@ -1096,7 +1092,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.42857143;
   color: #000;
@@ -1130,10 +1126,10 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
-.thumbnail &gt; img,
-.thumbnail a &gt; img,
-.carousel-inner &gt; .item &gt; img,
-.carousel-inner &gt; .item &gt; a &gt; img {
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -1182,7 +1178,7 @@ hr {
   overflow: visible;
   clip: auto;
 }
-[role=&quot;button&quot;] {
+[role="button"] {
   cursor: pointer;
 }
 h1,
@@ -1446,7 +1442,7 @@ ol ol {
   list-style: none;
   margin-left: -5px;
 }
-.list-inline &gt; li {
+.list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
@@ -2277,178 +2273,178 @@ th {
   max-width: 100%;
   margin-bottom: 18px;
 }
-.table &gt; thead &gt; tr &gt; th,
-.table &gt; tbody &gt; tr &gt; th,
-.table &gt; tfoot &gt; tr &gt; th,
-.table &gt; thead &gt; tr &gt; td,
-.table &gt; tbody &gt; tr &gt; td,
-.table &gt; tfoot &gt; tr &gt; td {
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
-.table &gt; thead &gt; tr &gt; th {
+.table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
 }
-.table &gt; caption + thead &gt; tr:first-child &gt; th,
-.table &gt; colgroup + thead &gt; tr:first-child &gt; th,
-.table &gt; thead:first-child &gt; tr:first-child &gt; th,
-.table &gt; caption + thead &gt; tr:first-child &gt; td,
-.table &gt; colgroup + thead &gt; tr:first-child &gt; td,
-.table &gt; thead:first-child &gt; tr:first-child &gt; td {
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
   border-top: 0;
 }
-.table &gt; tbody + tbody {
+.table > tbody + tbody {
   border-top: 2px solid #ddd;
 }
 .table .table {
   background-color: #fff;
 }
-.table-condensed &gt; thead &gt; tr &gt; th,
-.table-condensed &gt; tbody &gt; tr &gt; th,
-.table-condensed &gt; tfoot &gt; tr &gt; th,
-.table-condensed &gt; thead &gt; tr &gt; td,
-.table-condensed &gt; tbody &gt; tr &gt; td,
-.table-condensed &gt; tfoot &gt; tr &gt; td {
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
   padding: 5px;
 }
 .table-bordered {
   border: 1px solid #ddd;
 }
-.table-bordered &gt; thead &gt; tr &gt; th,
-.table-bordered &gt; tbody &gt; tr &gt; th,
-.table-bordered &gt; tfoot &gt; tr &gt; th,
-.table-bordered &gt; thead &gt; tr &gt; td,
-.table-bordered &gt; tbody &gt; tr &gt; td,
-.table-bordered &gt; tfoot &gt; tr &gt; td {
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
   border: 1px solid #ddd;
 }
-.table-bordered &gt; thead &gt; tr &gt; th,
-.table-bordered &gt; thead &gt; tr &gt; td {
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
   border-bottom-width: 2px;
 }
-.table-striped &gt; tbody &gt; tr:nth-of-type(odd) {
+.table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
-.table-hover &gt; tbody &gt; tr:hover {
+.table-hover > tbody > tr:hover {
   background-color: #f5f5f5;
 }
-table col[class*=&quot;col-&quot;] {
+table col[class*="col-"] {
   position: static;
   float: none;
   display: table-column;
 }
-table td[class*=&quot;col-&quot;],
-table th[class*=&quot;col-&quot;] {
+table td[class*="col-"],
+table th[class*="col-"] {
   position: static;
   float: none;
   display: table-cell;
 }
-.table &gt; thead &gt; tr &gt; td.active,
-.table &gt; tbody &gt; tr &gt; td.active,
-.table &gt; tfoot &gt; tr &gt; td.active,
-.table &gt; thead &gt; tr &gt; th.active,
-.table &gt; tbody &gt; tr &gt; th.active,
-.table &gt; tfoot &gt; tr &gt; th.active,
-.table &gt; thead &gt; tr.active &gt; td,
-.table &gt; tbody &gt; tr.active &gt; td,
-.table &gt; tfoot &gt; tr.active &gt; td,
-.table &gt; thead &gt; tr.active &gt; th,
-.table &gt; tbody &gt; tr.active &gt; th,
-.table &gt; tfoot &gt; tr.active &gt; th {
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th {
   background-color: #f5f5f5;
 }
-.table-hover &gt; tbody &gt; tr &gt; td.active:hover,
-.table-hover &gt; tbody &gt; tr &gt; th.active:hover,
-.table-hover &gt; tbody &gt; tr.active:hover &gt; td,
-.table-hover &gt; tbody &gt; tr:hover &gt; .active,
-.table-hover &gt; tbody &gt; tr.active:hover &gt; th {
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
 }
-.table &gt; thead &gt; tr &gt; td.success,
-.table &gt; tbody &gt; tr &gt; td.success,
-.table &gt; tfoot &gt; tr &gt; td.success,
-.table &gt; thead &gt; tr &gt; th.success,
-.table &gt; tbody &gt; tr &gt; th.success,
-.table &gt; tfoot &gt; tr &gt; th.success,
-.table &gt; thead &gt; tr.success &gt; td,
-.table &gt; tbody &gt; tr.success &gt; td,
-.table &gt; tfoot &gt; tr.success &gt; td,
-.table &gt; thead &gt; tr.success &gt; th,
-.table &gt; tbody &gt; tr.success &gt; th,
-.table &gt; tfoot &gt; tr.success &gt; th {
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
   background-color: #dff0d8;
 }
-.table-hover &gt; tbody &gt; tr &gt; td.success:hover,
-.table-hover &gt; tbody &gt; tr &gt; th.success:hover,
-.table-hover &gt; tbody &gt; tr.success:hover &gt; td,
-.table-hover &gt; tbody &gt; tr:hover &gt; .success,
-.table-hover &gt; tbody &gt; tr.success:hover &gt; th {
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr:hover > .success,
+.table-hover > tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
-.table &gt; thead &gt; tr &gt; td.info,
-.table &gt; tbody &gt; tr &gt; td.info,
-.table &gt; tfoot &gt; tr &gt; td.info,
-.table &gt; thead &gt; tr &gt; th.info,
-.table &gt; tbody &gt; tr &gt; th.info,
-.table &gt; tfoot &gt; tr &gt; th.info,
-.table &gt; thead &gt; tr.info &gt; td,
-.table &gt; tbody &gt; tr.info &gt; td,
-.table &gt; tfoot &gt; tr.info &gt; td,
-.table &gt; thead &gt; tr.info &gt; th,
-.table &gt; tbody &gt; tr.info &gt; th,
-.table &gt; tfoot &gt; tr.info &gt; th {
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
   background-color: #d9edf7;
 }
-.table-hover &gt; tbody &gt; tr &gt; td.info:hover,
-.table-hover &gt; tbody &gt; tr &gt; th.info:hover,
-.table-hover &gt; tbody &gt; tr.info:hover &gt; td,
-.table-hover &gt; tbody &gt; tr:hover &gt; .info,
-.table-hover &gt; tbody &gt; tr.info:hover &gt; th {
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr:hover > .info,
+.table-hover > tbody > tr.info:hover > th {
   background-color: #c4e3f3;
 }
-.table &gt; thead &gt; tr &gt; td.warning,
-.table &gt; tbody &gt; tr &gt; td.warning,
-.table &gt; tfoot &gt; tr &gt; td.warning,
-.table &gt; thead &gt; tr &gt; th.warning,
-.table &gt; tbody &gt; tr &gt; th.warning,
-.table &gt; tfoot &gt; tr &gt; th.warning,
-.table &gt; thead &gt; tr.warning &gt; td,
-.table &gt; tbody &gt; tr.warning &gt; td,
-.table &gt; tfoot &gt; tr.warning &gt; td,
-.table &gt; thead &gt; tr.warning &gt; th,
-.table &gt; tbody &gt; tr.warning &gt; th,
-.table &gt; tfoot &gt; tr.warning &gt; th {
+.table > thead > tr > td.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > tbody > tr > th.warning,
+.table > tfoot > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > tbody > tr.warning > td,
+.table > tfoot > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr.warning > th {
   background-color: #fcf8e3;
 }
-.table-hover &gt; tbody &gt; tr &gt; td.warning:hover,
-.table-hover &gt; tbody &gt; tr &gt; th.warning:hover,
-.table-hover &gt; tbody &gt; tr.warning:hover &gt; td,
-.table-hover &gt; tbody &gt; tr:hover &gt; .warning,
-.table-hover &gt; tbody &gt; tr.warning:hover &gt; th {
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr:hover > .warning,
+.table-hover > tbody > tr.warning:hover > th {
   background-color: #faf2cc;
 }
-.table &gt; thead &gt; tr &gt; td.danger,
-.table &gt; tbody &gt; tr &gt; td.danger,
-.table &gt; tfoot &gt; tr &gt; td.danger,
-.table &gt; thead &gt; tr &gt; th.danger,
-.table &gt; tbody &gt; tr &gt; th.danger,
-.table &gt; tfoot &gt; tr &gt; th.danger,
-.table &gt; thead &gt; tr.danger &gt; td,
-.table &gt; tbody &gt; tr.danger &gt; td,
-.table &gt; tfoot &gt; tr.danger &gt; td,
-.table &gt; thead &gt; tr.danger &gt; th,
-.table &gt; tbody &gt; tr.danger &gt; th,
-.table &gt; tfoot &gt; tr.danger &gt; th {
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
   background-color: #f2dede;
 }
-.table-hover &gt; tbody &gt; tr &gt; td.danger:hover,
-.table-hover &gt; tbody &gt; tr &gt; th.danger:hover,
-.table-hover &gt; tbody &gt; tr.danger:hover &gt; td,
-.table-hover &gt; tbody &gt; tr:hover &gt; .danger,
-.table-hover &gt; tbody &gt; tr.danger:hover &gt; th {
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr:hover > .danger,
+.table-hover > tbody > tr.danger:hover > th {
   background-color: #ebcccc;
 }
 .table-responsive {
@@ -2463,40 +2459,40 @@ table th[class*=&quot;col-&quot;] {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
   }
-  .table-responsive &gt; .table {
+  .table-responsive > .table {
     margin-bottom: 0;
   }
-  .table-responsive &gt; .table &gt; thead &gt; tr &gt; th,
-  .table-responsive &gt; .table &gt; tbody &gt; tr &gt; th,
-  .table-responsive &gt; .table &gt; tfoot &gt; tr &gt; th,
-  .table-responsive &gt; .table &gt; thead &gt; tr &gt; td,
-  .table-responsive &gt; .table &gt; tbody &gt; tr &gt; td,
-  .table-responsive &gt; .table &gt; tfoot &gt; tr &gt; td {
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
     white-space: nowrap;
   }
-  .table-responsive &gt; .table-bordered {
+  .table-responsive > .table-bordered {
     border: 0;
   }
-  .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; th:first-child,
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; th:first-child,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:first-child,
-  .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; td:first-child,
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; td:first-child,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:first-child {
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
     border-left: 0;
   }
-  .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; th:last-child,
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; th:last-child,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:last-child,
-  .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; td:last-child,
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; td:last-child,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:last-child {
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
     border-right: 0;
   }
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; th,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; th,
-  .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; td,
-  .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; td {
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
 }
@@ -2523,21 +2519,21 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
-input[type=&quot;search&quot;] {
+input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type=&quot;radio&quot;],
-input[type=&quot;checkbox&quot;] {
+input[type="radio"],
+input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
 }
-input[type=&quot;file&quot;] {
+input[type="file"] {
   display: block;
 }
-input[type=&quot;range&quot;] {
+input[type="range"] {
   display: block;
   width: 100%;
 }
@@ -2545,9 +2541,9 @@ select[multiple],
 select[size] {
   height: auto;
 }
-input[type=&quot;file&quot;]:focus,
-input[type=&quot;radio&quot;]:focus,
-input[type=&quot;checkbox&quot;]:focus {
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2609,34 +2605,34 @@ fieldset[disabled] .form-control {
 textarea.form-control {
   height: auto;
 }
-input[type=&quot;search&quot;] {
+input[type="search"] {
   -webkit-appearance: none;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  input[type=&quot;date&quot;].form-control,
-  input[type=&quot;time&quot;].form-control,
-  input[type=&quot;datetime-local&quot;].form-control,
-  input[type=&quot;month&quot;].form-control {
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
     line-height: 32px;
   }
-  input[type=&quot;date&quot;].input-sm,
-  input[type=&quot;time&quot;].input-sm,
-  input[type=&quot;datetime-local&quot;].input-sm,
-  input[type=&quot;month&quot;].input-sm,
-  .input-group-sm input[type=&quot;date&quot;],
-  .input-group-sm input[type=&quot;time&quot;],
-  .input-group-sm input[type=&quot;datetime-local&quot;],
-  .input-group-sm input[type=&quot;month&quot;] {
+  input[type="date"].input-sm,
+  input[type="time"].input-sm,
+  input[type="datetime-local"].input-sm,
+  input[type="month"].input-sm,
+  .input-group-sm input[type="date"],
+  .input-group-sm input[type="time"],
+  .input-group-sm input[type="datetime-local"],
+  .input-group-sm input[type="month"] {
     line-height: 30px;
   }
-  input[type=&quot;date&quot;].input-lg,
-  input[type=&quot;time&quot;].input-lg,
-  input[type=&quot;datetime-local&quot;].input-lg,
-  input[type=&quot;month&quot;].input-lg,
-  .input-group-lg input[type=&quot;date&quot;],
-  .input-group-lg input[type=&quot;time&quot;],
-  .input-group-lg input[type=&quot;datetime-local&quot;],
-  .input-group-lg input[type=&quot;month&quot;] {
+  input[type="date"].input-lg,
+  input[type="time"].input-lg,
+  input[type="datetime-local"].input-lg,
+  input[type="month"].input-lg,
+  .input-group-lg input[type="date"],
+  .input-group-lg input[type="time"],
+  .input-group-lg input[type="datetime-local"],
+  .input-group-lg input[type="month"] {
     line-height: 45px;
   }
 }
@@ -2658,10 +2654,10 @@ input[type=&quot;search&quot;] {
   font-weight: normal;
   cursor: pointer;
 }
-.radio input[type=&quot;radio&quot;],
-.radio-inline input[type=&quot;radio&quot;],
-.checkbox input[type=&quot;checkbox&quot;],
-.checkbox-inline input[type=&quot;checkbox&quot;] {
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
   margin-top: 4px \9;
@@ -2685,12 +2681,12 @@ input[type=&quot;search&quot;] {
   margin-top: 0;
   margin-left: 10px;
 }
-input[type=&quot;radio&quot;][disabled],
-input[type=&quot;checkbox&quot;][disabled],
-input[type=&quot;radio&quot;].disabled,
-input[type=&quot;checkbox&quot;].disabled,
-fieldset[disabled] input[type=&quot;radio&quot;],
-fieldset[disabled] input[type=&quot;checkbox&quot;] {
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"].disabled,
+input[type="checkbox"].disabled,
+fieldset[disabled] input[type="radio"],
+fieldset[disabled] input[type="checkbox"] {
   cursor: not-allowed;
 }
 .radio-inline.disabled,
@@ -2947,7 +2943,7 @@ select[multiple].input-lg {
   .form-inline .input-group .form-control {
     width: auto;
   }
-  .form-inline .input-group &gt; .form-control {
+  .form-inline .input-group > .form-control {
     width: 100%;
   }
   .form-inline .control-label {
@@ -2965,8 +2961,8 @@ select[multiple].input-lg {
   .form-inline .checkbox label {
     padding-left: 0;
   }
-  .form-inline .radio input[type=&quot;radio&quot;],
-  .form-inline .checkbox input[type=&quot;checkbox&quot;] {
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
@@ -3085,27 +3081,27 @@ fieldset[disabled] a.btn {
 }
 .btn-default:active,
 .btn-default.active,
-.open &gt; .dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
-.open &gt; .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:hover,
 .btn-default:active:focus,
 .btn-default.active:focus,
-.open &gt; .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:focus,
 .btn-default:active.focus,
 .btn-default.active.focus,
-.open &gt; .dropdown-toggle.btn-default.focus {
+.open > .dropdown-toggle.btn-default.focus {
   color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
 .btn-default:active,
 .btn-default.active,
-.open &gt; .dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
   background-image: none;
 }
 .btn-default.disabled:hover,
@@ -3142,27 +3138,27 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary:active,
 .btn-primary.active,
-.open &gt; .dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #286090;
   border-color: #204d74;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
-.open &gt; .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:hover,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
-.open &gt; .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:focus,
 .btn-primary:active.focus,
 .btn-primary.active.focus,
-.open &gt; .dropdown-toggle.btn-primary.focus {
+.open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
   background-color: #204d74;
   border-color: #122b40;
 }
 .btn-primary:active,
 .btn-primary.active,
-.open &gt; .dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
 .btn-primary.disabled:hover,
@@ -3199,27 +3195,27 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success:active,
 .btn-success.active,
-.open &gt; .dropdown-toggle.btn-success {
+.open > .dropdown-toggle.btn-success {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
-.open &gt; .dropdown-toggle.btn-success:hover,
+.open > .dropdown-toggle.btn-success:hover,
 .btn-success:active:focus,
 .btn-success.active:focus,
-.open &gt; .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:focus,
 .btn-success:active.focus,
 .btn-success.active.focus,
-.open &gt; .dropdown-toggle.btn-success.focus {
+.open > .dropdown-toggle.btn-success.focus {
   color: #fff;
   background-color: #398439;
   border-color: #255625;
 }
 .btn-success:active,
 .btn-success.active,
-.open &gt; .dropdown-toggle.btn-success {
+.open > .dropdown-toggle.btn-success {
   background-image: none;
 }
 .btn-success.disabled:hover,
@@ -3256,27 +3252,27 @@ fieldset[disabled] .btn-success.focus {
 }
 .btn-info:active,
 .btn-info.active,
-.open &gt; .dropdown-toggle.btn-info {
+.open > .dropdown-toggle.btn-info {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
-.open &gt; .dropdown-toggle.btn-info:hover,
+.open > .dropdown-toggle.btn-info:hover,
 .btn-info:active:focus,
 .btn-info.active:focus,
-.open &gt; .dropdown-toggle.btn-info:focus,
+.open > .dropdown-toggle.btn-info:focus,
 .btn-info:active.focus,
 .btn-info.active.focus,
-.open &gt; .dropdown-toggle.btn-info.focus {
+.open > .dropdown-toggle.btn-info.focus {
   color: #fff;
   background-color: #269abc;
   border-color: #1b6d85;
 }
 .btn-info:active,
 .btn-info.active,
-.open &gt; .dropdown-toggle.btn-info {
+.open > .dropdown-toggle.btn-info {
   background-image: none;
 }
 .btn-info.disabled:hover,
@@ -3313,27 +3309,27 @@ fieldset[disabled] .btn-info.focus {
 }
 .btn-warning:active,
 .btn-warning.active,
-.open &gt; .dropdown-toggle.btn-warning {
+.open > .dropdown-toggle.btn-warning {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
 .btn-warning:active:hover,
 .btn-warning.active:hover,
-.open &gt; .dropdown-toggle.btn-warning:hover,
+.open > .dropdown-toggle.btn-warning:hover,
 .btn-warning:active:focus,
 .btn-warning.active:focus,
-.open &gt; .dropdown-toggle.btn-warning:focus,
+.open > .dropdown-toggle.btn-warning:focus,
 .btn-warning:active.focus,
 .btn-warning.active.focus,
-.open &gt; .dropdown-toggle.btn-warning.focus {
+.open > .dropdown-toggle.btn-warning.focus {
   color: #fff;
   background-color: #d58512;
   border-color: #985f0d;
 }
 .btn-warning:active,
 .btn-warning.active,
-.open &gt; .dropdown-toggle.btn-warning {
+.open > .dropdown-toggle.btn-warning {
   background-image: none;
 }
 .btn-warning.disabled:hover,
@@ -3370,27 +3366,27 @@ fieldset[disabled] .btn-warning.focus {
 }
 .btn-danger:active,
 .btn-danger.active,
-.open &gt; .dropdown-toggle.btn-danger {
+.open > .dropdown-toggle.btn-danger {
   color: #fff;
   background-color: #c9302c;
   border-color: #ac2925;
 }
 .btn-danger:active:hover,
 .btn-danger.active:hover,
-.open &gt; .dropdown-toggle.btn-danger:hover,
+.open > .dropdown-toggle.btn-danger:hover,
 .btn-danger:active:focus,
 .btn-danger.active:focus,
-.open &gt; .dropdown-toggle.btn-danger:focus,
+.open > .dropdown-toggle.btn-danger:focus,
 .btn-danger:active.focus,
 .btn-danger.active.focus,
-.open &gt; .dropdown-toggle.btn-danger.focus {
+.open > .dropdown-toggle.btn-danger.focus {
   color: #fff;
   background-color: #ac2925;
   border-color: #761c19;
 }
 .btn-danger:active,
 .btn-danger.active,
-.open &gt; .dropdown-toggle.btn-danger {
+.open > .dropdown-toggle.btn-danger {
   background-image: none;
 }
 .btn-danger.disabled:hover,
@@ -3443,21 +3439,21 @@ fieldset[disabled] .btn-link:focus {
   text-decoration: none;
 }
 .btn-lg,
-.btn-group-lg &gt; .btn {
+.btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 17px;
   line-height: 1.3333333;
   border-radius: 3px;
 }
 .btn-sm,
-.btn-group-sm &gt; .btn {
+.btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 1px;
 }
 .btn-xs,
-.btn-group-xs &gt; .btn {
+.btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -3470,9 +3466,9 @@ fieldset[disabled] .btn-link:focus {
 .btn-block + .btn-block {
   margin-top: 5px;
 }
-input[type=&quot;submit&quot;].btn-block,
-input[type=&quot;reset&quot;].btn-block,
-input[type=&quot;button&quot;].btn-block {
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
   width: 100%;
 }
 .fade {
@@ -3556,7 +3552,7 @@ tbody.collapse.in {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-.dropdown-menu &gt; li &gt; a {
+.dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
   clear: both;
@@ -3565,37 +3561,37 @@ tbody.collapse.in {
   color: #333333;
   white-space: nowrap;
 }
-.dropdown-menu &gt; li &gt; a:hover,
-.dropdown-menu &gt; li &gt; a:focus {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #f5f5f5;
 }
-.dropdown-menu &gt; .active &gt; a,
-.dropdown-menu &gt; .active &gt; a:hover,
-.dropdown-menu &gt; .active &gt; a:focus {
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #337ab7;
 }
-.dropdown-menu &gt; .disabled &gt; a,
-.dropdown-menu &gt; .disabled &gt; a:hover,
-.dropdown-menu &gt; .disabled &gt; a:focus {
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
   color: #777777;
 }
-.dropdown-menu &gt; .disabled &gt; a:hover,
-.dropdown-menu &gt; .disabled &gt; a:focus {
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   cursor: not-allowed;
 }
-.open &gt; .dropdown-menu {
+.open > .dropdown-menu {
   display: block;
 }
-.open &gt; a {
+.open > a {
   outline: 0;
 }
 .dropdown-menu-right {
@@ -3622,7 +3618,7 @@ tbody.collapse.in {
   top: 0;
   z-index: 990;
 }
-.pull-right &gt; .dropdown-menu {
+.pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
@@ -3631,7 +3627,7 @@ tbody.collapse.in {
   border-top: 0;
   border-bottom: 4px dashed;
   border-bottom: 4px solid \9;
-  content: &quot;&quot;;
+  content: "";
 }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -3655,19 +3651,19 @@ tbody.collapse.in {
   display: inline-block;
   vertical-align: middle;
 }
-.btn-group &gt; .btn,
-.btn-group-vertical &gt; .btn {
+.btn-group > .btn,
+.btn-group-vertical > .btn {
   position: relative;
   float: left;
 }
-.btn-group &gt; .btn:hover,
-.btn-group-vertical &gt; .btn:hover,
-.btn-group &gt; .btn:focus,
-.btn-group-vertical &gt; .btn:focus,
-.btn-group &gt; .btn:active,
-.btn-group-vertical &gt; .btn:active,
-.btn-group &gt; .btn.active,
-.btn-group-vertical &gt; .btn.active {
+.btn-group > .btn:hover,
+.btn-group-vertical > .btn:hover,
+.btn-group > .btn:focus,
+.btn-group-vertical > .btn:focus,
+.btn-group > .btn:active,
+.btn-group-vertical > .btn:active,
+.btn-group > .btn.active,
+.btn-group-vertical > .btn.active {
   z-index: 2;
 }
 .btn-group .btn + .btn,
@@ -3684,38 +3680,38 @@ tbody.collapse.in {
 .btn-toolbar .input-group {
   float: left;
 }
-.btn-toolbar &gt; .btn,
-.btn-toolbar &gt; .btn-group,
-.btn-toolbar &gt; .input-group {
+.btn-toolbar > .btn,
+.btn-toolbar > .btn-group,
+.btn-toolbar > .input-group {
   margin-left: 5px;
 }
-.btn-group &gt; .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
-.btn-group &gt; .btn:first-child {
+.btn-group > .btn:first-child {
   margin-left: 0;
 }
-.btn-group &gt; .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-.btn-group &gt; .btn:last-child:not(:first-child),
-.btn-group &gt; .dropdown-toggle:not(:first-child) {
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-.btn-group &gt; .btn-group {
+.btn-group > .btn-group {
   float: left;
 }
-.btn-group &gt; .btn-group:not(:first-child):not(:last-child) &gt; .btn {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
-.btn-group &gt; .btn-group:first-child:not(:last-child) &gt; .btn:last-child,
-.btn-group &gt; .btn-group:first-child:not(:last-child) &gt; .dropdown-toggle {
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-.btn-group &gt; .btn-group:last-child:not(:first-child) &gt; .btn:first-child {
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -3723,11 +3719,11 @@ tbody.collapse.in {
 .btn-group.open .dropdown-toggle {
   outline: 0;
 }
-.btn-group &gt; .btn + .dropdown-toggle {
+.btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
 }
-.btn-group &gt; .btn-lg + .dropdown-toggle {
+.btn-group > .btn-lg + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -3749,48 +3745,48 @@ tbody.collapse.in {
 .dropup .btn-lg .caret {
   border-width: 0 5px 5px;
 }
-.btn-group-vertical &gt; .btn,
-.btn-group-vertical &gt; .btn-group,
-.btn-group-vertical &gt; .btn-group &gt; .btn {
+.btn-group-vertical > .btn,
+.btn-group-vertical > .btn-group,
+.btn-group-vertical > .btn-group > .btn {
   display: block;
   float: none;
   width: 100%;
   max-width: 100%;
 }
-.btn-group-vertical &gt; .btn-group &gt; .btn {
+.btn-group-vertical > .btn-group > .btn {
   float: none;
 }
-.btn-group-vertical &gt; .btn + .btn,
-.btn-group-vertical &gt; .btn + .btn-group,
-.btn-group-vertical &gt; .btn-group + .btn,
-.btn-group-vertical &gt; .btn-group + .btn-group {
+.btn-group-vertical > .btn + .btn,
+.btn-group-vertical > .btn + .btn-group,
+.btn-group-vertical > .btn-group + .btn,
+.btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
   margin-left: 0;
 }
-.btn-group-vertical &gt; .btn:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-.btn-group-vertical &gt; .btn:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child) {
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical &gt; .btn:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
 }
-.btn-group-vertical &gt; .btn-group:not(:first-child):not(:last-child) &gt; .btn {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
-.btn-group-vertical &gt; .btn-group:first-child:not(:last-child) &gt; .btn:last-child,
-.btn-group-vertical &gt; .btn-group:first-child:not(:last-child) &gt; .dropdown-toggle {
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical &gt; .btn-group:last-child:not(:first-child) &gt; .btn:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -3800,22 +3796,22 @@ tbody.collapse.in {
   table-layout: fixed;
   border-collapse: separate;
 }
-.btn-group-justified &gt; .btn,
-.btn-group-justified &gt; .btn-group {
+.btn-group-justified > .btn,
+.btn-group-justified > .btn-group {
   float: none;
   display: table-cell;
   width: 1%;
 }
-.btn-group-justified &gt; .btn-group .btn {
+.btn-group-justified > .btn-group .btn {
   width: 100%;
 }
-.btn-group-justified &gt; .btn-group .dropdown-menu {
+.btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
-[data-toggle=&quot;buttons&quot;] &gt; .btn input[type=&quot;radio&quot;],
-[data-toggle=&quot;buttons&quot;] &gt; .btn-group &gt; .btn input[type=&quot;radio&quot;],
-[data-toggle=&quot;buttons&quot;] &gt; .btn input[type=&quot;checkbox&quot;],
-[data-toggle=&quot;buttons&quot;] &gt; .btn-group &gt; .btn input[type=&quot;checkbox&quot;] {
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
@@ -3825,7 +3821,7 @@ tbody.collapse.in {
   display: table;
   border-collapse: separate;
 }
-.input-group[class*=&quot;col-&quot;] {
+.input-group[class*="col-"] {
   float: none;
   padding-left: 0;
   padding-right: 0;
@@ -3840,50 +3836,50 @@ tbody.collapse.in {
 .input-group .form-control:focus {
   z-index: 3;
 }
-.input-group-lg &gt; .form-control,
-.input-group-lg &gt; .input-group-addon,
-.input-group-lg &gt; .input-group-btn &gt; .btn {
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
   height: 45px;
   padding: 10px 16px;
   font-size: 17px;
   line-height: 1.3333333;
   border-radius: 3px;
 }
-select.input-group-lg &gt; .form-control,
-select.input-group-lg &gt; .input-group-addon,
-select.input-group-lg &gt; .input-group-btn &gt; .btn {
+select.input-group-lg > .form-control,
+select.input-group-lg > .input-group-addon,
+select.input-group-lg > .input-group-btn > .btn {
   height: 45px;
   line-height: 45px;
 }
-textarea.input-group-lg &gt; .form-control,
-textarea.input-group-lg &gt; .input-group-addon,
-textarea.input-group-lg &gt; .input-group-btn &gt; .btn,
-select[multiple].input-group-lg &gt; .form-control,
-select[multiple].input-group-lg &gt; .input-group-addon,
-select[multiple].input-group-lg &gt; .input-group-btn &gt; .btn {
+textarea.input-group-lg > .form-control,
+textarea.input-group-lg > .input-group-addon,
+textarea.input-group-lg > .input-group-btn > .btn,
+select[multiple].input-group-lg > .form-control,
+select[multiple].input-group-lg > .input-group-addon,
+select[multiple].input-group-lg > .input-group-btn > .btn {
   height: auto;
 }
-.input-group-sm &gt; .form-control,
-.input-group-sm &gt; .input-group-addon,
-.input-group-sm &gt; .input-group-btn &gt; .btn {
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 1px;
 }
-select.input-group-sm &gt; .form-control,
-select.input-group-sm &gt; .input-group-addon,
-select.input-group-sm &gt; .input-group-btn &gt; .btn {
+select.input-group-sm > .form-control,
+select.input-group-sm > .input-group-addon,
+select.input-group-sm > .input-group-btn > .btn {
   height: 30px;
   line-height: 30px;
 }
-textarea.input-group-sm &gt; .form-control,
-textarea.input-group-sm &gt; .input-group-addon,
-textarea.input-group-sm &gt; .input-group-btn &gt; .btn,
-select[multiple].input-group-sm &gt; .form-control,
-select[multiple].input-group-sm &gt; .input-group-addon,
-select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
+textarea.input-group-sm > .form-control,
+textarea.input-group-sm > .input-group-addon,
+textarea.input-group-sm > .input-group-btn > .btn,
+select[multiple].input-group-sm > .form-control,
+select[multiple].input-group-sm > .input-group-addon,
+select[multiple].input-group-sm > .input-group-btn > .btn {
   height: auto;
 }
 .input-group-addon,
@@ -3923,17 +3919,17 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   font-size: 17px;
   border-radius: 3px;
 }
-.input-group-addon input[type=&quot;radio&quot;],
-.input-group-addon input[type=&quot;checkbox&quot;] {
+.input-group-addon input[type="radio"],
+.input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
-.input-group-btn:first-child &gt; .btn,
-.input-group-btn:first-child &gt; .btn-group &gt; .btn,
-.input-group-btn:first-child &gt; .dropdown-toggle,
-.input-group-btn:last-child &gt; .btn:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child &gt; .btn-group:not(:last-child) &gt; .btn {
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -3942,11 +3938,11 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
 }
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
-.input-group-btn:last-child &gt; .btn,
-.input-group-btn:last-child &gt; .btn-group &gt; .btn,
-.input-group-btn:last-child &gt; .dropdown-toggle,
-.input-group-btn:first-child &gt; .btn:not(:first-child),
-.input-group-btn:first-child &gt; .btn-group:not(:first-child) &gt; .btn {
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -3958,23 +3954,23 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   font-size: 0;
   white-space: nowrap;
 }
-.input-group-btn &gt; .btn {
+.input-group-btn > .btn {
   position: relative;
 }
-.input-group-btn &gt; .btn + .btn {
+.input-group-btn > .btn + .btn {
   margin-left: -1px;
 }
-.input-group-btn &gt; .btn:hover,
-.input-group-btn &gt; .btn:focus,
-.input-group-btn &gt; .btn:active {
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:focus,
+.input-group-btn > .btn:active {
   z-index: 2;
 }
-.input-group-btn:first-child &gt; .btn,
-.input-group-btn:first-child &gt; .btn-group {
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group {
   margin-right: -1px;
 }
-.input-group-btn:last-child &gt; .btn,
-.input-group-btn:last-child &gt; .btn-group {
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
   z-index: 2;
   margin-left: -1px;
 }
@@ -3983,33 +3979,33 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   padding-left: 0;
   list-style: none;
 }
-.nav &gt; li {
+.nav > li {
   position: relative;
   display: block;
 }
-.nav &gt; li &gt; a {
+.nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
-.nav &gt; li &gt; a:hover,
-.nav &gt; li &gt; a:focus {
+.nav > li > a:hover,
+.nav > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-.nav &gt; li.disabled &gt; a {
+.nav > li.disabled > a {
   color: #777777;
 }
-.nav &gt; li.disabled &gt; a:hover,
-.nav &gt; li.disabled &gt; a:focus {
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
   color: #777777;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
-.nav .open &gt; a,
-.nav .open &gt; a:hover,
-.nav .open &gt; a:focus {
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
   background-color: #eeeeee;
   border-color: #337ab7;
 }
@@ -4019,28 +4015,28 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-.nav &gt; li &gt; a &gt; img {
+.nav > li > a > img {
   max-width: none;
 }
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
-.nav-tabs &gt; li {
+.nav-tabs > li {
   float: left;
   margin-bottom: -1px;
 }
-.nav-tabs &gt; li &gt; a {
+.nav-tabs > li > a {
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 2px 2px 0 0;
 }
-.nav-tabs &gt; li &gt; a:hover {
+.nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #ddd;
 }
-.nav-tabs &gt; li.active &gt; a,
-.nav-tabs &gt; li.active &gt; a:hover,
-.nav-tabs &gt; li.active &gt; a:focus {
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4051,118 +4047,118 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   width: 100%;
   border-bottom: 0;
 }
-.nav-tabs.nav-justified &gt; li {
+.nav-tabs.nav-justified > li {
   float: none;
 }
-.nav-tabs.nav-justified &gt; li &gt; a {
+.nav-tabs.nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
-.nav-tabs.nav-justified &gt; .dropdown .dropdown-menu {
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 @media (min-width: 768px) {
-  .nav-tabs.nav-justified &gt; li {
+  .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  .nav-tabs.nav-justified &gt; li &gt; a {
+  .nav-tabs.nav-justified > li > a {
     margin-bottom: 0;
   }
 }
-.nav-tabs.nav-justified &gt; li &gt; a {
+.nav-tabs.nav-justified > li > a {
   margin-right: 0;
   border-radius: 2px;
 }
-.nav-tabs.nav-justified &gt; .active &gt; a,
-.nav-tabs.nav-justified &gt; .active &gt; a:hover,
-.nav-tabs.nav-justified &gt; .active &gt; a:focus {
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
 @media (min-width: 768px) {
-  .nav-tabs.nav-justified &gt; li &gt; a {
+  .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 2px 2px 0 0;
   }
-  .nav-tabs.nav-justified &gt; .active &gt; a,
-  .nav-tabs.nav-justified &gt; .active &gt; a:hover,
-  .nav-tabs.nav-justified &gt; .active &gt; a:focus {
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:focus {
     border-bottom-color: #fff;
   }
 }
-.nav-pills &gt; li {
+.nav-pills > li {
   float: left;
 }
-.nav-pills &gt; li &gt; a {
+.nav-pills > li > a {
   border-radius: 2px;
 }
-.nav-pills &gt; li + li {
+.nav-pills > li + li {
   margin-left: 2px;
 }
-.nav-pills &gt; li.active &gt; a,
-.nav-pills &gt; li.active &gt; a:hover,
-.nav-pills &gt; li.active &gt; a:focus {
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #337ab7;
 }
-.nav-stacked &gt; li {
+.nav-stacked > li {
   float: none;
 }
-.nav-stacked &gt; li + li {
+.nav-stacked > li + li {
   margin-top: 2px;
   margin-left: 0;
 }
 .nav-justified {
   width: 100%;
 }
-.nav-justified &gt; li {
+.nav-justified > li {
   float: none;
 }
-.nav-justified &gt; li &gt; a {
+.nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
-.nav-justified &gt; .dropdown .dropdown-menu {
+.nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 @media (min-width: 768px) {
-  .nav-justified &gt; li {
+  .nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  .nav-justified &gt; li &gt; a {
+  .nav-justified > li > a {
     margin-bottom: 0;
   }
 }
 .nav-tabs-justified {
   border-bottom: 0;
 }
-.nav-tabs-justified &gt; li &gt; a {
+.nav-tabs-justified > li > a {
   margin-right: 0;
   border-radius: 2px;
 }
-.nav-tabs-justified &gt; .active &gt; a,
-.nav-tabs-justified &gt; .active &gt; a:hover,
-.nav-tabs-justified &gt; .active &gt; a:focus {
+.nav-tabs-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
 @media (min-width: 768px) {
-  .nav-tabs-justified &gt; li &gt; a {
+  .nav-tabs-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 2px 2px 0 0;
   }
-  .nav-tabs-justified &gt; .active &gt; a,
-  .nav-tabs-justified &gt; .active &gt; a:hover,
-  .nav-tabs-justified &gt; .active &gt; a:focus {
+  .nav-tabs-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus {
     border-bottom-color: #fff;
   }
 }
-.tab-content &gt; .tab-pane {
+.tab-content > .tab-pane {
   display: none;
 }
-.tab-content &gt; .active {
+.tab-content > .active {
   display: block;
 }
 .nav-tabs .dropdown-menu {
@@ -4229,18 +4225,18 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
     max-height: 200px;
   }
 }
-.container &gt; .navbar-header,
-.container-fluid &gt; .navbar-header,
-.container &gt; .navbar-collapse,
-.container-fluid &gt; .navbar-collapse {
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
   margin-right: 0px;
   margin-left: 0px;
 }
 @media (min-width: 541px) {
-  .container &gt; .navbar-header,
-  .container-fluid &gt; .navbar-header,
-  .container &gt; .navbar-collapse,
-  .container-fluid &gt; .navbar-collapse {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
@@ -4287,12 +4283,12 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-.navbar-brand &gt; img {
+.navbar-brand > img {
   display: block;
 }
 @media (min-width: 541px) {
-  .navbar &gt; .container .navbar-brand,
-  .navbar &gt; .container-fluid .navbar-brand {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
     margin-left: 0px;
   }
 }
@@ -4328,7 +4324,7 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
 .navbar-nav {
   margin: 3px 0px;
 }
-.navbar-nav &gt; li &gt; a {
+.navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 18px;
@@ -4343,15 +4339,15 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
     border: 0;
     box-shadow: none;
   }
-  .navbar-nav .open .dropdown-menu &gt; li &gt; a,
+  .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
-  .navbar-nav .open .dropdown-menu &gt; li &gt; a {
+  .navbar-nav .open .dropdown-menu > li > a {
     line-height: 18px;
   }
-  .navbar-nav .open .dropdown-menu &gt; li &gt; a:hover,
-  .navbar-nav .open .dropdown-menu &gt; li &gt; a:focus {
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
@@ -4360,10 +4356,10 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
     float: left;
     margin: 0;
   }
-  .navbar-nav &gt; li {
+  .navbar-nav > li {
     float: left;
   }
-  .navbar-nav &gt; li &gt; a {
+  .navbar-nav > li > a {
     padding-top: 6px;
     padding-bottom: 6px;
   }
@@ -4402,7 +4398,7 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   .navbar-form .input-group .form-control {
     width: auto;
   }
-  .navbar-form .input-group &gt; .form-control {
+  .navbar-form .input-group > .form-control {
     width: 100%;
   }
   .navbar-form .control-label {
@@ -4420,8 +4416,8 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
   .navbar-form .checkbox label {
     padding-left: 0;
   }
-  .navbar-form .radio input[type=&quot;radio&quot;],
-  .navbar-form .checkbox input[type=&quot;checkbox&quot;] {
+  .navbar-form .radio input[type="radio"],
+  .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
@@ -4449,12 +4445,12 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
     box-shadow: none;
   }
 }
-.navbar-nav &gt; li &gt; .dropdown-menu {
+.navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.navbar-fixed-bottom .navbar-nav &gt; li &gt; .dropdown-menu {
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
@@ -4513,23 +4509,23 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
 .navbar-default .navbar-text {
   color: #777;
 }
-.navbar-default .navbar-nav &gt; li &gt; a {
+.navbar-default .navbar-nav > li > a {
   color: #777;
 }
-.navbar-default .navbar-nav &gt; li &gt; a:hover,
-.navbar-default .navbar-nav &gt; li &gt; a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   color: #333;
   background-color: transparent;
 }
-.navbar-default .navbar-nav &gt; .active &gt; a,
-.navbar-default .navbar-nav &gt; .active &gt; a:hover,
-.navbar-default .navbar-nav &gt; .active &gt; a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: #e7e7e7;
 }
-.navbar-default .navbar-nav &gt; .disabled &gt; a,
-.navbar-default .navbar-nav &gt; .disabled &gt; a:hover,
-.navbar-default .navbar-nav &gt; .disabled &gt; a:focus {
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
 }
@@ -4547,30 +4543,30 @@ select[multiple].input-group-sm &gt; .input-group-btn &gt; .btn {
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
-.navbar-default .navbar-nav &gt; .open &gt; a,
-.navbar-default .navbar-nav &gt; .open &gt; a:hover,
-.navbar-default .navbar-nav &gt; .open &gt; a:focus {
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
   background-color: #e7e7e7;
   color: #555;
 }
 @media (max-width: 540px) {
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; li &gt; a {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; li &gt; a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; li &gt; a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
     background-color: transparent;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .active &gt; a,
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .active &gt; a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .active &gt; a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a,
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
     background-color: transparent;
   }
@@ -4609,23 +4605,23 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-text {
   color: #9d9d9d;
 }
-.navbar-inverse .navbar-nav &gt; li &gt; a {
+.navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
 }
-.navbar-inverse .navbar-nav &gt; li &gt; a:hover,
-.navbar-inverse .navbar-nav &gt; li &gt; a:focus {
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
 }
-.navbar-inverse .navbar-nav &gt; .active &gt; a,
-.navbar-inverse .navbar-nav &gt; .active &gt; a:hover,
-.navbar-inverse .navbar-nav &gt; .active &gt; a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #080808;
 }
-.navbar-inverse .navbar-nav &gt; .disabled &gt; a,
-.navbar-inverse .navbar-nav &gt; .disabled &gt; a:hover,
-.navbar-inverse .navbar-nav &gt; .disabled &gt; a:focus {
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444;
   background-color: transparent;
 }
@@ -4643,36 +4639,36 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-.navbar-inverse .navbar-nav &gt; .open &gt; a,
-.navbar-inverse .navbar-nav &gt; .open &gt; a:hover,
-.navbar-inverse .navbar-nav &gt; .open &gt; a:focus {
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #080808;
   color: #fff;
 }
 @media (max-width: 540px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .dropdown-header {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #080808;
   }
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; li &gt; a {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; li &gt; a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; li &gt; a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
     background-color: transparent;
   }
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .active &gt; a,
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .active &gt; a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .active &gt; a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #080808;
   }
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a,
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu &gt; .disabled &gt; a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444;
     background-color: transparent;
   }
@@ -4703,15 +4699,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #f5f5f5;
   border-radius: 2px;
 }
-.breadcrumb &gt; li {
+.breadcrumb > li {
   display: inline-block;
 }
-.breadcrumb &gt; li + li:before {
-  content: &quot;/\00a0&quot;;
+.breadcrumb > li + li:before {
+  content: "/\00a0";
   padding: 0 5px;
   color: #5e5e5e;
 }
-.breadcrumb &gt; .active {
+.breadcrumb > .active {
   color: #777777;
 }
 .pagination {
@@ -4720,11 +4716,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin: 18px 0;
   border-radius: 2px;
 }
-.pagination &gt; li {
+.pagination > li {
   display: inline;
 }
-.pagination &gt; li &gt; a,
-.pagination &gt; li &gt; span {
+.pagination > li > a,
+.pagination > li > span {
   position: relative;
   float: left;
   padding: 6px 12px;
@@ -4735,78 +4731,78 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border: 1px solid #ddd;
   margin-left: -1px;
 }
-.pagination &gt; li:first-child &gt; a,
-.pagination &gt; li:first-child &gt; span {
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
 }
-.pagination &gt; li:last-child &gt; a,
-.pagination &gt; li:last-child &gt; span {
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
 }
-.pagination &gt; li &gt; a:hover,
-.pagination &gt; li &gt; span:hover,
-.pagination &gt; li &gt; a:focus,
-.pagination &gt; li &gt; span:focus {
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
   z-index: 2;
   color: #23527c;
   background-color: #eeeeee;
   border-color: #ddd;
 }
-.pagination &gt; .active &gt; a,
-.pagination &gt; .active &gt; span,
-.pagination &gt; .active &gt; a:hover,
-.pagination &gt; .active &gt; span:hover,
-.pagination &gt; .active &gt; a:focus,
-.pagination &gt; .active &gt; span:focus {
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
   cursor: default;
 }
-.pagination &gt; .disabled &gt; span,
-.pagination &gt; .disabled &gt; span:hover,
-.pagination &gt; .disabled &gt; span:focus,
-.pagination &gt; .disabled &gt; a,
-.pagination &gt; .disabled &gt; a:hover,
-.pagination &gt; .disabled &gt; a:focus {
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
   color: #777777;
   background-color: #fff;
   border-color: #ddd;
   cursor: not-allowed;
 }
-.pagination-lg &gt; li &gt; a,
-.pagination-lg &gt; li &gt; span {
+.pagination-lg > li > a,
+.pagination-lg > li > span {
   padding: 10px 16px;
   font-size: 17px;
   line-height: 1.3333333;
 }
-.pagination-lg &gt; li:first-child &gt; a,
-.pagination-lg &gt; li:first-child &gt; span {
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
-.pagination-lg &gt; li:last-child &gt; a,
-.pagination-lg &gt; li:last-child &gt; span {
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-.pagination-sm &gt; li &gt; a,
-.pagination-sm &gt; li &gt; span {
+.pagination-sm > li > a,
+.pagination-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
 }
-.pagination-sm &gt; li:first-child &gt; a,
-.pagination-sm &gt; li:first-child &gt; span {
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
   border-bottom-left-radius: 1px;
   border-top-left-radius: 1px;
 }
-.pagination-sm &gt; li:last-child &gt; a,
-.pagination-sm &gt; li:last-child &gt; span {
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
   border-bottom-right-radius: 1px;
   border-top-right-radius: 1px;
 }
@@ -4819,31 +4815,31 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li {
   display: inline;
 }
-.pager li &gt; a,
-.pager li &gt; span {
+.pager li > a,
+.pager li > span {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
-.pager li &gt; a:hover,
-.pager li &gt; a:focus {
+.pager li > a:hover,
+.pager li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-.pager .next &gt; a,
-.pager .next &gt; span {
+.pager .next > a,
+.pager .next > span {
   float: right;
 }
-.pager .previous &gt; a,
-.pager .previous &gt; span {
+.pager .previous > a,
+.pager .previous > span {
   float: left;
 }
-.pager .disabled &gt; a,
-.pager .disabled &gt; a:hover,
-.pager .disabled &gt; a:focus,
-.pager .disabled &gt; span {
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
   color: #777777;
   background-color: #fff;
   cursor: not-allowed;
@@ -4937,7 +4933,7 @@ a.label:focus {
   top: -1px;
 }
 .btn-xs .badge,
-.btn-group-xs &gt; .btn .badge {
+.btn-group-xs > .btn .badge {
   top: 0;
   padding: 1px 5px;
 }
@@ -4947,18 +4943,18 @@ a.badge:focus {
   text-decoration: none;
   cursor: pointer;
 }
-.list-group-item.active &gt; .badge,
-.nav-pills &gt; .active &gt; a &gt; .badge {
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
   color: #337ab7;
   background-color: #fff;
 }
-.list-group-item &gt; .badge {
+.list-group-item > .badge {
   float: right;
 }
-.list-group-item &gt; .badge + .badge {
+.list-group-item > .badge + .badge {
   margin-right: 5px;
 }
-.nav-pills &gt; li &gt; a &gt; .badge {
+.nav-pills > li > a > .badge {
   margin-left: 3px;
 }
 .jumbotron {
@@ -4977,7 +4973,7 @@ a.badge:focus {
   font-size: 20px;
   font-weight: 200;
 }
-.jumbotron &gt; hr {
+.jumbotron > hr {
   border-top-color: #d5d5d5;
 }
 .container .jumbotron,
@@ -5016,8 +5012,8 @@ a.badge:focus {
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
 }
-.thumbnail &gt; img,
-.thumbnail a &gt; img {
+.thumbnail > img,
+.thumbnail a > img {
   margin-left: auto;
   margin-right: auto;
 }
@@ -5043,11 +5039,11 @@ a.thumbnail.active {
 .alert .alert-link {
   font-weight: bold;
 }
-.alert &gt; p,
-.alert &gt; ul {
+.alert > p,
+.alert > ul {
   margin-bottom: 0;
 }
-.alert &gt; p + p {
+.alert > p + p {
   margin-top: 5px;
 }
 .alert-dismissable,
@@ -5211,11 +5207,11 @@ a.thumbnail.active {
   max-width: none;
 }
 .media-right,
-.media &gt; .pull-right {
+.media > .pull-right {
   padding-left: 10px;
 }
 .media-left,
-.media &gt; .pull-left {
+.media > .pull-left {
   padding-right: 10px;
 }
 .media-left,
@@ -5307,12 +5303,12 @@ button.list-group-item {
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
 .list-group-item.active:focus .list-group-item-heading,
-.list-group-item.active .list-group-item-heading &gt; small,
-.list-group-item.active:hover .list-group-item-heading &gt; small,
-.list-group-item.active:focus .list-group-item-heading &gt; small,
-.list-group-item.active .list-group-item-heading &gt; .small,
-.list-group-item.active:hover .list-group-item-heading &gt; .small,
-.list-group-item.active:focus .list-group-item-heading &gt; .small {
+.list-group-item.active .list-group-item-heading > small,
+.list-group-item.active:hover .list-group-item-heading > small,
+.list-group-item.active:focus .list-group-item-heading > small,
+.list-group-item.active .list-group-item-heading > .small,
+.list-group-item.active:hover .list-group-item-heading > .small,
+.list-group-item.active:focus .list-group-item-heading > .small {
   color: inherit;
 }
 .list-group-item.active .list-group-item-text,
@@ -5461,7 +5457,7 @@ button.list-group-item-danger.active:focus {
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
 }
-.panel-heading &gt; .dropdown .dropdown-toggle {
+.panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
 }
 .panel-title {
@@ -5470,11 +5466,11 @@ button.list-group-item-danger.active:focus {
   font-size: 15px;
   color: inherit;
 }
-.panel-title &gt; a,
-.panel-title &gt; small,
-.panel-title &gt; .small,
-.panel-title &gt; small &gt; a,
-.panel-title &gt; .small &gt; a {
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
   color: inherit;
 }
 .panel-footer {
@@ -5484,28 +5480,28 @@ button.list-group-item-danger.active:focus {
   border-bottom-right-radius: 1px;
   border-bottom-left-radius: 1px;
 }
-.panel &gt; .list-group,
-.panel &gt; .panel-collapse &gt; .list-group {
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
   margin-bottom: 0;
 }
-.panel &gt; .list-group .list-group-item,
-.panel &gt; .panel-collapse &gt; .list-group .list-group-item {
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item {
   border-width: 1px 0;
   border-radius: 0;
 }
-.panel &gt; .list-group:first-child .list-group-item:first-child,
-.panel &gt; .panel-collapse &gt; .list-group:first-child .list-group-item:first-child {
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
 }
-.panel &gt; .list-group:last-child .list-group-item:last-child,
-.panel &gt; .panel-collapse &gt; .list-group:last-child .list-group-item:last-child {
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
   border-bottom-right-radius: 1px;
   border-bottom-left-radius: 1px;
 }
-.panel &gt; .panel-heading + .panel-collapse &gt; .list-group .list-group-item:first-child {
+.panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -5515,144 +5511,144 @@ button.list-group-item-danger.active:focus {
 .list-group + .panel-footer {
   border-top-width: 0;
 }
-.panel &gt; .table,
-.panel &gt; .table-responsive &gt; .table,
-.panel &gt; .panel-collapse &gt; .table {
+.panel > .table,
+.panel > .table-responsive > .table,
+.panel > .panel-collapse > .table {
   margin-bottom: 0;
 }
-.panel &gt; .table caption,
-.panel &gt; .table-responsive &gt; .table caption,
-.panel &gt; .panel-collapse &gt; .table caption {
+.panel > .table caption,
+.panel > .table-responsive > .table caption,
+.panel > .panel-collapse > .table caption {
   padding-left: 15px;
   padding-right: 15px;
 }
-.panel &gt; .table:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child {
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child {
   border-top-right-radius: 1px;
   border-top-left-radius: 1px;
 }
-.panel &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child,
-.panel &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child {
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
 }
-.panel &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child td:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child td:first-child,
-.panel &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child td:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child td:first-child,
-.panel &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child th:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child th:first-child,
-.panel &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child th:first-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child th:first-child {
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
   border-top-left-radius: 1px;
 }
-.panel &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child td:last-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child td:last-child,
-.panel &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child td:last-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child td:last-child,
-.panel &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child th:last-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; thead:first-child &gt; tr:first-child th:last-child,
-.panel &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child th:last-child,
-.panel &gt; .table-responsive:first-child &gt; .table:first-child &gt; tbody:first-child &gt; tr:first-child th:last-child {
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
   border-top-right-radius: 1px;
 }
-.panel &gt; .table:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child {
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child {
   border-bottom-right-radius: 1px;
   border-bottom-left-radius: 1px;
 }
-.panel &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child,
-.panel &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child {
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
 }
-.panel &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child td:first-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child td:first-child,
-.panel &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child td:first-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child td:first-child,
-.panel &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child th:first-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child th:first-child,
-.panel &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child th:first-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child th:first-child {
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
   border-bottom-left-radius: 1px;
 }
-.panel &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child td:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child td:last-child,
-.panel &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child td:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child td:last-child,
-.panel &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child th:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tbody:last-child &gt; tr:last-child th:last-child,
-.panel &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child th:last-child,
-.panel &gt; .table-responsive:last-child &gt; .table:last-child &gt; tfoot:last-child &gt; tr:last-child th:last-child {
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
   border-bottom-right-radius: 1px;
 }
-.panel &gt; .panel-body + .table,
-.panel &gt; .panel-body + .table-responsive,
-.panel &gt; .table + .panel-body,
-.panel &gt; .table-responsive + .panel-body {
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive,
+.panel > .table + .panel-body,
+.panel > .table-responsive + .panel-body {
   border-top: 1px solid #ddd;
 }
-.panel &gt; .table &gt; tbody:first-child &gt; tr:first-child th,
-.panel &gt; .table &gt; tbody:first-child &gt; tr:first-child td {
+.panel > .table > tbody:first-child > tr:first-child th,
+.panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0;
 }
-.panel &gt; .table-bordered,
-.panel &gt; .table-responsive &gt; .table-bordered {
+.panel > .table-bordered,
+.panel > .table-responsive > .table-bordered {
   border: 0;
 }
-.panel &gt; .table-bordered &gt; thead &gt; tr &gt; th:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; th:first-child,
-.panel &gt; .table-bordered &gt; tbody &gt; tr &gt; th:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; th:first-child,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:first-child,
-.panel &gt; .table-bordered &gt; thead &gt; tr &gt; td:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; td:first-child,
-.panel &gt; .table-bordered &gt; tbody &gt; tr &gt; td:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; td:first-child,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:first-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:first-child {
+.panel > .table-bordered > thead > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.panel > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-bordered > thead > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.panel > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-bordered > tfoot > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
   border-left: 0;
 }
-.panel &gt; .table-bordered &gt; thead &gt; tr &gt; th:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; th:last-child,
-.panel &gt; .table-bordered &gt; tbody &gt; tr &gt; th:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; th:last-child,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; th:last-child,
-.panel &gt; .table-bordered &gt; thead &gt; tr &gt; td:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr &gt; td:last-child,
-.panel &gt; .table-bordered &gt; tbody &gt; tr &gt; td:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr &gt; td:last-child,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:last-child,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr &gt; td:last-child {
+.panel > .table-bordered > thead > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.panel > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-bordered > thead > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.panel > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-bordered > tfoot > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
   border-right: 0;
 }
-.panel &gt; .table-bordered &gt; thead &gt; tr:first-child &gt; td,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr:first-child &gt; td,
-.panel &gt; .table-bordered &gt; tbody &gt; tr:first-child &gt; td,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:first-child &gt; td,
-.panel &gt; .table-bordered &gt; thead &gt; tr:first-child &gt; th,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; thead &gt; tr:first-child &gt; th,
-.panel &gt; .table-bordered &gt; tbody &gt; tr:first-child &gt; th,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:first-child &gt; th {
+.panel > .table-bordered > thead > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.panel > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-bordered > thead > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.panel > .table-bordered > tbody > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
   border-bottom: 0;
 }
-.panel &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; td,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; td,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; td,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; td,
-.panel &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; th,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tbody &gt; tr:last-child &gt; th,
-.panel &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; th,
-.panel &gt; .table-responsive &gt; .table-bordered &gt; tfoot &gt; tr:last-child &gt; th {
+.panel > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
   border-bottom: 0;
 }
-.panel &gt; .table-responsive {
+.panel > .table-responsive {
   border: 0;
   margin-bottom: 0;
 }
@@ -5669,8 +5665,8 @@ button.list-group-item-danger.active:focus {
 .panel-group .panel-heading {
   border-bottom: 0;
 }
-.panel-group .panel-heading + .panel-collapse &gt; .panel-body,
-.panel-group .panel-heading + .panel-collapse &gt; .list-group {
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
   border-top: 1px solid #ddd;
 }
 .panel-group .panel-footer {
@@ -5682,109 +5678,109 @@ button.list-group-item-danger.active:focus {
 .panel-default {
   border-color: #ddd;
 }
-.panel-default &gt; .panel-heading {
+.panel-default > .panel-heading {
   color: #333333;
   background-color: #f5f5f5;
   border-color: #ddd;
 }
-.panel-default &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ddd;
 }
-.panel-default &gt; .panel-heading .badge {
+.panel-default > .panel-heading .badge {
   color: #f5f5f5;
   background-color: #333333;
 }
-.panel-default &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
 }
 .panel-primary {
   border-color: #337ab7;
 }
-.panel-primary &gt; .panel-heading {
+.panel-primary > .panel-heading {
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
 }
-.panel-primary &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;
 }
-.panel-primary &gt; .panel-heading .badge {
+.panel-primary > .panel-heading .badge {
   color: #337ab7;
   background-color: #fff;
 }
-.panel-primary &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #337ab7;
 }
 .panel-success {
   border-color: #d6e9c6;
 }
-.panel-success &gt; .panel-heading {
+.panel-success > .panel-heading {
   color: #3c763d;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
-.panel-success &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #d6e9c6;
 }
-.panel-success &gt; .panel-heading .badge {
+.panel-success > .panel-heading .badge {
   color: #dff0d8;
   background-color: #3c763d;
 }
-.panel-success &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #d6e9c6;
 }
 .panel-info {
   border-color: #bce8f1;
 }
-.panel-info &gt; .panel-heading {
+.panel-info > .panel-heading {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
-.panel-info &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
 }
-.panel-info &gt; .panel-heading .badge {
+.panel-info > .panel-heading .badge {
   color: #d9edf7;
   background-color: #31708f;
 }
-.panel-info &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-info > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #bce8f1;
 }
 .panel-warning {
   border-color: #faebcc;
 }
-.panel-warning &gt; .panel-heading {
+.panel-warning > .panel-heading {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
-.panel-warning &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #faebcc;
 }
-.panel-warning &gt; .panel-heading .badge {
+.panel-warning > .panel-heading .badge {
   color: #fcf8e3;
   background-color: #8a6d3b;
 }
-.panel-warning &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #faebcc;
 }
 .panel-danger {
   border-color: #ebccd1;
 }
-.panel-danger &gt; .panel-heading {
+.panel-danger > .panel-heading {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
 }
-.panel-danger &gt; .panel-heading + .panel-collapse &gt; .panel-body {
+.panel-danger > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ebccd1;
 }
-.panel-danger &gt; .panel-heading .badge {
+.panel-danger > .panel-heading .badge {
   color: #f2dede;
   background-color: #a94442;
 }
-.panel-danger &gt; .panel-footer + .panel-collapse &gt; .panel-body {
+.panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
 .embed-responsive {
@@ -5987,7 +5983,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6105,7 +6101,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6152,8 +6148,8 @@ button.close {
 .popover-content {
   padding: 9px 14px;
 }
-.popover &gt; .arrow,
-.popover &gt; .arrow:after {
+.popover > .arrow,
+.popover > .arrow:after {
   position: absolute;
   display: block;
   width: 0;
@@ -6161,14 +6157,14 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-.popover &gt; .arrow {
+.popover > .arrow {
   border-width: 11px;
 }
-.popover &gt; .arrow:after {
+.popover > .arrow:after {
   border-width: 10px;
-  content: &quot;&quot;;
+  content: "";
 }
-.popover.top &gt; .arrow {
+.popover.top > .arrow {
   left: 50%;
   margin-left: -11px;
   border-bottom-width: 0;
@@ -6176,14 +6172,14 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
 }
-.popover.top &gt; .arrow:after {
-  content: &quot; &quot;;
+.popover.top > .arrow:after {
+  content: " ";
   bottom: 1px;
   margin-left: -10px;
   border-bottom-width: 0;
   border-top-color: #fff;
 }
-.popover.right &gt; .arrow {
+.popover.right > .arrow {
   top: 50%;
   left: -11px;
   margin-top: -11px;
@@ -6191,14 +6187,14 @@ button.close {
   border-right-color: #999999;
   border-right-color: rgba(0, 0, 0, 0.25);
 }
-.popover.right &gt; .arrow:after {
-  content: &quot; &quot;;
+.popover.right > .arrow:after {
+  content: " ";
   left: 1px;
   bottom: -10px;
   border-left-width: 0;
   border-right-color: #fff;
 }
-.popover.bottom &gt; .arrow {
+.popover.bottom > .arrow {
   left: 50%;
   margin-left: -11px;
   border-top-width: 0;
@@ -6206,14 +6202,14 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.25);
   top: -11px;
 }
-.popover.bottom &gt; .arrow:after {
-  content: &quot; &quot;;
+.popover.bottom > .arrow:after {
+  content: " ";
   top: 1px;
   margin-left: -10px;
   border-top-width: 0;
   border-bottom-color: #fff;
 }
-.popover.left &gt; .arrow {
+.popover.left > .arrow {
   top: 50%;
   right: -11px;
   margin-top: -11px;
@@ -6221,8 +6217,8 @@ button.close {
   border-left-color: #999999;
   border-left-color: rgba(0, 0, 0, 0.25);
 }
-.popover.left &gt; .arrow:after {
-  content: &quot; &quot;;
+.popover.left > .arrow:after {
+  content: " ";
   right: 1px;
   border-right-width: 0;
   border-left-color: #fff;
@@ -6236,19 +6232,19 @@ button.close {
   overflow: hidden;
   width: 100%;
 }
-.carousel-inner &gt; .item {
+.carousel-inner > .item {
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
   -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
-.carousel-inner &gt; .item &gt; img,
-.carousel-inner &gt; .item &gt; a &gt; img {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
   line-height: 1;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
-  .carousel-inner &gt; .item {
+  .carousel-inner > .item {
     -webkit-transition: -webkit-transform 0.6s ease-in-out;
     -moz-transition: -moz-transform 0.6s ease-in-out;
     -o-transition: -o-transform 0.6s ease-in-out;
@@ -6260,54 +6256,54 @@ button.close {
     -moz-perspective: 1000px;
     perspective: 1000px;
   }
-  .carousel-inner &gt; .item.next,
-  .carousel-inner &gt; .item.active.right {
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     left: 0;
   }
-  .carousel-inner &gt; .item.prev,
-  .carousel-inner &gt; .item.active.left {
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     left: 0;
   }
-  .carousel-inner &gt; .item.next.left,
-  .carousel-inner &gt; .item.prev.right,
-  .carousel-inner &gt; .item.active {
+  .carousel-inner > .item.next.left,
+  .carousel-inner > .item.prev.right,
+  .carousel-inner > .item.active {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
   }
 }
-.carousel-inner &gt; .active,
-.carousel-inner &gt; .next,
-.carousel-inner &gt; .prev {
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
   display: block;
 }
-.carousel-inner &gt; .active {
+.carousel-inner > .active {
   left: 0;
 }
-.carousel-inner &gt; .next,
-.carousel-inner &gt; .prev {
+.carousel-inner > .next,
+.carousel-inner > .prev {
   position: absolute;
   top: 0;
   width: 100%;
 }
-.carousel-inner &gt; .next {
+.carousel-inner > .next {
   left: 100%;
 }
-.carousel-inner &gt; .prev {
+.carousel-inner > .prev {
   left: -100%;
 }
-.carousel-inner &gt; .next.left,
-.carousel-inner &gt; .prev.right {
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
   left: 0;
 }
-.carousel-inner &gt; .active.left {
+.carousel-inner > .active.left {
   left: -100%;
 }
-.carousel-inner &gt; .active.right {
+.carousel-inner > .active.right {
   left: 100%;
 }
 .carousel-control {
@@ -6466,8 +6462,8 @@ button.close {
 .form-horizontal .form-group:after,
 .btn-toolbar:before,
 .btn-toolbar:after,
-.btn-group-vertical &gt; .btn-group:before,
-.btn-group-vertical &gt; .btn-group:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
 .nav:before,
 .nav:after,
 .navbar:before,
@@ -6486,7 +6482,7 @@ button.close {
 .modal-footer:after,
 .item_buttons:before,
 .item_buttons:after {
-  content: &quot; &quot;;
+  content: " ";
   display: table;
 }
 .clearfix:after,
@@ -6496,7 +6492,7 @@ button.close {
 .row:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
-.btn-group-vertical &gt; .btn-group:after,
+.btn-group-vertical > .btn-group:after,
 .nav:after,
 .navbar:after,
 .navbar-header:after,
@@ -6765,7 +6761,7 @@ button.close {
 @font-face {
   font-family: 'FontAwesome';
   src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&amp;v=4.7.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6804,7 +6800,7 @@ button.close {
   margin-left: 2.14285714em;
   list-style-type: none;
 }
-.fa-ul &gt; li {
+.fa-ul > li {
   position: relative;
 }
 .fa-li {
@@ -6876,31 +6872,31 @@ button.close {
   }
 }
 .fa-rotate-90 {
-  -ms-filter: &quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=1)&quot;;
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
-  -ms-filter: &quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=2)&quot;;
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
-  -ms-filter: &quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=3)&quot;;
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
-  -ms-filter: &quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)&quot;;
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 .fa-flip-vertical {
-  -ms-filter: &quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)&quot;;
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -6939,2140 +6935,2140 @@ button.close {
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .fa-glass:before {
-  content: &quot;\f000&quot;;
+  content: "\f000";
 }
 .fa-music:before {
-  content: &quot;\f001&quot;;
+  content: "\f001";
 }
 .fa-search:before {
-  content: &quot;\f002&quot;;
+  content: "\f002";
 }
 .fa-envelope-o:before {
-  content: &quot;\f003&quot;;
+  content: "\f003";
 }
 .fa-heart:before {
-  content: &quot;\f004&quot;;
+  content: "\f004";
 }
 .fa-star:before {
-  content: &quot;\f005&quot;;
+  content: "\f005";
 }
 .fa-star-o:before {
-  content: &quot;\f006&quot;;
+  content: "\f006";
 }
 .fa-user:before {
-  content: &quot;\f007&quot;;
+  content: "\f007";
 }
 .fa-film:before {
-  content: &quot;\f008&quot;;
+  content: "\f008";
 }
 .fa-th-large:before {
-  content: &quot;\f009&quot;;
+  content: "\f009";
 }
 .fa-th:before {
-  content: &quot;\f00a&quot;;
+  content: "\f00a";
 }
 .fa-th-list:before {
-  content: &quot;\f00b&quot;;
+  content: "\f00b";
 }
 .fa-check:before {
-  content: &quot;\f00c&quot;;
+  content: "\f00c";
 }
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: &quot;\f00d&quot;;
+  content: "\f00d";
 }
 .fa-search-plus:before {
-  content: &quot;\f00e&quot;;
+  content: "\f00e";
 }
 .fa-search-minus:before {
-  content: &quot;\f010&quot;;
+  content: "\f010";
 }
 .fa-power-off:before {
-  content: &quot;\f011&quot;;
+  content: "\f011";
 }
 .fa-signal:before {
-  content: &quot;\f012&quot;;
+  content: "\f012";
 }
 .fa-gear:before,
 .fa-cog:before {
-  content: &quot;\f013&quot;;
+  content: "\f013";
 }
 .fa-trash-o:before {
-  content: &quot;\f014&quot;;
+  content: "\f014";
 }
 .fa-home:before {
-  content: &quot;\f015&quot;;
+  content: "\f015";
 }
 .fa-file-o:before {
-  content: &quot;\f016&quot;;
+  content: "\f016";
 }
 .fa-clock-o:before {
-  content: &quot;\f017&quot;;
+  content: "\f017";
 }
 .fa-road:before {
-  content: &quot;\f018&quot;;
+  content: "\f018";
 }
 .fa-download:before {
-  content: &quot;\f019&quot;;
+  content: "\f019";
 }
 .fa-arrow-circle-o-down:before {
-  content: &quot;\f01a&quot;;
+  content: "\f01a";
 }
 .fa-arrow-circle-o-up:before {
-  content: &quot;\f01b&quot;;
+  content: "\f01b";
 }
 .fa-inbox:before {
-  content: &quot;\f01c&quot;;
+  content: "\f01c";
 }
 .fa-play-circle-o:before {
-  content: &quot;\f01d&quot;;
+  content: "\f01d";
 }
 .fa-rotate-right:before,
 .fa-repeat:before {
-  content: &quot;\f01e&quot;;
+  content: "\f01e";
 }
 .fa-refresh:before {
-  content: &quot;\f021&quot;;
+  content: "\f021";
 }
 .fa-list-alt:before {
-  content: &quot;\f022&quot;;
+  content: "\f022";
 }
 .fa-lock:before {
-  content: &quot;\f023&quot;;
+  content: "\f023";
 }
 .fa-flag:before {
-  content: &quot;\f024&quot;;
+  content: "\f024";
 }
 .fa-headphones:before {
-  content: &quot;\f025&quot;;
+  content: "\f025";
 }
 .fa-volume-off:before {
-  content: &quot;\f026&quot;;
+  content: "\f026";
 }
 .fa-volume-down:before {
-  content: &quot;\f027&quot;;
+  content: "\f027";
 }
 .fa-volume-up:before {
-  content: &quot;\f028&quot;;
+  content: "\f028";
 }
 .fa-qrcode:before {
-  content: &quot;\f029&quot;;
+  content: "\f029";
 }
 .fa-barcode:before {
-  content: &quot;\f02a&quot;;
+  content: "\f02a";
 }
 .fa-tag:before {
-  content: &quot;\f02b&quot;;
+  content: "\f02b";
 }
 .fa-tags:before {
-  content: &quot;\f02c&quot;;
+  content: "\f02c";
 }
 .fa-book:before {
-  content: &quot;\f02d&quot;;
+  content: "\f02d";
 }
 .fa-bookmark:before {
-  content: &quot;\f02e&quot;;
+  content: "\f02e";
 }
 .fa-print:before {
-  content: &quot;\f02f&quot;;
+  content: "\f02f";
 }
 .fa-camera:before {
-  content: &quot;\f030&quot;;
+  content: "\f030";
 }
 .fa-font:before {
-  content: &quot;\f031&quot;;
+  content: "\f031";
 }
 .fa-bold:before {
-  content: &quot;\f032&quot;;
+  content: "\f032";
 }
 .fa-italic:before {
-  content: &quot;\f033&quot;;
+  content: "\f033";
 }
 .fa-text-height:before {
-  content: &quot;\f034&quot;;
+  content: "\f034";
 }
 .fa-text-width:before {
-  content: &quot;\f035&quot;;
+  content: "\f035";
 }
 .fa-align-left:before {
-  content: &quot;\f036&quot;;
+  content: "\f036";
 }
 .fa-align-center:before {
-  content: &quot;\f037&quot;;
+  content: "\f037";
 }
 .fa-align-right:before {
-  content: &quot;\f038&quot;;
+  content: "\f038";
 }
 .fa-align-justify:before {
-  content: &quot;\f039&quot;;
+  content: "\f039";
 }
 .fa-list:before {
-  content: &quot;\f03a&quot;;
+  content: "\f03a";
 }
 .fa-dedent:before,
 .fa-outdent:before {
-  content: &quot;\f03b&quot;;
+  content: "\f03b";
 }
 .fa-indent:before {
-  content: &quot;\f03c&quot;;
+  content: "\f03c";
 }
 .fa-video-camera:before {
-  content: &quot;\f03d&quot;;
+  content: "\f03d";
 }
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
-  content: &quot;\f03e&quot;;
+  content: "\f03e";
 }
 .fa-pencil:before {
-  content: &quot;\f040&quot;;
+  content: "\f040";
 }
 .fa-map-marker:before {
-  content: &quot;\f041&quot;;
+  content: "\f041";
 }
 .fa-adjust:before {
-  content: &quot;\f042&quot;;
+  content: "\f042";
 }
 .fa-tint:before {
-  content: &quot;\f043&quot;;
+  content: "\f043";
 }
 .fa-edit:before,
 .fa-pencil-square-o:before {
-  content: &quot;\f044&quot;;
+  content: "\f044";
 }
 .fa-share-square-o:before {
-  content: &quot;\f045&quot;;
+  content: "\f045";
 }
 .fa-check-square-o:before {
-  content: &quot;\f046&quot;;
+  content: "\f046";
 }
 .fa-arrows:before {
-  content: &quot;\f047&quot;;
+  content: "\f047";
 }
 .fa-step-backward:before {
-  content: &quot;\f048&quot;;
+  content: "\f048";
 }
 .fa-fast-backward:before {
-  content: &quot;\f049&quot;;
+  content: "\f049";
 }
 .fa-backward:before {
-  content: &quot;\f04a&quot;;
+  content: "\f04a";
 }
 .fa-play:before {
-  content: &quot;\f04b&quot;;
+  content: "\f04b";
 }
 .fa-pause:before {
-  content: &quot;\f04c&quot;;
+  content: "\f04c";
 }
 .fa-stop:before {
-  content: &quot;\f04d&quot;;
+  content: "\f04d";
 }
 .fa-forward:before {
-  content: &quot;\f04e&quot;;
+  content: "\f04e";
 }
 .fa-fast-forward:before {
-  content: &quot;\f050&quot;;
+  content: "\f050";
 }
 .fa-step-forward:before {
-  content: &quot;\f051&quot;;
+  content: "\f051";
 }
 .fa-eject:before {
-  content: &quot;\f052&quot;;
+  content: "\f052";
 }
 .fa-chevron-left:before {
-  content: &quot;\f053&quot;;
+  content: "\f053";
 }
 .fa-chevron-right:before {
-  content: &quot;\f054&quot;;
+  content: "\f054";
 }
 .fa-plus-circle:before {
-  content: &quot;\f055&quot;;
+  content: "\f055";
 }
 .fa-minus-circle:before {
-  content: &quot;\f056&quot;;
+  content: "\f056";
 }
 .fa-times-circle:before {
-  content: &quot;\f057&quot;;
+  content: "\f057";
 }
 .fa-check-circle:before {
-  content: &quot;\f058&quot;;
+  content: "\f058";
 }
 .fa-question-circle:before {
-  content: &quot;\f059&quot;;
+  content: "\f059";
 }
 .fa-info-circle:before {
-  content: &quot;\f05a&quot;;
+  content: "\f05a";
 }
 .fa-crosshairs:before {
-  content: &quot;\f05b&quot;;
+  content: "\f05b";
 }
 .fa-times-circle-o:before {
-  content: &quot;\f05c&quot;;
+  content: "\f05c";
 }
 .fa-check-circle-o:before {
-  content: &quot;\f05d&quot;;
+  content: "\f05d";
 }
 .fa-ban:before {
-  content: &quot;\f05e&quot;;
+  content: "\f05e";
 }
 .fa-arrow-left:before {
-  content: &quot;\f060&quot;;
+  content: "\f060";
 }
 .fa-arrow-right:before {
-  content: &quot;\f061&quot;;
+  content: "\f061";
 }
 .fa-arrow-up:before {
-  content: &quot;\f062&quot;;
+  content: "\f062";
 }
 .fa-arrow-down:before {
-  content: &quot;\f063&quot;;
+  content: "\f063";
 }
 .fa-mail-forward:before,
 .fa-share:before {
-  content: &quot;\f064&quot;;
+  content: "\f064";
 }
 .fa-expand:before {
-  content: &quot;\f065&quot;;
+  content: "\f065";
 }
 .fa-compress:before {
-  content: &quot;\f066&quot;;
+  content: "\f066";
 }
 .fa-plus:before {
-  content: &quot;\f067&quot;;
+  content: "\f067";
 }
 .fa-minus:before {
-  content: &quot;\f068&quot;;
+  content: "\f068";
 }
 .fa-asterisk:before {
-  content: &quot;\f069&quot;;
+  content: "\f069";
 }
 .fa-exclamation-circle:before {
-  content: &quot;\f06a&quot;;
+  content: "\f06a";
 }
 .fa-gift:before {
-  content: &quot;\f06b&quot;;
+  content: "\f06b";
 }
 .fa-leaf:before {
-  content: &quot;\f06c&quot;;
+  content: "\f06c";
 }
 .fa-fire:before {
-  content: &quot;\f06d&quot;;
+  content: "\f06d";
 }
 .fa-eye:before {
-  content: &quot;\f06e&quot;;
+  content: "\f06e";
 }
 .fa-eye-slash:before {
-  content: &quot;\f070&quot;;
+  content: "\f070";
 }
 .fa-warning:before,
 .fa-exclamation-triangle:before {
-  content: &quot;\f071&quot;;
+  content: "\f071";
 }
 .fa-plane:before {
-  content: &quot;\f072&quot;;
+  content: "\f072";
 }
 .fa-calendar:before {
-  content: &quot;\f073&quot;;
+  content: "\f073";
 }
 .fa-random:before {
-  content: &quot;\f074&quot;;
+  content: "\f074";
 }
 .fa-comment:before {
-  content: &quot;\f075&quot;;
+  content: "\f075";
 }
 .fa-magnet:before {
-  content: &quot;\f076&quot;;
+  content: "\f076";
 }
 .fa-chevron-up:before {
-  content: &quot;\f077&quot;;
+  content: "\f077";
 }
 .fa-chevron-down:before {
-  content: &quot;\f078&quot;;
+  content: "\f078";
 }
 .fa-retweet:before {
-  content: &quot;\f079&quot;;
+  content: "\f079";
 }
 .fa-shopping-cart:before {
-  content: &quot;\f07a&quot;;
+  content: "\f07a";
 }
 .fa-folder:before {
-  content: &quot;\f07b&quot;;
+  content: "\f07b";
 }
 .fa-folder-open:before {
-  content: &quot;\f07c&quot;;
+  content: "\f07c";
 }
 .fa-arrows-v:before {
-  content: &quot;\f07d&quot;;
+  content: "\f07d";
 }
 .fa-arrows-h:before {
-  content: &quot;\f07e&quot;;
+  content: "\f07e";
 }
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-  content: &quot;\f080&quot;;
+  content: "\f080";
 }
 .fa-twitter-square:before {
-  content: &quot;\f081&quot;;
+  content: "\f081";
 }
 .fa-facebook-square:before {
-  content: &quot;\f082&quot;;
+  content: "\f082";
 }
 .fa-camera-retro:before {
-  content: &quot;\f083&quot;;
+  content: "\f083";
 }
 .fa-key:before {
-  content: &quot;\f084&quot;;
+  content: "\f084";
 }
 .fa-gears:before,
 .fa-cogs:before {
-  content: &quot;\f085&quot;;
+  content: "\f085";
 }
 .fa-comments:before {
-  content: &quot;\f086&quot;;
+  content: "\f086";
 }
 .fa-thumbs-o-up:before {
-  content: &quot;\f087&quot;;
+  content: "\f087";
 }
 .fa-thumbs-o-down:before {
-  content: &quot;\f088&quot;;
+  content: "\f088";
 }
 .fa-star-half:before {
-  content: &quot;\f089&quot;;
+  content: "\f089";
 }
 .fa-heart-o:before {
-  content: &quot;\f08a&quot;;
+  content: "\f08a";
 }
 .fa-sign-out:before {
-  content: &quot;\f08b&quot;;
+  content: "\f08b";
 }
 .fa-linkedin-square:before {
-  content: &quot;\f08c&quot;;
+  content: "\f08c";
 }
 .fa-thumb-tack:before {
-  content: &quot;\f08d&quot;;
+  content: "\f08d";
 }
 .fa-external-link:before {
-  content: &quot;\f08e&quot;;
+  content: "\f08e";
 }
 .fa-sign-in:before {
-  content: &quot;\f090&quot;;
+  content: "\f090";
 }
 .fa-trophy:before {
-  content: &quot;\f091&quot;;
+  content: "\f091";
 }
 .fa-github-square:before {
-  content: &quot;\f092&quot;;
+  content: "\f092";
 }
 .fa-upload:before {
-  content: &quot;\f093&quot;;
+  content: "\f093";
 }
 .fa-lemon-o:before {
-  content: &quot;\f094&quot;;
+  content: "\f094";
 }
 .fa-phone:before {
-  content: &quot;\f095&quot;;
+  content: "\f095";
 }
 .fa-square-o:before {
-  content: &quot;\f096&quot;;
+  content: "\f096";
 }
 .fa-bookmark-o:before {
-  content: &quot;\f097&quot;;
+  content: "\f097";
 }
 .fa-phone-square:before {
-  content: &quot;\f098&quot;;
+  content: "\f098";
 }
 .fa-twitter:before {
-  content: &quot;\f099&quot;;
+  content: "\f099";
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: &quot;\f09a&quot;;
+  content: "\f09a";
 }
 .fa-github:before {
-  content: &quot;\f09b&quot;;
+  content: "\f09b";
 }
 .fa-unlock:before {
-  content: &quot;\f09c&quot;;
+  content: "\f09c";
 }
 .fa-credit-card:before {
-  content: &quot;\f09d&quot;;
+  content: "\f09d";
 }
 .fa-feed:before,
 .fa-rss:before {
-  content: &quot;\f09e&quot;;
+  content: "\f09e";
 }
 .fa-hdd-o:before {
-  content: &quot;\f0a0&quot;;
+  content: "\f0a0";
 }
 .fa-bullhorn:before {
-  content: &quot;\f0a1&quot;;
+  content: "\f0a1";
 }
 .fa-bell:before {
-  content: &quot;\f0f3&quot;;
+  content: "\f0f3";
 }
 .fa-certificate:before {
-  content: &quot;\f0a3&quot;;
+  content: "\f0a3";
 }
 .fa-hand-o-right:before {
-  content: &quot;\f0a4&quot;;
+  content: "\f0a4";
 }
 .fa-hand-o-left:before {
-  content: &quot;\f0a5&quot;;
+  content: "\f0a5";
 }
 .fa-hand-o-up:before {
-  content: &quot;\f0a6&quot;;
+  content: "\f0a6";
 }
 .fa-hand-o-down:before {
-  content: &quot;\f0a7&quot;;
+  content: "\f0a7";
 }
 .fa-arrow-circle-left:before {
-  content: &quot;\f0a8&quot;;
+  content: "\f0a8";
 }
 .fa-arrow-circle-right:before {
-  content: &quot;\f0a9&quot;;
+  content: "\f0a9";
 }
 .fa-arrow-circle-up:before {
-  content: &quot;\f0aa&quot;;
+  content: "\f0aa";
 }
 .fa-arrow-circle-down:before {
-  content: &quot;\f0ab&quot;;
+  content: "\f0ab";
 }
 .fa-globe:before {
-  content: &quot;\f0ac&quot;;
+  content: "\f0ac";
 }
 .fa-wrench:before {
-  content: &quot;\f0ad&quot;;
+  content: "\f0ad";
 }
 .fa-tasks:before {
-  content: &quot;\f0ae&quot;;
+  content: "\f0ae";
 }
 .fa-filter:before {
-  content: &quot;\f0b0&quot;;
+  content: "\f0b0";
 }
 .fa-briefcase:before {
-  content: &quot;\f0b1&quot;;
+  content: "\f0b1";
 }
 .fa-arrows-alt:before {
-  content: &quot;\f0b2&quot;;
+  content: "\f0b2";
 }
 .fa-group:before,
 .fa-users:before {
-  content: &quot;\f0c0&quot;;
+  content: "\f0c0";
 }
 .fa-chain:before,
 .fa-link:before {
-  content: &quot;\f0c1&quot;;
+  content: "\f0c1";
 }
 .fa-cloud:before {
-  content: &quot;\f0c2&quot;;
+  content: "\f0c2";
 }
 .fa-flask:before {
-  content: &quot;\f0c3&quot;;
+  content: "\f0c3";
 }
 .fa-cut:before,
 .fa-scissors:before {
-  content: &quot;\f0c4&quot;;
+  content: "\f0c4";
 }
 .fa-copy:before,
 .fa-files-o:before {
-  content: &quot;\f0c5&quot;;
+  content: "\f0c5";
 }
 .fa-paperclip:before {
-  content: &quot;\f0c6&quot;;
+  content: "\f0c6";
 }
 .fa-save:before,
 .fa-floppy-o:before {
-  content: &quot;\f0c7&quot;;
+  content: "\f0c7";
 }
 .fa-square:before {
-  content: &quot;\f0c8&quot;;
+  content: "\f0c8";
 }
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: &quot;\f0c9&quot;;
+  content: "\f0c9";
 }
 .fa-list-ul:before {
-  content: &quot;\f0ca&quot;;
+  content: "\f0ca";
 }
 .fa-list-ol:before {
-  content: &quot;\f0cb&quot;;
+  content: "\f0cb";
 }
 .fa-strikethrough:before {
-  content: &quot;\f0cc&quot;;
+  content: "\f0cc";
 }
 .fa-underline:before {
-  content: &quot;\f0cd&quot;;
+  content: "\f0cd";
 }
 .fa-table:before {
-  content: &quot;\f0ce&quot;;
+  content: "\f0ce";
 }
 .fa-magic:before {
-  content: &quot;\f0d0&quot;;
+  content: "\f0d0";
 }
 .fa-truck:before {
-  content: &quot;\f0d1&quot;;
+  content: "\f0d1";
 }
 .fa-pinterest:before {
-  content: &quot;\f0d2&quot;;
+  content: "\f0d2";
 }
 .fa-pinterest-square:before {
-  content: &quot;\f0d3&quot;;
+  content: "\f0d3";
 }
 .fa-google-plus-square:before {
-  content: &quot;\f0d4&quot;;
+  content: "\f0d4";
 }
 .fa-google-plus:before {
-  content: &quot;\f0d5&quot;;
+  content: "\f0d5";
 }
 .fa-money:before {
-  content: &quot;\f0d6&quot;;
+  content: "\f0d6";
 }
 .fa-caret-down:before {
-  content: &quot;\f0d7&quot;;
+  content: "\f0d7";
 }
 .fa-caret-up:before {
-  content: &quot;\f0d8&quot;;
+  content: "\f0d8";
 }
 .fa-caret-left:before {
-  content: &quot;\f0d9&quot;;
+  content: "\f0d9";
 }
 .fa-caret-right:before {
-  content: &quot;\f0da&quot;;
+  content: "\f0da";
 }
 .fa-columns:before {
-  content: &quot;\f0db&quot;;
+  content: "\f0db";
 }
 .fa-unsorted:before,
 .fa-sort:before {
-  content: &quot;\f0dc&quot;;
+  content: "\f0dc";
 }
 .fa-sort-down:before,
 .fa-sort-desc:before {
-  content: &quot;\f0dd&quot;;
+  content: "\f0dd";
 }
 .fa-sort-up:before,
 .fa-sort-asc:before {
-  content: &quot;\f0de&quot;;
+  content: "\f0de";
 }
 .fa-envelope:before {
-  content: &quot;\f0e0&quot;;
+  content: "\f0e0";
 }
 .fa-linkedin:before {
-  content: &quot;\f0e1&quot;;
+  content: "\f0e1";
 }
 .fa-rotate-left:before,
 .fa-undo:before {
-  content: &quot;\f0e2&quot;;
+  content: "\f0e2";
 }
 .fa-legal:before,
 .fa-gavel:before {
-  content: &quot;\f0e3&quot;;
+  content: "\f0e3";
 }
 .fa-dashboard:before,
 .fa-tachometer:before {
-  content: &quot;\f0e4&quot;;
+  content: "\f0e4";
 }
 .fa-comment-o:before {
-  content: &quot;\f0e5&quot;;
+  content: "\f0e5";
 }
 .fa-comments-o:before {
-  content: &quot;\f0e6&quot;;
+  content: "\f0e6";
 }
 .fa-flash:before,
 .fa-bolt:before {
-  content: &quot;\f0e7&quot;;
+  content: "\f0e7";
 }
 .fa-sitemap:before {
-  content: &quot;\f0e8&quot;;
+  content: "\f0e8";
 }
 .fa-umbrella:before {
-  content: &quot;\f0e9&quot;;
+  content: "\f0e9";
 }
 .fa-paste:before,
 .fa-clipboard:before {
-  content: &quot;\f0ea&quot;;
+  content: "\f0ea";
 }
 .fa-lightbulb-o:before {
-  content: &quot;\f0eb&quot;;
+  content: "\f0eb";
 }
 .fa-exchange:before {
-  content: &quot;\f0ec&quot;;
+  content: "\f0ec";
 }
 .fa-cloud-download:before {
-  content: &quot;\f0ed&quot;;
+  content: "\f0ed";
 }
 .fa-cloud-upload:before {
-  content: &quot;\f0ee&quot;;
+  content: "\f0ee";
 }
 .fa-user-md:before {
-  content: &quot;\f0f0&quot;;
+  content: "\f0f0";
 }
 .fa-stethoscope:before {
-  content: &quot;\f0f1&quot;;
+  content: "\f0f1";
 }
 .fa-suitcase:before {
-  content: &quot;\f0f2&quot;;
+  content: "\f0f2";
 }
 .fa-bell-o:before {
-  content: &quot;\f0a2&quot;;
+  content: "\f0a2";
 }
 .fa-coffee:before {
-  content: &quot;\f0f4&quot;;
+  content: "\f0f4";
 }
 .fa-cutlery:before {
-  content: &quot;\f0f5&quot;;
+  content: "\f0f5";
 }
 .fa-file-text-o:before {
-  content: &quot;\f0f6&quot;;
+  content: "\f0f6";
 }
 .fa-building-o:before {
-  content: &quot;\f0f7&quot;;
+  content: "\f0f7";
 }
 .fa-hospital-o:before {
-  content: &quot;\f0f8&quot;;
+  content: "\f0f8";
 }
 .fa-ambulance:before {
-  content: &quot;\f0f9&quot;;
+  content: "\f0f9";
 }
 .fa-medkit:before {
-  content: &quot;\f0fa&quot;;
+  content: "\f0fa";
 }
 .fa-fighter-jet:before {
-  content: &quot;\f0fb&quot;;
+  content: "\f0fb";
 }
 .fa-beer:before {
-  content: &quot;\f0fc&quot;;
+  content: "\f0fc";
 }
 .fa-h-square:before {
-  content: &quot;\f0fd&quot;;
+  content: "\f0fd";
 }
 .fa-plus-square:before {
-  content: &quot;\f0fe&quot;;
+  content: "\f0fe";
 }
 .fa-angle-double-left:before {
-  content: &quot;\f100&quot;;
+  content: "\f100";
 }
 .fa-angle-double-right:before {
-  content: &quot;\f101&quot;;
+  content: "\f101";
 }
 .fa-angle-double-up:before {
-  content: &quot;\f102&quot;;
+  content: "\f102";
 }
 .fa-angle-double-down:before {
-  content: &quot;\f103&quot;;
+  content: "\f103";
 }
 .fa-angle-left:before {
-  content: &quot;\f104&quot;;
+  content: "\f104";
 }
 .fa-angle-right:before {
-  content: &quot;\f105&quot;;
+  content: "\f105";
 }
 .fa-angle-up:before {
-  content: &quot;\f106&quot;;
+  content: "\f106";
 }
 .fa-angle-down:before {
-  content: &quot;\f107&quot;;
+  content: "\f107";
 }
 .fa-desktop:before {
-  content: &quot;\f108&quot;;
+  content: "\f108";
 }
 .fa-laptop:before {
-  content: &quot;\f109&quot;;
+  content: "\f109";
 }
 .fa-tablet:before {
-  content: &quot;\f10a&quot;;
+  content: "\f10a";
 }
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: &quot;\f10b&quot;;
+  content: "\f10b";
 }
 .fa-circle-o:before {
-  content: &quot;\f10c&quot;;
+  content: "\f10c";
 }
 .fa-quote-left:before {
-  content: &quot;\f10d&quot;;
+  content: "\f10d";
 }
 .fa-quote-right:before {
-  content: &quot;\f10e&quot;;
+  content: "\f10e";
 }
 .fa-spinner:before {
-  content: &quot;\f110&quot;;
+  content: "\f110";
 }
 .fa-circle:before {
-  content: &quot;\f111&quot;;
+  content: "\f111";
 }
 .fa-mail-reply:before,
 .fa-reply:before {
-  content: &quot;\f112&quot;;
+  content: "\f112";
 }
 .fa-github-alt:before {
-  content: &quot;\f113&quot;;
+  content: "\f113";
 }
 .fa-folder-o:before {
-  content: &quot;\f114&quot;;
+  content: "\f114";
 }
 .fa-folder-open-o:before {
-  content: &quot;\f115&quot;;
+  content: "\f115";
 }
 .fa-smile-o:before {
-  content: &quot;\f118&quot;;
+  content: "\f118";
 }
 .fa-frown-o:before {
-  content: &quot;\f119&quot;;
+  content: "\f119";
 }
 .fa-meh-o:before {
-  content: &quot;\f11a&quot;;
+  content: "\f11a";
 }
 .fa-gamepad:before {
-  content: &quot;\f11b&quot;;
+  content: "\f11b";
 }
 .fa-keyboard-o:before {
-  content: &quot;\f11c&quot;;
+  content: "\f11c";
 }
 .fa-flag-o:before {
-  content: &quot;\f11d&quot;;
+  content: "\f11d";
 }
 .fa-flag-checkered:before {
-  content: &quot;\f11e&quot;;
+  content: "\f11e";
 }
 .fa-terminal:before {
-  content: &quot;\f120&quot;;
+  content: "\f120";
 }
 .fa-code:before {
-  content: &quot;\f121&quot;;
+  content: "\f121";
 }
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: &quot;\f122&quot;;
+  content: "\f122";
 }
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-  content: &quot;\f123&quot;;
+  content: "\f123";
 }
 .fa-location-arrow:before {
-  content: &quot;\f124&quot;;
+  content: "\f124";
 }
 .fa-crop:before {
-  content: &quot;\f125&quot;;
+  content: "\f125";
 }
 .fa-code-fork:before {
-  content: &quot;\f126&quot;;
+  content: "\f126";
 }
 .fa-unlink:before,
 .fa-chain-broken:before {
-  content: &quot;\f127&quot;;
+  content: "\f127";
 }
 .fa-question:before {
-  content: &quot;\f128&quot;;
+  content: "\f128";
 }
 .fa-info:before {
-  content: &quot;\f129&quot;;
+  content: "\f129";
 }
 .fa-exclamation:before {
-  content: &quot;\f12a&quot;;
+  content: "\f12a";
 }
 .fa-superscript:before {
-  content: &quot;\f12b&quot;;
+  content: "\f12b";
 }
 .fa-subscript:before {
-  content: &quot;\f12c&quot;;
+  content: "\f12c";
 }
 .fa-eraser:before {
-  content: &quot;\f12d&quot;;
+  content: "\f12d";
 }
 .fa-puzzle-piece:before {
-  content: &quot;\f12e&quot;;
+  content: "\f12e";
 }
 .fa-microphone:before {
-  content: &quot;\f130&quot;;
+  content: "\f130";
 }
 .fa-microphone-slash:before {
-  content: &quot;\f131&quot;;
+  content: "\f131";
 }
 .fa-shield:before {
-  content: &quot;\f132&quot;;
+  content: "\f132";
 }
 .fa-calendar-o:before {
-  content: &quot;\f133&quot;;
+  content: "\f133";
 }
 .fa-fire-extinguisher:before {
-  content: &quot;\f134&quot;;
+  content: "\f134";
 }
 .fa-rocket:before {
-  content: &quot;\f135&quot;;
+  content: "\f135";
 }
 .fa-maxcdn:before {
-  content: &quot;\f136&quot;;
+  content: "\f136";
 }
 .fa-chevron-circle-left:before {
-  content: &quot;\f137&quot;;
+  content: "\f137";
 }
 .fa-chevron-circle-right:before {
-  content: &quot;\f138&quot;;
+  content: "\f138";
 }
 .fa-chevron-circle-up:before {
-  content: &quot;\f139&quot;;
+  content: "\f139";
 }
 .fa-chevron-circle-down:before {
-  content: &quot;\f13a&quot;;
+  content: "\f13a";
 }
 .fa-html5:before {
-  content: &quot;\f13b&quot;;
+  content: "\f13b";
 }
 .fa-css3:before {
-  content: &quot;\f13c&quot;;
+  content: "\f13c";
 }
 .fa-anchor:before {
-  content: &quot;\f13d&quot;;
+  content: "\f13d";
 }
 .fa-unlock-alt:before {
-  content: &quot;\f13e&quot;;
+  content: "\f13e";
 }
 .fa-bullseye:before {
-  content: &quot;\f140&quot;;
+  content: "\f140";
 }
 .fa-ellipsis-h:before {
-  content: &quot;\f141&quot;;
+  content: "\f141";
 }
 .fa-ellipsis-v:before {
-  content: &quot;\f142&quot;;
+  content: "\f142";
 }
 .fa-rss-square:before {
-  content: &quot;\f143&quot;;
+  content: "\f143";
 }
 .fa-play-circle:before {
-  content: &quot;\f144&quot;;
+  content: "\f144";
 }
 .fa-ticket:before {
-  content: &quot;\f145&quot;;
+  content: "\f145";
 }
 .fa-minus-square:before {
-  content: &quot;\f146&quot;;
+  content: "\f146";
 }
 .fa-minus-square-o:before {
-  content: &quot;\f147&quot;;
+  content: "\f147";
 }
 .fa-level-up:before {
-  content: &quot;\f148&quot;;
+  content: "\f148";
 }
 .fa-level-down:before {
-  content: &quot;\f149&quot;;
+  content: "\f149";
 }
 .fa-check-square:before {
-  content: &quot;\f14a&quot;;
+  content: "\f14a";
 }
 .fa-pencil-square:before {
-  content: &quot;\f14b&quot;;
+  content: "\f14b";
 }
 .fa-external-link-square:before {
-  content: &quot;\f14c&quot;;
+  content: "\f14c";
 }
 .fa-share-square:before {
-  content: &quot;\f14d&quot;;
+  content: "\f14d";
 }
 .fa-compass:before {
-  content: &quot;\f14e&quot;;
+  content: "\f14e";
 }
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
-  content: &quot;\f150&quot;;
+  content: "\f150";
 }
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
-  content: &quot;\f151&quot;;
+  content: "\f151";
 }
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
-  content: &quot;\f152&quot;;
+  content: "\f152";
 }
 .fa-euro:before,
 .fa-eur:before {
-  content: &quot;\f153&quot;;
+  content: "\f153";
 }
 .fa-gbp:before {
-  content: &quot;\f154&quot;;
+  content: "\f154";
 }
 .fa-dollar:before,
 .fa-usd:before {
-  content: &quot;\f155&quot;;
+  content: "\f155";
 }
 .fa-rupee:before,
 .fa-inr:before {
-  content: &quot;\f156&quot;;
+  content: "\f156";
 }
 .fa-cny:before,
 .fa-rmb:before,
 .fa-yen:before,
 .fa-jpy:before {
-  content: &quot;\f157&quot;;
+  content: "\f157";
 }
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
-  content: &quot;\f158&quot;;
+  content: "\f158";
 }
 .fa-won:before,
 .fa-krw:before {
-  content: &quot;\f159&quot;;
+  content: "\f159";
 }
 .fa-bitcoin:before,
 .fa-btc:before {
-  content: &quot;\f15a&quot;;
+  content: "\f15a";
 }
 .fa-file:before {
-  content: &quot;\f15b&quot;;
+  content: "\f15b";
 }
 .fa-file-text:before {
-  content: &quot;\f15c&quot;;
+  content: "\f15c";
 }
 .fa-sort-alpha-asc:before {
-  content: &quot;\f15d&quot;;
+  content: "\f15d";
 }
 .fa-sort-alpha-desc:before {
-  content: &quot;\f15e&quot;;
+  content: "\f15e";
 }
 .fa-sort-amount-asc:before {
-  content: &quot;\f160&quot;;
+  content: "\f160";
 }
 .fa-sort-amount-desc:before {
-  content: &quot;\f161&quot;;
+  content: "\f161";
 }
 .fa-sort-numeric-asc:before {
-  content: &quot;\f162&quot;;
+  content: "\f162";
 }
 .fa-sort-numeric-desc:before {
-  content: &quot;\f163&quot;;
+  content: "\f163";
 }
 .fa-thumbs-up:before {
-  content: &quot;\f164&quot;;
+  content: "\f164";
 }
 .fa-thumbs-down:before {
-  content: &quot;\f165&quot;;
+  content: "\f165";
 }
 .fa-youtube-square:before {
-  content: &quot;\f166&quot;;
+  content: "\f166";
 }
 .fa-youtube:before {
-  content: &quot;\f167&quot;;
+  content: "\f167";
 }
 .fa-xing:before {
-  content: &quot;\f168&quot;;
+  content: "\f168";
 }
 .fa-xing-square:before {
-  content: &quot;\f169&quot;;
+  content: "\f169";
 }
 .fa-youtube-play:before {
-  content: &quot;\f16a&quot;;
+  content: "\f16a";
 }
 .fa-dropbox:before {
-  content: &quot;\f16b&quot;;
+  content: "\f16b";
 }
 .fa-stack-overflow:before {
-  content: &quot;\f16c&quot;;
+  content: "\f16c";
 }
 .fa-instagram:before {
-  content: &quot;\f16d&quot;;
+  content: "\f16d";
 }
 .fa-flickr:before {
-  content: &quot;\f16e&quot;;
+  content: "\f16e";
 }
 .fa-adn:before {
-  content: &quot;\f170&quot;;
+  content: "\f170";
 }
 .fa-bitbucket:before {
-  content: &quot;\f171&quot;;
+  content: "\f171";
 }
 .fa-bitbucket-square:before {
-  content: &quot;\f172&quot;;
+  content: "\f172";
 }
 .fa-tumblr:before {
-  content: &quot;\f173&quot;;
+  content: "\f173";
 }
 .fa-tumblr-square:before {
-  content: &quot;\f174&quot;;
+  content: "\f174";
 }
 .fa-long-arrow-down:before {
-  content: &quot;\f175&quot;;
+  content: "\f175";
 }
 .fa-long-arrow-up:before {
-  content: &quot;\f176&quot;;
+  content: "\f176";
 }
 .fa-long-arrow-left:before {
-  content: &quot;\f177&quot;;
+  content: "\f177";
 }
 .fa-long-arrow-right:before {
-  content: &quot;\f178&quot;;
+  content: "\f178";
 }
 .fa-apple:before {
-  content: &quot;\f179&quot;;
+  content: "\f179";
 }
 .fa-windows:before {
-  content: &quot;\f17a&quot;;
+  content: "\f17a";
 }
 .fa-android:before {
-  content: &quot;\f17b&quot;;
+  content: "\f17b";
 }
 .fa-linux:before {
-  content: &quot;\f17c&quot;;
+  content: "\f17c";
 }
 .fa-dribbble:before {
-  content: &quot;\f17d&quot;;
+  content: "\f17d";
 }
 .fa-skype:before {
-  content: &quot;\f17e&quot;;
+  content: "\f17e";
 }
 .fa-foursquare:before {
-  content: &quot;\f180&quot;;
+  content: "\f180";
 }
 .fa-trello:before {
-  content: &quot;\f181&quot;;
+  content: "\f181";
 }
 .fa-female:before {
-  content: &quot;\f182&quot;;
+  content: "\f182";
 }
 .fa-male:before {
-  content: &quot;\f183&quot;;
+  content: "\f183";
 }
 .fa-gittip:before,
 .fa-gratipay:before {
-  content: &quot;\f184&quot;;
+  content: "\f184";
 }
 .fa-sun-o:before {
-  content: &quot;\f185&quot;;
+  content: "\f185";
 }
 .fa-moon-o:before {
-  content: &quot;\f186&quot;;
+  content: "\f186";
 }
 .fa-archive:before {
-  content: &quot;\f187&quot;;
+  content: "\f187";
 }
 .fa-bug:before {
-  content: &quot;\f188&quot;;
+  content: "\f188";
 }
 .fa-vk:before {
-  content: &quot;\f189&quot;;
+  content: "\f189";
 }
 .fa-weibo:before {
-  content: &quot;\f18a&quot;;
+  content: "\f18a";
 }
 .fa-renren:before {
-  content: &quot;\f18b&quot;;
+  content: "\f18b";
 }
 .fa-pagelines:before {
-  content: &quot;\f18c&quot;;
+  content: "\f18c";
 }
 .fa-stack-exchange:before {
-  content: &quot;\f18d&quot;;
+  content: "\f18d";
 }
 .fa-arrow-circle-o-right:before {
-  content: &quot;\f18e&quot;;
+  content: "\f18e";
 }
 .fa-arrow-circle-o-left:before {
-  content: &quot;\f190&quot;;
+  content: "\f190";
 }
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
-  content: &quot;\f191&quot;;
+  content: "\f191";
 }
 .fa-dot-circle-o:before {
-  content: &quot;\f192&quot;;
+  content: "\f192";
 }
 .fa-wheelchair:before {
-  content: &quot;\f193&quot;;
+  content: "\f193";
 }
 .fa-vimeo-square:before {
-  content: &quot;\f194&quot;;
+  content: "\f194";
 }
 .fa-turkish-lira:before,
 .fa-try:before {
-  content: &quot;\f195&quot;;
+  content: "\f195";
 }
 .fa-plus-square-o:before {
-  content: &quot;\f196&quot;;
+  content: "\f196";
 }
 .fa-space-shuttle:before {
-  content: &quot;\f197&quot;;
+  content: "\f197";
 }
 .fa-slack:before {
-  content: &quot;\f198&quot;;
+  content: "\f198";
 }
 .fa-envelope-square:before {
-  content: &quot;\f199&quot;;
+  content: "\f199";
 }
 .fa-wordpress:before {
-  content: &quot;\f19a&quot;;
+  content: "\f19a";
 }
 .fa-openid:before {
-  content: &quot;\f19b&quot;;
+  content: "\f19b";
 }
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  content: &quot;\f19c&quot;;
+  content: "\f19c";
 }
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: &quot;\f19d&quot;;
+  content: "\f19d";
 }
 .fa-yahoo:before {
-  content: &quot;\f19e&quot;;
+  content: "\f19e";
 }
 .fa-google:before {
-  content: &quot;\f1a0&quot;;
+  content: "\f1a0";
 }
 .fa-reddit:before {
-  content: &quot;\f1a1&quot;;
+  content: "\f1a1";
 }
 .fa-reddit-square:before {
-  content: &quot;\f1a2&quot;;
+  content: "\f1a2";
 }
 .fa-stumbleupon-circle:before {
-  content: &quot;\f1a3&quot;;
+  content: "\f1a3";
 }
 .fa-stumbleupon:before {
-  content: &quot;\f1a4&quot;;
+  content: "\f1a4";
 }
 .fa-delicious:before {
-  content: &quot;\f1a5&quot;;
+  content: "\f1a5";
 }
 .fa-digg:before {
-  content: &quot;\f1a6&quot;;
+  content: "\f1a6";
 }
 .fa-pied-piper-pp:before {
-  content: &quot;\f1a7&quot;;
+  content: "\f1a7";
 }
 .fa-pied-piper-alt:before {
-  content: &quot;\f1a8&quot;;
+  content: "\f1a8";
 }
 .fa-drupal:before {
-  content: &quot;\f1a9&quot;;
+  content: "\f1a9";
 }
 .fa-joomla:before {
-  content: &quot;\f1aa&quot;;
+  content: "\f1aa";
 }
 .fa-language:before {
-  content: &quot;\f1ab&quot;;
+  content: "\f1ab";
 }
 .fa-fax:before {
-  content: &quot;\f1ac&quot;;
+  content: "\f1ac";
 }
 .fa-building:before {
-  content: &quot;\f1ad&quot;;
+  content: "\f1ad";
 }
 .fa-child:before {
-  content: &quot;\f1ae&quot;;
+  content: "\f1ae";
 }
 .fa-paw:before {
-  content: &quot;\f1b0&quot;;
+  content: "\f1b0";
 }
 .fa-spoon:before {
-  content: &quot;\f1b1&quot;;
+  content: "\f1b1";
 }
 .fa-cube:before {
-  content: &quot;\f1b2&quot;;
+  content: "\f1b2";
 }
 .fa-cubes:before {
-  content: &quot;\f1b3&quot;;
+  content: "\f1b3";
 }
 .fa-behance:before {
-  content: &quot;\f1b4&quot;;
+  content: "\f1b4";
 }
 .fa-behance-square:before {
-  content: &quot;\f1b5&quot;;
+  content: "\f1b5";
 }
 .fa-steam:before {
-  content: &quot;\f1b6&quot;;
+  content: "\f1b6";
 }
 .fa-steam-square:before {
-  content: &quot;\f1b7&quot;;
+  content: "\f1b7";
 }
 .fa-recycle:before {
-  content: &quot;\f1b8&quot;;
+  content: "\f1b8";
 }
 .fa-automobile:before,
 .fa-car:before {
-  content: &quot;\f1b9&quot;;
+  content: "\f1b9";
 }
 .fa-cab:before,
 .fa-taxi:before {
-  content: &quot;\f1ba&quot;;
+  content: "\f1ba";
 }
 .fa-tree:before {
-  content: &quot;\f1bb&quot;;
+  content: "\f1bb";
 }
 .fa-spotify:before {
-  content: &quot;\f1bc&quot;;
+  content: "\f1bc";
 }
 .fa-deviantart:before {
-  content: &quot;\f1bd&quot;;
+  content: "\f1bd";
 }
 .fa-soundcloud:before {
-  content: &quot;\f1be&quot;;
+  content: "\f1be";
 }
 .fa-database:before {
-  content: &quot;\f1c0&quot;;
+  content: "\f1c0";
 }
 .fa-file-pdf-o:before {
-  content: &quot;\f1c1&quot;;
+  content: "\f1c1";
 }
 .fa-file-word-o:before {
-  content: &quot;\f1c2&quot;;
+  content: "\f1c2";
 }
 .fa-file-excel-o:before {
-  content: &quot;\f1c3&quot;;
+  content: "\f1c3";
 }
 .fa-file-powerpoint-o:before {
-  content: &quot;\f1c4&quot;;
+  content: "\f1c4";
 }
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
-  content: &quot;\f1c5&quot;;
+  content: "\f1c5";
 }
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
-  content: &quot;\f1c6&quot;;
+  content: "\f1c6";
 }
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
-  content: &quot;\f1c7&quot;;
+  content: "\f1c7";
 }
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-  content: &quot;\f1c8&quot;;
+  content: "\f1c8";
 }
 .fa-file-code-o:before {
-  content: &quot;\f1c9&quot;;
+  content: "\f1c9";
 }
 .fa-vine:before {
-  content: &quot;\f1ca&quot;;
+  content: "\f1ca";
 }
 .fa-codepen:before {
-  content: &quot;\f1cb&quot;;
+  content: "\f1cb";
 }
 .fa-jsfiddle:before {
-  content: &quot;\f1cc&quot;;
+  content: "\f1cc";
 }
 .fa-life-bouy:before,
 .fa-life-buoy:before,
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
-  content: &quot;\f1cd&quot;;
+  content: "\f1cd";
 }
 .fa-circle-o-notch:before {
-  content: &quot;\f1ce&quot;;
+  content: "\f1ce";
 }
 .fa-ra:before,
 .fa-resistance:before,
 .fa-rebel:before {
-  content: &quot;\f1d0&quot;;
+  content: "\f1d0";
 }
 .fa-ge:before,
 .fa-empire:before {
-  content: &quot;\f1d1&quot;;
+  content: "\f1d1";
 }
 .fa-git-square:before {
-  content: &quot;\f1d2&quot;;
+  content: "\f1d2";
 }
 .fa-git:before {
-  content: &quot;\f1d3&quot;;
+  content: "\f1d3";
 }
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {
-  content: &quot;\f1d4&quot;;
+  content: "\f1d4";
 }
 .fa-tencent-weibo:before {
-  content: &quot;\f1d5&quot;;
+  content: "\f1d5";
 }
 .fa-qq:before {
-  content: &quot;\f1d6&quot;;
+  content: "\f1d6";
 }
 .fa-wechat:before,
 .fa-weixin:before {
-  content: &quot;\f1d7&quot;;
+  content: "\f1d7";
 }
 .fa-send:before,
 .fa-paper-plane:before {
-  content: &quot;\f1d8&quot;;
+  content: "\f1d8";
 }
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: &quot;\f1d9&quot;;
+  content: "\f1d9";
 }
 .fa-history:before {
-  content: &quot;\f1da&quot;;
+  content: "\f1da";
 }
 .fa-circle-thin:before {
-  content: &quot;\f1db&quot;;
+  content: "\f1db";
 }
 .fa-header:before {
-  content: &quot;\f1dc&quot;;
+  content: "\f1dc";
 }
 .fa-paragraph:before {
-  content: &quot;\f1dd&quot;;
+  content: "\f1dd";
 }
 .fa-sliders:before {
-  content: &quot;\f1de&quot;;
+  content: "\f1de";
 }
 .fa-share-alt:before {
-  content: &quot;\f1e0&quot;;
+  content: "\f1e0";
 }
 .fa-share-alt-square:before {
-  content: &quot;\f1e1&quot;;
+  content: "\f1e1";
 }
 .fa-bomb:before {
-  content: &quot;\f1e2&quot;;
+  content: "\f1e2";
 }
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
-  content: &quot;\f1e3&quot;;
+  content: "\f1e3";
 }
 .fa-tty:before {
-  content: &quot;\f1e4&quot;;
+  content: "\f1e4";
 }
 .fa-binoculars:before {
-  content: &quot;\f1e5&quot;;
+  content: "\f1e5";
 }
 .fa-plug:before {
-  content: &quot;\f1e6&quot;;
+  content: "\f1e6";
 }
 .fa-slideshare:before {
-  content: &quot;\f1e7&quot;;
+  content: "\f1e7";
 }
 .fa-twitch:before {
-  content: &quot;\f1e8&quot;;
+  content: "\f1e8";
 }
 .fa-yelp:before {
-  content: &quot;\f1e9&quot;;
+  content: "\f1e9";
 }
 .fa-newspaper-o:before {
-  content: &quot;\f1ea&quot;;
+  content: "\f1ea";
 }
 .fa-wifi:before {
-  content: &quot;\f1eb&quot;;
+  content: "\f1eb";
 }
 .fa-calculator:before {
-  content: &quot;\f1ec&quot;;
+  content: "\f1ec";
 }
 .fa-paypal:before {
-  content: &quot;\f1ed&quot;;
+  content: "\f1ed";
 }
 .fa-google-wallet:before {
-  content: &quot;\f1ee&quot;;
+  content: "\f1ee";
 }
 .fa-cc-visa:before {
-  content: &quot;\f1f0&quot;;
+  content: "\f1f0";
 }
 .fa-cc-mastercard:before {
-  content: &quot;\f1f1&quot;;
+  content: "\f1f1";
 }
 .fa-cc-discover:before {
-  content: &quot;\f1f2&quot;;
+  content: "\f1f2";
 }
 .fa-cc-amex:before {
-  content: &quot;\f1f3&quot;;
+  content: "\f1f3";
 }
 .fa-cc-paypal:before {
-  content: &quot;\f1f4&quot;;
+  content: "\f1f4";
 }
 .fa-cc-stripe:before {
-  content: &quot;\f1f5&quot;;
+  content: "\f1f5";
 }
 .fa-bell-slash:before {
-  content: &quot;\f1f6&quot;;
+  content: "\f1f6";
 }
 .fa-bell-slash-o:before {
-  content: &quot;\f1f7&quot;;
+  content: "\f1f7";
 }
 .fa-trash:before {
-  content: &quot;\f1f8&quot;;
+  content: "\f1f8";
 }
 .fa-copyright:before {
-  content: &quot;\f1f9&quot;;
+  content: "\f1f9";
 }
 .fa-at:before {
-  content: &quot;\f1fa&quot;;
+  content: "\f1fa";
 }
 .fa-eyedropper:before {
-  content: &quot;\f1fb&quot;;
+  content: "\f1fb";
 }
 .fa-paint-brush:before {
-  content: &quot;\f1fc&quot;;
+  content: "\f1fc";
 }
 .fa-birthday-cake:before {
-  content: &quot;\f1fd&quot;;
+  content: "\f1fd";
 }
 .fa-area-chart:before {
-  content: &quot;\f1fe&quot;;
+  content: "\f1fe";
 }
 .fa-pie-chart:before {
-  content: &quot;\f200&quot;;
+  content: "\f200";
 }
 .fa-line-chart:before {
-  content: &quot;\f201&quot;;
+  content: "\f201";
 }
 .fa-lastfm:before {
-  content: &quot;\f202&quot;;
+  content: "\f202";
 }
 .fa-lastfm-square:before {
-  content: &quot;\f203&quot;;
+  content: "\f203";
 }
 .fa-toggle-off:before {
-  content: &quot;\f204&quot;;
+  content: "\f204";
 }
 .fa-toggle-on:before {
-  content: &quot;\f205&quot;;
+  content: "\f205";
 }
 .fa-bicycle:before {
-  content: &quot;\f206&quot;;
+  content: "\f206";
 }
 .fa-bus:before {
-  content: &quot;\f207&quot;;
+  content: "\f207";
 }
 .fa-ioxhost:before {
-  content: &quot;\f208&quot;;
+  content: "\f208";
 }
 .fa-angellist:before {
-  content: &quot;\f209&quot;;
+  content: "\f209";
 }
 .fa-cc:before {
-  content: &quot;\f20a&quot;;
+  content: "\f20a";
 }
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
-  content: &quot;\f20b&quot;;
+  content: "\f20b";
 }
 .fa-meanpath:before {
-  content: &quot;\f20c&quot;;
+  content: "\f20c";
 }
 .fa-buysellads:before {
-  content: &quot;\f20d&quot;;
+  content: "\f20d";
 }
 .fa-connectdevelop:before {
-  content: &quot;\f20e&quot;;
+  content: "\f20e";
 }
 .fa-dashcube:before {
-  content: &quot;\f210&quot;;
+  content: "\f210";
 }
 .fa-forumbee:before {
-  content: &quot;\f211&quot;;
+  content: "\f211";
 }
 .fa-leanpub:before {
-  content: &quot;\f212&quot;;
+  content: "\f212";
 }
 .fa-sellsy:before {
-  content: &quot;\f213&quot;;
+  content: "\f213";
 }
 .fa-shirtsinbulk:before {
-  content: &quot;\f214&quot;;
+  content: "\f214";
 }
 .fa-simplybuilt:before {
-  content: &quot;\f215&quot;;
+  content: "\f215";
 }
 .fa-skyatlas:before {
-  content: &quot;\f216&quot;;
+  content: "\f216";
 }
 .fa-cart-plus:before {
-  content: &quot;\f217&quot;;
+  content: "\f217";
 }
 .fa-cart-arrow-down:before {
-  content: &quot;\f218&quot;;
+  content: "\f218";
 }
 .fa-diamond:before {
-  content: &quot;\f219&quot;;
+  content: "\f219";
 }
 .fa-ship:before {
-  content: &quot;\f21a&quot;;
+  content: "\f21a";
 }
 .fa-user-secret:before {
-  content: &quot;\f21b&quot;;
+  content: "\f21b";
 }
 .fa-motorcycle:before {
-  content: &quot;\f21c&quot;;
+  content: "\f21c";
 }
 .fa-street-view:before {
-  content: &quot;\f21d&quot;;
+  content: "\f21d";
 }
 .fa-heartbeat:before {
-  content: &quot;\f21e&quot;;
+  content: "\f21e";
 }
 .fa-venus:before {
-  content: &quot;\f221&quot;;
+  content: "\f221";
 }
 .fa-mars:before {
-  content: &quot;\f222&quot;;
+  content: "\f222";
 }
 .fa-mercury:before {
-  content: &quot;\f223&quot;;
+  content: "\f223";
 }
 .fa-intersex:before,
 .fa-transgender:before {
-  content: &quot;\f224&quot;;
+  content: "\f224";
 }
 .fa-transgender-alt:before {
-  content: &quot;\f225&quot;;
+  content: "\f225";
 }
 .fa-venus-double:before {
-  content: &quot;\f226&quot;;
+  content: "\f226";
 }
 .fa-mars-double:before {
-  content: &quot;\f227&quot;;
+  content: "\f227";
 }
 .fa-venus-mars:before {
-  content: &quot;\f228&quot;;
+  content: "\f228";
 }
 .fa-mars-stroke:before {
-  content: &quot;\f229&quot;;
+  content: "\f229";
 }
 .fa-mars-stroke-v:before {
-  content: &quot;\f22a&quot;;
+  content: "\f22a";
 }
 .fa-mars-stroke-h:before {
-  content: &quot;\f22b&quot;;
+  content: "\f22b";
 }
 .fa-neuter:before {
-  content: &quot;\f22c&quot;;
+  content: "\f22c";
 }
 .fa-genderless:before {
-  content: &quot;\f22d&quot;;
+  content: "\f22d";
 }
 .fa-facebook-official:before {
-  content: &quot;\f230&quot;;
+  content: "\f230";
 }
 .fa-pinterest-p:before {
-  content: &quot;\f231&quot;;
+  content: "\f231";
 }
 .fa-whatsapp:before {
-  content: &quot;\f232&quot;;
+  content: "\f232";
 }
 .fa-server:before {
-  content: &quot;\f233&quot;;
+  content: "\f233";
 }
 .fa-user-plus:before {
-  content: &quot;\f234&quot;;
+  content: "\f234";
 }
 .fa-user-times:before {
-  content: &quot;\f235&quot;;
+  content: "\f235";
 }
 .fa-hotel:before,
 .fa-bed:before {
-  content: &quot;\f236&quot;;
+  content: "\f236";
 }
 .fa-viacoin:before {
-  content: &quot;\f237&quot;;
+  content: "\f237";
 }
 .fa-train:before {
-  content: &quot;\f238&quot;;
+  content: "\f238";
 }
 .fa-subway:before {
-  content: &quot;\f239&quot;;
+  content: "\f239";
 }
 .fa-medium:before {
-  content: &quot;\f23a&quot;;
+  content: "\f23a";
 }
 .fa-yc:before,
 .fa-y-combinator:before {
-  content: &quot;\f23b&quot;;
+  content: "\f23b";
 }
 .fa-optin-monster:before {
-  content: &quot;\f23c&quot;;
+  content: "\f23c";
 }
 .fa-opencart:before {
-  content: &quot;\f23d&quot;;
+  content: "\f23d";
 }
 .fa-expeditedssl:before {
-  content: &quot;\f23e&quot;;
+  content: "\f23e";
 }
 .fa-battery-4:before,
 .fa-battery:before,
 .fa-battery-full:before {
-  content: &quot;\f240&quot;;
+  content: "\f240";
 }
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-  content: &quot;\f241&quot;;
+  content: "\f241";
 }
 .fa-battery-2:before,
 .fa-battery-half:before {
-  content: &quot;\f242&quot;;
+  content: "\f242";
 }
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-  content: &quot;\f243&quot;;
+  content: "\f243";
 }
 .fa-battery-0:before,
 .fa-battery-empty:before {
-  content: &quot;\f244&quot;;
+  content: "\f244";
 }
 .fa-mouse-pointer:before {
-  content: &quot;\f245&quot;;
+  content: "\f245";
 }
 .fa-i-cursor:before {
-  content: &quot;\f246&quot;;
+  content: "\f246";
 }
 .fa-object-group:before {
-  content: &quot;\f247&quot;;
+  content: "\f247";
 }
 .fa-object-ungroup:before {
-  content: &quot;\f248&quot;;
+  content: "\f248";
 }
 .fa-sticky-note:before {
-  content: &quot;\f249&quot;;
+  content: "\f249";
 }
 .fa-sticky-note-o:before {
-  content: &quot;\f24a&quot;;
+  content: "\f24a";
 }
 .fa-cc-jcb:before {
-  content: &quot;\f24b&quot;;
+  content: "\f24b";
 }
 .fa-cc-diners-club:before {
-  content: &quot;\f24c&quot;;
+  content: "\f24c";
 }
 .fa-clone:before {
-  content: &quot;\f24d&quot;;
+  content: "\f24d";
 }
 .fa-balance-scale:before {
-  content: &quot;\f24e&quot;;
+  content: "\f24e";
 }
 .fa-hourglass-o:before {
-  content: &quot;\f250&quot;;
+  content: "\f250";
 }
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-  content: &quot;\f251&quot;;
+  content: "\f251";
 }
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-  content: &quot;\f252&quot;;
+  content: "\f252";
 }
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-  content: &quot;\f253&quot;;
+  content: "\f253";
 }
 .fa-hourglass:before {
-  content: &quot;\f254&quot;;
+  content: "\f254";
 }
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-  content: &quot;\f255&quot;;
+  content: "\f255";
 }
 .fa-hand-stop-o:before,
 .fa-hand-paper-o:before {
-  content: &quot;\f256&quot;;
+  content: "\f256";
 }
 .fa-hand-scissors-o:before {
-  content: &quot;\f257&quot;;
+  content: "\f257";
 }
 .fa-hand-lizard-o:before {
-  content: &quot;\f258&quot;;
+  content: "\f258";
 }
 .fa-hand-spock-o:before {
-  content: &quot;\f259&quot;;
+  content: "\f259";
 }
 .fa-hand-pointer-o:before {
-  content: &quot;\f25a&quot;;
+  content: "\f25a";
 }
 .fa-hand-peace-o:before {
-  content: &quot;\f25b&quot;;
+  content: "\f25b";
 }
 .fa-trademark:before {
-  content: &quot;\f25c&quot;;
+  content: "\f25c";
 }
 .fa-registered:before {
-  content: &quot;\f25d&quot;;
+  content: "\f25d";
 }
 .fa-creative-commons:before {
-  content: &quot;\f25e&quot;;
+  content: "\f25e";
 }
 .fa-gg:before {
-  content: &quot;\f260&quot;;
+  content: "\f260";
 }
 .fa-gg-circle:before {
-  content: &quot;\f261&quot;;
+  content: "\f261";
 }
 .fa-tripadvisor:before {
-  content: &quot;\f262&quot;;
+  content: "\f262";
 }
 .fa-odnoklassniki:before {
-  content: &quot;\f263&quot;;
+  content: "\f263";
 }
 .fa-odnoklassniki-square:before {
-  content: &quot;\f264&quot;;
+  content: "\f264";
 }
 .fa-get-pocket:before {
-  content: &quot;\f265&quot;;
+  content: "\f265";
 }
 .fa-wikipedia-w:before {
-  content: &quot;\f266&quot;;
+  content: "\f266";
 }
 .fa-safari:before {
-  content: &quot;\f267&quot;;
+  content: "\f267";
 }
 .fa-chrome:before {
-  content: &quot;\f268&quot;;
+  content: "\f268";
 }
 .fa-firefox:before {
-  content: &quot;\f269&quot;;
+  content: "\f269";
 }
 .fa-opera:before {
-  content: &quot;\f26a&quot;;
+  content: "\f26a";
 }
 .fa-internet-explorer:before {
-  content: &quot;\f26b&quot;;
+  content: "\f26b";
 }
 .fa-tv:before,
 .fa-television:before {
-  content: &quot;\f26c&quot;;
+  content: "\f26c";
 }
 .fa-contao:before {
-  content: &quot;\f26d&quot;;
+  content: "\f26d";
 }
 .fa-500px:before {
-  content: &quot;\f26e&quot;;
+  content: "\f26e";
 }
 .fa-amazon:before {
-  content: &quot;\f270&quot;;
+  content: "\f270";
 }
 .fa-calendar-plus-o:before {
-  content: &quot;\f271&quot;;
+  content: "\f271";
 }
 .fa-calendar-minus-o:before {
-  content: &quot;\f272&quot;;
+  content: "\f272";
 }
 .fa-calendar-times-o:before {
-  content: &quot;\f273&quot;;
+  content: "\f273";
 }
 .fa-calendar-check-o:before {
-  content: &quot;\f274&quot;;
+  content: "\f274";
 }
 .fa-industry:before {
-  content: &quot;\f275&quot;;
+  content: "\f275";
 }
 .fa-map-pin:before {
-  content: &quot;\f276&quot;;
+  content: "\f276";
 }
 .fa-map-signs:before {
-  content: &quot;\f277&quot;;
+  content: "\f277";
 }
 .fa-map-o:before {
-  content: &quot;\f278&quot;;
+  content: "\f278";
 }
 .fa-map:before {
-  content: &quot;\f279&quot;;
+  content: "\f279";
 }
 .fa-commenting:before {
-  content: &quot;\f27a&quot;;
+  content: "\f27a";
 }
 .fa-commenting-o:before {
-  content: &quot;\f27b&quot;;
+  content: "\f27b";
 }
 .fa-houzz:before {
-  content: &quot;\f27c&quot;;
+  content: "\f27c";
 }
 .fa-vimeo:before {
-  content: &quot;\f27d&quot;;
+  content: "\f27d";
 }
 .fa-black-tie:before {
-  content: &quot;\f27e&quot;;
+  content: "\f27e";
 }
 .fa-fonticons:before {
-  content: &quot;\f280&quot;;
+  content: "\f280";
 }
 .fa-reddit-alien:before {
-  content: &quot;\f281&quot;;
+  content: "\f281";
 }
 .fa-edge:before {
-  content: &quot;\f282&quot;;
+  content: "\f282";
 }
 .fa-credit-card-alt:before {
-  content: &quot;\f283&quot;;
+  content: "\f283";
 }
 .fa-codiepie:before {
-  content: &quot;\f284&quot;;
+  content: "\f284";
 }
 .fa-modx:before {
-  content: &quot;\f285&quot;;
+  content: "\f285";
 }
 .fa-fort-awesome:before {
-  content: &quot;\f286&quot;;
+  content: "\f286";
 }
 .fa-usb:before {
-  content: &quot;\f287&quot;;
+  content: "\f287";
 }
 .fa-product-hunt:before {
-  content: &quot;\f288&quot;;
+  content: "\f288";
 }
 .fa-mixcloud:before {
-  content: &quot;\f289&quot;;
+  content: "\f289";
 }
 .fa-scribd:before {
-  content: &quot;\f28a&quot;;
+  content: "\f28a";
 }
 .fa-pause-circle:before {
-  content: &quot;\f28b&quot;;
+  content: "\f28b";
 }
 .fa-pause-circle-o:before {
-  content: &quot;\f28c&quot;;
+  content: "\f28c";
 }
 .fa-stop-circle:before {
-  content: &quot;\f28d&quot;;
+  content: "\f28d";
 }
 .fa-stop-circle-o:before {
-  content: &quot;\f28e&quot;;
+  content: "\f28e";
 }
 .fa-shopping-bag:before {
-  content: &quot;\f290&quot;;
+  content: "\f290";
 }
 .fa-shopping-basket:before {
-  content: &quot;\f291&quot;;
+  content: "\f291";
 }
 .fa-hashtag:before {
-  content: &quot;\f292&quot;;
+  content: "\f292";
 }
 .fa-bluetooth:before {
-  content: &quot;\f293&quot;;
+  content: "\f293";
 }
 .fa-bluetooth-b:before {
-  content: &quot;\f294&quot;;
+  content: "\f294";
 }
 .fa-percent:before {
-  content: &quot;\f295&quot;;
+  content: "\f295";
 }
 .fa-gitlab:before {
-  content: &quot;\f296&quot;;
+  content: "\f296";
 }
 .fa-wpbeginner:before {
-  content: &quot;\f297&quot;;
+  content: "\f297";
 }
 .fa-wpforms:before {
-  content: &quot;\f298&quot;;
+  content: "\f298";
 }
 .fa-envira:before {
-  content: &quot;\f299&quot;;
+  content: "\f299";
 }
 .fa-universal-access:before {
-  content: &quot;\f29a&quot;;
+  content: "\f29a";
 }
 .fa-wheelchair-alt:before {
-  content: &quot;\f29b&quot;;
+  content: "\f29b";
 }
 .fa-question-circle-o:before {
-  content: &quot;\f29c&quot;;
+  content: "\f29c";
 }
 .fa-blind:before {
-  content: &quot;\f29d&quot;;
+  content: "\f29d";
 }
 .fa-audio-description:before {
-  content: &quot;\f29e&quot;;
+  content: "\f29e";
 }
 .fa-volume-control-phone:before {
-  content: &quot;\f2a0&quot;;
+  content: "\f2a0";
 }
 .fa-braille:before {
-  content: &quot;\f2a1&quot;;
+  content: "\f2a1";
 }
 .fa-assistive-listening-systems:before {
-  content: &quot;\f2a2&quot;;
+  content: "\f2a2";
 }
 .fa-asl-interpreting:before,
 .fa-american-sign-language-interpreting:before {
-  content: &quot;\f2a3&quot;;
+  content: "\f2a3";
 }
 .fa-deafness:before,
 .fa-hard-of-hearing:before,
 .fa-deaf:before {
-  content: &quot;\f2a4&quot;;
+  content: "\f2a4";
 }
 .fa-glide:before {
-  content: &quot;\f2a5&quot;;
+  content: "\f2a5";
 }
 .fa-glide-g:before {
-  content: &quot;\f2a6&quot;;
+  content: "\f2a6";
 }
 .fa-signing:before,
 .fa-sign-language:before {
-  content: &quot;\f2a7&quot;;
+  content: "\f2a7";
 }
 .fa-low-vision:before {
-  content: &quot;\f2a8&quot;;
+  content: "\f2a8";
 }
 .fa-viadeo:before {
-  content: &quot;\f2a9&quot;;
+  content: "\f2a9";
 }
 .fa-viadeo-square:before {
-  content: &quot;\f2aa&quot;;
+  content: "\f2aa";
 }
 .fa-snapchat:before {
-  content: &quot;\f2ab&quot;;
+  content: "\f2ab";
 }
 .fa-snapchat-ghost:before {
-  content: &quot;\f2ac&quot;;
+  content: "\f2ac";
 }
 .fa-snapchat-square:before {
-  content: &quot;\f2ad&quot;;
+  content: "\f2ad";
 }
 .fa-pied-piper:before {
-  content: &quot;\f2ae&quot;;
+  content: "\f2ae";
 }
 .fa-first-order:before {
-  content: &quot;\f2b0&quot;;
+  content: "\f2b0";
 }
 .fa-yoast:before {
-  content: &quot;\f2b1&quot;;
+  content: "\f2b1";
 }
 .fa-themeisle:before {
-  content: &quot;\f2b2&quot;;
+  content: "\f2b2";
 }
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-  content: &quot;\f2b3&quot;;
+  content: "\f2b3";
 }
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: &quot;\f2b4&quot;;
+  content: "\f2b4";
 }
 .fa-handshake-o:before {
-  content: &quot;\f2b5&quot;;
+  content: "\f2b5";
 }
 .fa-envelope-open:before {
-  content: &quot;\f2b6&quot;;
+  content: "\f2b6";
 }
 .fa-envelope-open-o:before {
-  content: &quot;\f2b7&quot;;
+  content: "\f2b7";
 }
 .fa-linode:before {
-  content: &quot;\f2b8&quot;;
+  content: "\f2b8";
 }
 .fa-address-book:before {
-  content: &quot;\f2b9&quot;;
+  content: "\f2b9";
 }
 .fa-address-book-o:before {
-  content: &quot;\f2ba&quot;;
+  content: "\f2ba";
 }
 .fa-vcard:before,
 .fa-address-card:before {
-  content: &quot;\f2bb&quot;;
+  content: "\f2bb";
 }
 .fa-vcard-o:before,
 .fa-address-card-o:before {
-  content: &quot;\f2bc&quot;;
+  content: "\f2bc";
 }
 .fa-user-circle:before {
-  content: &quot;\f2bd&quot;;
+  content: "\f2bd";
 }
 .fa-user-circle-o:before {
-  content: &quot;\f2be&quot;;
+  content: "\f2be";
 }
 .fa-user-o:before {
-  content: &quot;\f2c0&quot;;
+  content: "\f2c0";
 }
 .fa-id-badge:before {
-  content: &quot;\f2c1&quot;;
+  content: "\f2c1";
 }
 .fa-drivers-license:before,
 .fa-id-card:before {
-  content: &quot;\f2c2&quot;;
+  content: "\f2c2";
 }
 .fa-drivers-license-o:before,
 .fa-id-card-o:before {
-  content: &quot;\f2c3&quot;;
+  content: "\f2c3";
 }
 .fa-quora:before {
-  content: &quot;\f2c4&quot;;
+  content: "\f2c4";
 }
 .fa-free-code-camp:before {
-  content: &quot;\f2c5&quot;;
+  content: "\f2c5";
 }
 .fa-telegram:before {
-  content: &quot;\f2c6&quot;;
+  content: "\f2c6";
 }
 .fa-thermometer-4:before,
 .fa-thermometer:before,
 .fa-thermometer-full:before {
-  content: &quot;\f2c7&quot;;
+  content: "\f2c7";
 }
 .fa-thermometer-3:before,
 .fa-thermometer-three-quarters:before {
-  content: &quot;\f2c8&quot;;
+  content: "\f2c8";
 }
 .fa-thermometer-2:before,
 .fa-thermometer-half:before {
-  content: &quot;\f2c9&quot;;
+  content: "\f2c9";
 }
 .fa-thermometer-1:before,
 .fa-thermometer-quarter:before {
-  content: &quot;\f2ca&quot;;
+  content: "\f2ca";
 }
 .fa-thermometer-0:before,
 .fa-thermometer-empty:before {
-  content: &quot;\f2cb&quot;;
+  content: "\f2cb";
 }
 .fa-shower:before {
-  content: &quot;\f2cc&quot;;
+  content: "\f2cc";
 }
 .fa-bathtub:before,
 .fa-s15:before,
 .fa-bath:before {
-  content: &quot;\f2cd&quot;;
+  content: "\f2cd";
 }
 .fa-podcast:before {
-  content: &quot;\f2ce&quot;;
+  content: "\f2ce";
 }
 .fa-window-maximize:before {
-  content: &quot;\f2d0&quot;;
+  content: "\f2d0";
 }
 .fa-window-minimize:before {
-  content: &quot;\f2d1&quot;;
+  content: "\f2d1";
 }
 .fa-window-restore:before {
-  content: &quot;\f2d2&quot;;
+  content: "\f2d2";
 }
 .fa-times-rectangle:before,
 .fa-window-close:before {
-  content: &quot;\f2d3&quot;;
+  content: "\f2d3";
 }
 .fa-times-rectangle-o:before,
 .fa-window-close-o:before {
-  content: &quot;\f2d4&quot;;
+  content: "\f2d4";
 }
 .fa-bandcamp:before {
-  content: &quot;\f2d5&quot;;
+  content: "\f2d5";
 }
 .fa-grav:before {
-  content: &quot;\f2d6&quot;;
+  content: "\f2d6";
 }
 .fa-etsy:before {
-  content: &quot;\f2d7&quot;;
+  content: "\f2d7";
 }
 .fa-imdb:before {
-  content: &quot;\f2d8&quot;;
+  content: "\f2d8";
 }
 .fa-ravelry:before {
-  content: &quot;\f2d9&quot;;
+  content: "\f2d9";
 }
 .fa-eercast:before {
-  content: &quot;\f2da&quot;;
+  content: "\f2da";
 }
 .fa-microchip:before {
-  content: &quot;\f2db&quot;;
+  content: "\f2db";
 }
 .fa-snowflake-o:before {
-  content: &quot;\f2dc&quot;;
+  content: "\f2dc";
 }
 .fa-superpowers:before {
-  content: &quot;\f2dd&quot;;
+  content: "\f2dd";
 }
 .fa-wpexplorer:before {
-  content: &quot;\f2de&quot;;
+  content: "\f2de";
 }
 .fa-meetup:before {
-  content: &quot;\f2e0&quot;;
+  content: "\f2e0";
 }
 .sr-only {
   position: absolute;
@@ -9168,7 +9164,7 @@ Browsers not listed, including Safari, are supported via the styling under the
   flex-direction: row;
   align-items: stretch;
 }
-.hbox &gt; * {
+.hbox > * {
   /* Old browsers */
   -webkit-box-flex: 0;
   -moz-box-flex: 0;
@@ -9192,7 +9188,7 @@ Browsers not listed, including Safari, are supported via the styling under the
   flex-direction: column;
   align-items: stretch;
 }
-.vbox &gt; * {
+.vbox > * {
   /* Old browsers */
   -webkit-box-flex: 0;
   -moz-box-flex: 0;
@@ -9368,11 +9364,11 @@ div.error {
   margin: 2em;
   text-align: center;
 }
-div.error &gt; h1 {
+div.error > h1 {
   font-size: 500%;
   line-height: normal;
 }
-div.error &gt; p {
+div.error > p {
   font-size: 200%;
   line-height: normal;
 }
@@ -9401,7 +9397,7 @@ body {
   bottom: 0px;
   overflow: visible;
 }
-body &gt; #header {
+body > #header {
   /* Initially hidden to prevent FLOUC */
   display: none;
   background-color: #fff;
@@ -9409,7 +9405,7 @@ body &gt; #header {
   position: relative;
   z-index: 100;
 }
-body &gt; #header #header-container {
+body > #header #header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9420,14 +9416,14 @@ body &gt; #header #header-container {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-body &gt; #header .header-bar {
+body > #header .header-bar {
   width: 100%;
   height: 1px;
   background: #e7e7e7;
   margin-bottom: -1px;
 }
 @media print {
-  body &gt; #header {
+  body > #header {
     display: none !important;
   }
 }
@@ -9445,11 +9441,11 @@ body &gt; #header .header-bar {
   padding-top: 1px;
   padding-bottom: 1px;
 }
-[dir=&quot;rtl&quot;] #ipython_notebook {
+[dir="rtl"] #ipython_notebook {
   margin-right: 10px;
   margin-left: 0;
 }
-[dir=&quot;rtl&quot;] #ipython_notebook.pull-left {
+[dir="rtl"] #ipython_notebook.pull-left {
   float: right !important;
   float: right;
 }
@@ -9495,91 +9491,91 @@ span#kernel_logo_widget {
 span#login_widget {
   float: right;
 }
-[dir=&quot;rtl&quot;] span#login_widget {
+[dir="rtl"] span#login_widget {
   float: left;
 }
-span#login_widget &gt; .button,
+span#login_widget > .button,
 #logout {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
-span#login_widget &gt; .button:focus,
+span#login_widget > .button:focus,
 #logout:focus,
-span#login_widget &gt; .button.focus,
+span#login_widget > .button.focus,
 #logout.focus {
   color: #333;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
-span#login_widget &gt; .button:hover,
+span#login_widget > .button:hover,
 #logout:hover {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-span#login_widget &gt; .button:active,
+span#login_widget > .button:active,
 #logout:active,
-span#login_widget &gt; .button.active,
+span#login_widget > .button.active,
 #logout.active,
-.open &gt; .dropdown-togglespan#login_widget &gt; .button,
-.open &gt; .dropdown-toggle#logout {
+.open > .dropdown-togglespan#login_widget > .button,
+.open > .dropdown-toggle#logout {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-span#login_widget &gt; .button:active:hover,
+span#login_widget > .button:active:hover,
 #logout:active:hover,
-span#login_widget &gt; .button.active:hover,
+span#login_widget > .button.active:hover,
 #logout.active:hover,
-.open &gt; .dropdown-togglespan#login_widget &gt; .button:hover,
-.open &gt; .dropdown-toggle#logout:hover,
-span#login_widget &gt; .button:active:focus,
+.open > .dropdown-togglespan#login_widget > .button:hover,
+.open > .dropdown-toggle#logout:hover,
+span#login_widget > .button:active:focus,
 #logout:active:focus,
-span#login_widget &gt; .button.active:focus,
+span#login_widget > .button.active:focus,
 #logout.active:focus,
-.open &gt; .dropdown-togglespan#login_widget &gt; .button:focus,
-.open &gt; .dropdown-toggle#logout:focus,
-span#login_widget &gt; .button:active.focus,
+.open > .dropdown-togglespan#login_widget > .button:focus,
+.open > .dropdown-toggle#logout:focus,
+span#login_widget > .button:active.focus,
 #logout:active.focus,
-span#login_widget &gt; .button.active.focus,
+span#login_widget > .button.active.focus,
 #logout.active.focus,
-.open &gt; .dropdown-togglespan#login_widget &gt; .button.focus,
-.open &gt; .dropdown-toggle#logout.focus {
+.open > .dropdown-togglespan#login_widget > .button.focus,
+.open > .dropdown-toggle#logout.focus {
   color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
-span#login_widget &gt; .button:active,
+span#login_widget > .button:active,
 #logout:active,
-span#login_widget &gt; .button.active,
+span#login_widget > .button.active,
 #logout.active,
-.open &gt; .dropdown-togglespan#login_widget &gt; .button,
-.open &gt; .dropdown-toggle#logout {
+.open > .dropdown-togglespan#login_widget > .button,
+.open > .dropdown-toggle#logout {
   background-image: none;
 }
-span#login_widget &gt; .button.disabled:hover,
+span#login_widget > .button.disabled:hover,
 #logout.disabled:hover,
-span#login_widget &gt; .button[disabled]:hover,
+span#login_widget > .button[disabled]:hover,
 #logout[disabled]:hover,
-fieldset[disabled] span#login_widget &gt; .button:hover,
+fieldset[disabled] span#login_widget > .button:hover,
 fieldset[disabled] #logout:hover,
-span#login_widget &gt; .button.disabled:focus,
+span#login_widget > .button.disabled:focus,
 #logout.disabled:focus,
-span#login_widget &gt; .button[disabled]:focus,
+span#login_widget > .button[disabled]:focus,
 #logout[disabled]:focus,
-fieldset[disabled] span#login_widget &gt; .button:focus,
+fieldset[disabled] span#login_widget > .button:focus,
 fieldset[disabled] #logout:focus,
-span#login_widget &gt; .button.disabled.focus,
+span#login_widget > .button.disabled.focus,
 #logout.disabled.focus,
-span#login_widget &gt; .button[disabled].focus,
+span#login_widget > .button[disabled].focus,
 #logout[disabled].focus,
-fieldset[disabled] span#login_widget &gt; .button.focus,
+fieldset[disabled] span#login_widget > .button.focus,
 fieldset[disabled] #logout.focus {
   background-color: #fff;
   border-color: #ccc;
 }
-span#login_widget &gt; .button .badge,
+span#login_widget > .button .badge,
 #logout .badge {
   color: #fff;
   background-color: #333;
@@ -9587,7 +9583,7 @@ span#login_widget &gt; .button .badge,
 .nav-header {
   text-transform: none;
 }
-#header &gt; span {
+#header > span {
   margin-top: 10px;
 }
 .modal_stretch .modal-dialog {
@@ -9635,17 +9631,17 @@ span#login_widget &gt; .button .badge,
   display: inline-block;
   margin-bottom: -4px;
 }
-[dir=&quot;rtl&quot;] .center-nav form.pull-left {
+[dir="rtl"] .center-nav form.pull-left {
   float: right !important;
   float: right;
 }
-[dir=&quot;rtl&quot;] .center-nav .navbar-text {
+[dir="rtl"] .center-nav .navbar-text {
   float: right;
 }
-[dir=&quot;rtl&quot;] .navbar-inner {
+[dir="rtl"] .navbar-inner {
   text-align: right;
 }
-[dir=&quot;rtl&quot;] div.text-left {
+[dir="rtl"] div.text-left {
   text-align: right;
 }
 /*!
@@ -9654,7 +9650,7 @@ span#login_widget &gt; .button .badge,
 *
 */
 /* We need an invisible input field on top of the sentense*/
-/* &quot;Drag file onto the list ...&quot; */
+/* "Drag file onto the list ..." */
 .alternate_upload {
   background-color: none;
   display: inline;
@@ -9673,7 +9669,7 @@ span#login_widget &gt; .button .badge,
   opacity: 0;
   z-index: 2;
 }
-.alternate_upload .btn-xs &gt; input.fileinput {
+.alternate_upload .btn-xs > input.fileinput {
   margin: -1px -5px;
 }
 .alternate_upload .btn-upload {
@@ -9695,10 +9691,10 @@ ul#tabs a {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-[dir=&quot;rtl&quot;] ul#tabs.nav-tabs &gt; li {
+[dir="rtl"] ul#tabs.nav-tabs > li {
   float: right;
 }
-[dir=&quot;rtl&quot;] ul#tabs.nav.nav-tabs {
+[dir="rtl"] ul#tabs.nav.nav-tabs {
   padding-right: 0;
 }
 ul.breadcrumb a:focus,
@@ -9719,19 +9715,19 @@ ul.breadcrumb span {
 .list_toolbar .tree-buttons {
   padding-top: 1px;
 }
-[dir=&quot;rtl&quot;] .list_toolbar .tree-buttons .pull-right {
+[dir="rtl"] .list_toolbar .tree-buttons .pull-right {
   float: left !important;
   float: left;
 }
-[dir=&quot;rtl&quot;] .list_toolbar .col-sm-4,
-[dir=&quot;rtl&quot;] .list_toolbar .col-sm-8 {
+[dir="rtl"] .list_toolbar .col-sm-4,
+[dir="rtl"] .list_toolbar .col-sm-8 {
   float: right;
 }
 .dynamic-buttons {
   padding-top: 3px;
   display: inline-block;
 }
-.list_toolbar [class*=&quot;span&quot;] {
+.list_toolbar [class*="span"] {
   min-height: 24px;
 }
 .list_header {
@@ -9751,13 +9747,13 @@ ul.breadcrumb span {
   border: 1px solid #ddd;
   border-radius: 2px;
 }
-.list_container &gt; div {
+.list_container > div {
   border-bottom: 1px solid #ddd;
 }
-.list_container &gt; div:hover .list-item {
+.list_container > div:hover .list-item {
   background-color: red;
 }
-.list_container &gt; div:last-child {
+.list_container > div:last-child {
   border: none;
 }
 .list_item:hover .list_item {
@@ -9769,16 +9765,16 @@ ul.breadcrumb span {
 .list_item:hover {
   background-color: #fafafa;
 }
-.list_header &gt; div,
-.list_item &gt; div {
+.list_header > div,
+.list_item > div {
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 7px;
   padding-right: 7px;
   line-height: 22px;
 }
-.list_header &gt; div input,
-.list_item &gt; div input {
+.list_header > div input,
+.list_item > div input {
   margin-right: 7px;
   margin-left: 14px;
   vertical-align: text-bottom;
@@ -9786,13 +9782,13 @@ ul.breadcrumb span {
   position: relative;
   top: -1px;
 }
-.list_header &gt; div .item_link,
-.list_item &gt; div .item_link {
+.list_header > div .item_link,
+.list_item > div .item_link {
   margin-left: -1px;
   vertical-align: baseline;
   line-height: 22px;
 }
-[dir=&quot;rtl&quot;] .list_item &gt; div input {
+[dir="rtl"] .list_item > div input {
   margin-right: 0;
 }
 .new-file input[type=checkbox] {
@@ -9814,7 +9810,7 @@ ul.breadcrumb span {
   margin-right: 7px;
   margin-left: 7px;
 }
-[dir=&quot;rtl&quot;] .item_modified.pull-right {
+[dir="rtl"] .item_modified.pull-right {
   float: left !important;
   float: left;
 }
@@ -9827,9 +9823,9 @@ ul.breadcrumb span {
 .item_buttons .input-group {
   float: left;
 }
-.item_buttons &gt; .btn,
-.item_buttons &gt; .btn-group,
-.item_buttons &gt; .input-group {
+.item_buttons > .btn,
+.item_buttons > .btn-group,
+.item_buttons > .input-group {
   margin-left: 5px;
 }
 .item_buttons .btn {
@@ -9845,11 +9841,11 @@ ul.breadcrumb span {
   margin-right: 7px;
   float: left;
 }
-[dir=&quot;rtl&quot;] .item_buttons.pull-right {
+[dir="rtl"] .item_buttons.pull-right {
   float: left !important;
   float: left;
 }
-[dir=&quot;rtl&quot;] .item_buttons .kernel-name {
+[dir="rtl"] .item_buttons .kernel-name {
   margin-left: 7px;
   float: right;
 }
@@ -9872,7 +9868,7 @@ ul.breadcrumb span {
   padding-left: 7px;
   margin-left: -2px;
 }
-#project_name &gt; .breadcrumb {
+#project_name > .breadcrumb {
   padding: 0px;
   margin-bottom: 0px;
   background-color: transparent;
@@ -9882,7 +9878,7 @@ ul.breadcrumb span {
   display: inline-block;
   padding-left: 7px;
 }
-[dir=&quot;rtl&quot;] .sort_button.pull-right {
+[dir="rtl"] .sort_button.pull-right {
   float: left !important;
   float: left;
 }
@@ -9892,7 +9888,7 @@ ul.breadcrumb span {
 #button-select-all {
   min-width: 50px;
 }
-[dir=&quot;rtl&quot;] #button-select-all.btn {
+[dir="rtl"] #button-select-all.btn {
   float: right ;
 }
 #select-all {
@@ -9901,7 +9897,7 @@ ul.breadcrumb span {
   margin-top: 2px;
   height: 16px;
 }
-[dir=&quot;rtl&quot;] #select-all.pull-left {
+[dir="rtl"] #select-all.pull-left {
   float: right !important;
   float: right;
 }
@@ -9919,7 +9915,7 @@ ul.breadcrumb span {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f114&quot;;
+  content: "\f114";
 }
 .folder_icon:before.fa-pull-left {
   margin-right: .3em;
@@ -9940,7 +9936,7 @@ ul.breadcrumb span {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f02d&quot;;
+  content: "\f02d";
   position: relative;
   top: -1px;
 }
@@ -9963,7 +9959,7 @@ ul.breadcrumb span {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f02d&quot;;
+  content: "\f02d";
   position: relative;
   top: -1px;
   color: #5cb85c;
@@ -9987,7 +9983,7 @@ ul.breadcrumb span {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f016&quot;;
+  content: "\f016";
   position: relative;
   top: -2px;
 }
@@ -10020,13 +10016,13 @@ ul#new-menu {
 .kernel-menu-icon {
   padding-right: 12px;
   width: 24px;
-  content: &quot;\f096&quot;;
+  content: "\f096";
 }
 .kernel-menu-icon:before {
-  content: &quot;\f096&quot;;
+  content: "\f096";
 }
 .kernel-menu-icon-current:before {
-  content: &quot;\f00c&quot;;
+  content: "\f00c";
 }
 #tab_content {
   padding-top: 20px;
@@ -10093,7 +10089,7 @@ ul#new-menu {
   padding: 0px 5px;
 }
 .selected-keymap i.fa:before {
-  content: &quot;\f00c&quot;;
+  content: "\f00c";
 }
 #mode-menu {
   overflow: auto;
@@ -10178,7 +10174,7 @@ ul#new-menu {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f00c&quot;;
+  content: "\f00c";
 }
 .dirty-indicator-clean:before.fa-pull-left {
   margin-right: .3em;
@@ -10595,7 +10591,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell &gt; div.prompt {
+  div.unrecognized_cell > div.prompt {
     display: none;
   }
 }
@@ -10648,19 +10644,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area &gt; div.highlight {
+div.input_area > div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area &gt; div.highlight &gt; pre {
+div.input_area > div.highlight > pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+/* The following gets added to the <head> if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -10721,7 +10717,7 @@ div.input_area &gt; div.highlight &gt; pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 Adapted from GitHub theme
 
 */
@@ -10971,7 +10967,7 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
-div.output_area .mglyph &gt; img {
+div.output_area .mglyph > img {
   max-width: none;
 }
 /* This is needed to protect the pre formating from global settings such
@@ -11301,7 +11297,7 @@ div.output_unrecognized a:hover {
 .rendered_html * + .alert {
   margin-top: 1em;
 }
-[dir=&quot;rtl&quot;] .rendered_html p {
+[dir="rtl"] .rendered_html p {
   text-align: right;
 }
 div.text_cell {
@@ -11321,12 +11317,12 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell &gt; div.prompt {
+  div.text_cell > div.prompt {
     display: none;
   }
 }
 div.text_cell_render {
-  /*font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, Geneva, sans-serif;*/
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
   outline: none;
   resize: none;
   width: inherit;
@@ -11376,7 +11372,7 @@ h6:hover .anchor-link {
 .cm-header-5,
 .cm-header-6 {
   font-weight: bold;
-  font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .cm-header-1 {
   font-size: 185.7%;
@@ -11485,7 +11481,7 @@ p {
   min-height: 100px;
   transition: height .2s ease;
 }
-.notebook_app &gt; #header {
+.notebook_app > #header {
   -webkit-box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
   box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
 }
@@ -11669,7 +11665,7 @@ select[multiple].celltoolbar select {
   overflow: hidden;
   position: relative;
 }
-.tag-container &gt; * {
+.tag-container > * {
   margin: 0 4px;
 }
 .remove-tag-btn {
@@ -11679,7 +11675,7 @@ select[multiple].celltoolbar select {
   display: flex;
 }
 .cell-tag:last-child:after {
-  content: &quot;&quot;;
+  content: "";
   position: absolute;
   right: 0;
   width: 40px;
@@ -11687,7 +11683,7 @@ select[multiple].celltoolbar select {
   /* Fade to background color of cell toolbar */
   background: linear-gradient(to right, rgba(0, 0, 0, 0), #EEE);
 }
-.tags-input &gt; * {
+.tags-input > * {
   margin-left: 4px;
 }
 .cell-tag,
@@ -11836,7 +11832,7 @@ select[multiple].tags-input button {
   width: 32px;
   height: 32px;
 }
-[dir=&quot;rtl&quot;] #kernel_logo_widget {
+[dir="rtl"] #kernel_logo_widget {
   float: left !important;
   float: left;
 }
@@ -11872,29 +11868,29 @@ select[multiple].tags-input button {
 #menubar .navbar-collapse {
   clear: left;
 }
-[dir=&quot;rtl&quot;] #menubar .navbar-toggle {
+[dir="rtl"] #menubar .navbar-toggle {
   float: right;
 }
-[dir=&quot;rtl&quot;] #menubar .navbar-collapse {
+[dir="rtl"] #menubar .navbar-collapse {
   clear: right;
 }
-[dir=&quot;rtl&quot;] #menubar .navbar-nav {
+[dir="rtl"] #menubar .navbar-nav {
   float: right;
 }
-[dir=&quot;rtl&quot;] #menubar .nav {
+[dir="rtl"] #menubar .nav {
   padding-right: 0px;
 }
-[dir=&quot;rtl&quot;] #menubar .navbar-nav &gt; li {
+[dir="rtl"] #menubar .navbar-nav > li {
   float: right;
 }
-[dir=&quot;rtl&quot;] #menubar .navbar-right {
+[dir="rtl"] #menubar .navbar-right {
   float: left !important;
 }
-[dir=&quot;rtl&quot;] ul.dropdown-menu {
+[dir="rtl"] ul.dropdown-menu {
   text-align: right;
   left: auto;
 }
-[dir=&quot;rtl&quot;] ul#new-menu.dropdown-menu {
+[dir="rtl"] ul#new-menu.dropdown-menu {
   right: auto;
   left: 0;
 }
@@ -11904,7 +11900,7 @@ select[multiple].tags-input button {
 i.menu-icon {
   padding-top: 4px;
 }
-[dir=&quot;rtl&quot;] i.menu-icon.pull-right {
+[dir="rtl"] i.menu-icon.pull-right {
   float: left !important;
   float: left;
 }
@@ -11915,34 +11911,34 @@ ul#help_menu li a {
 ul#help_menu li a i {
   margin-right: -1.2em;
 }
-[dir=&quot;rtl&quot;] ul#help_menu li a {
+[dir="rtl"] ul#help_menu li a {
   padding-left: 2.2em;
 }
-[dir=&quot;rtl&quot;] ul#help_menu li a i {
+[dir="rtl"] ul#help_menu li a i {
   margin-right: 0;
   margin-left: -1.2em;
 }
-[dir=&quot;rtl&quot;] ul#help_menu li a i.pull-right {
+[dir="rtl"] ul#help_menu li a i.pull-right {
   float: left !important;
   float: left;
 }
 .dropdown-submenu {
   position: relative;
 }
-.dropdown-submenu &gt; .dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
   margin-left: -1px;
 }
-[dir=&quot;rtl&quot;] .dropdown-submenu &gt; .dropdown-menu {
+[dir="rtl"] .dropdown-submenu > .dropdown-menu {
   right: 100%;
   margin-right: -1px;
 }
-.dropdown-submenu:hover &gt; .dropdown-menu {
+.dropdown-submenu:hover > .dropdown-menu {
   display: block;
 }
-.dropdown-submenu &gt; a:after {
+.dropdown-submenu > a:after {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -11950,37 +11946,37 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
-  content: &quot;\f0da&quot;;
+  content: "\f0da";
   float: right;
   color: #333333;
   margin-top: 2px;
   margin-right: -10px;
 }
-.dropdown-submenu &gt; a:after.fa-pull-left {
+.dropdown-submenu > a:after.fa-pull-left {
   margin-right: .3em;
 }
-.dropdown-submenu &gt; a:after.fa-pull-right {
+.dropdown-submenu > a:after.fa-pull-right {
   margin-left: .3em;
 }
-.dropdown-submenu &gt; a:after.pull-left {
+.dropdown-submenu > a:after.pull-left {
   margin-right: .3em;
 }
-.dropdown-submenu &gt; a:after.pull-right {
+.dropdown-submenu > a:after.pull-right {
   margin-left: .3em;
 }
-[dir=&quot;rtl&quot;] .dropdown-submenu &gt; a:after {
+[dir="rtl"] .dropdown-submenu > a:after {
   float: left;
-  content: &quot;\f0d9&quot;;
+  content: "\f0d9";
   margin-right: 0;
   margin-left: -10px;
 }
-.dropdown-submenu:hover &gt; a:after {
+.dropdown-submenu:hover > a:after {
   color: #262626;
 }
 .dropdown-submenu.pull-left {
   float: none;
 }
-.dropdown-submenu.pull-left &gt; .dropdown-menu {
+.dropdown-submenu.pull-left > .dropdown-menu {
   left: -100%;
   margin-left: 10px;
 }
@@ -11989,7 +11985,7 @@ ul#help_menu li a i {
   float: right;
   z-index: 10;
 }
-[dir=&quot;rtl&quot;] #notification_area {
+[dir="rtl"] #notification_area {
   float: left !important;
   float: left;
 }
@@ -12004,7 +12000,7 @@ ul#help_menu li a i {
   text-align: center;
   width: auto;
 }
-[dir=&quot;rtl&quot;] .indicator_area {
+[dir="rtl"] .indicator_area {
   float: left !important;
   float: left;
 }
@@ -12024,7 +12020,7 @@ ul#help_menu li a i {
   padding-left: 5px;
   padding-right: 5px;
 }
-[dir=&quot;rtl&quot;] #kernel_indicator {
+[dir="rtl"] #kernel_indicator {
   float: left !important;
   float: left;
   border-left: 0;
@@ -12041,7 +12037,7 @@ ul#help_menu li a i {
   text-align: center;
   width: auto;
 }
-[dir=&quot;rtl&quot;] #modal_indicator {
+[dir="rtl"] #modal_indicator {
   float: left !important;
   float: left;
 }
@@ -12072,7 +12068,7 @@ ul#help_menu li a i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f040&quot;;
+  content: "\f040";
 }
 .edit_mode .modal_indicator:before.fa-pull-left {
   margin-right: .3em;
@@ -12114,7 +12110,7 @@ ul#help_menu li a i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f10c&quot;;
+  content: "\f10c";
 }
 .kernel_idle_icon:before.fa-pull-left {
   margin-right: .3em;
@@ -12135,7 +12131,7 @@ ul#help_menu li a i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f111&quot;;
+  content: "\f111";
 }
 .kernel_busy_icon:before.fa-pull-left {
   margin-right: .3em;
@@ -12156,7 +12152,7 @@ ul#help_menu li a i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f1e2&quot;;
+  content: "\f1e2";
 }
 .kernel_dead_icon:before.fa-pull-left {
   margin-right: .3em;
@@ -12177,7 +12173,7 @@ ul#help_menu li a i {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: &quot;\f127&quot;;
+  content: "\f127";
 }
 .kernel_disconnected_icon:before.fa-pull-left {
   margin-right: .3em;
@@ -12213,27 +12209,27 @@ ul#help_menu li a i {
 }
 .notification_widget:active,
 .notification_widget.active,
-.open &gt; .dropdown-toggle.notification_widget {
+.open > .dropdown-toggle.notification_widget {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 .notification_widget:active:hover,
 .notification_widget.active:hover,
-.open &gt; .dropdown-toggle.notification_widget:hover,
+.open > .dropdown-toggle.notification_widget:hover,
 .notification_widget:active:focus,
 .notification_widget.active:focus,
-.open &gt; .dropdown-toggle.notification_widget:focus,
+.open > .dropdown-toggle.notification_widget:focus,
 .notification_widget:active.focus,
 .notification_widget.active.focus,
-.open &gt; .dropdown-toggle.notification_widget.focus {
+.open > .dropdown-toggle.notification_widget.focus {
   color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
 .notification_widget:active,
 .notification_widget.active,
-.open &gt; .dropdown-toggle.notification_widget {
+.open > .dropdown-toggle.notification_widget {
   background-image: none;
 }
 .notification_widget.disabled:hover,
@@ -12270,27 +12266,27 @@ fieldset[disabled] .notification_widget.focus {
 }
 .notification_widget.warning:active,
 .notification_widget.warning.active,
-.open &gt; .dropdown-toggle.notification_widget.warning {
+.open > .dropdown-toggle.notification_widget.warning {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
 .notification_widget.warning:active:hover,
 .notification_widget.warning.active:hover,
-.open &gt; .dropdown-toggle.notification_widget.warning:hover,
+.open > .dropdown-toggle.notification_widget.warning:hover,
 .notification_widget.warning:active:focus,
 .notification_widget.warning.active:focus,
-.open &gt; .dropdown-toggle.notification_widget.warning:focus,
+.open > .dropdown-toggle.notification_widget.warning:focus,
 .notification_widget.warning:active.focus,
 .notification_widget.warning.active.focus,
-.open &gt; .dropdown-toggle.notification_widget.warning.focus {
+.open > .dropdown-toggle.notification_widget.warning.focus {
   color: #fff;
   background-color: #d58512;
   border-color: #985f0d;
 }
 .notification_widget.warning:active,
 .notification_widget.warning.active,
-.open &gt; .dropdown-toggle.notification_widget.warning {
+.open > .dropdown-toggle.notification_widget.warning {
   background-image: none;
 }
 .notification_widget.warning.disabled:hover,
@@ -12327,27 +12323,27 @@ fieldset[disabled] .notification_widget.warning.focus {
 }
 .notification_widget.success:active,
 .notification_widget.success.active,
-.open &gt; .dropdown-toggle.notification_widget.success {
+.open > .dropdown-toggle.notification_widget.success {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
 .notification_widget.success:active:hover,
 .notification_widget.success.active:hover,
-.open &gt; .dropdown-toggle.notification_widget.success:hover,
+.open > .dropdown-toggle.notification_widget.success:hover,
 .notification_widget.success:active:focus,
 .notification_widget.success.active:focus,
-.open &gt; .dropdown-toggle.notification_widget.success:focus,
+.open > .dropdown-toggle.notification_widget.success:focus,
 .notification_widget.success:active.focus,
 .notification_widget.success.active.focus,
-.open &gt; .dropdown-toggle.notification_widget.success.focus {
+.open > .dropdown-toggle.notification_widget.success.focus {
   color: #fff;
   background-color: #398439;
   border-color: #255625;
 }
 .notification_widget.success:active,
 .notification_widget.success.active,
-.open &gt; .dropdown-toggle.notification_widget.success {
+.open > .dropdown-toggle.notification_widget.success {
   background-image: none;
 }
 .notification_widget.success.disabled:hover,
@@ -12384,27 +12380,27 @@ fieldset[disabled] .notification_widget.success.focus {
 }
 .notification_widget.info:active,
 .notification_widget.info.active,
-.open &gt; .dropdown-toggle.notification_widget.info {
+.open > .dropdown-toggle.notification_widget.info {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
 .notification_widget.info:active:hover,
 .notification_widget.info.active:hover,
-.open &gt; .dropdown-toggle.notification_widget.info:hover,
+.open > .dropdown-toggle.notification_widget.info:hover,
 .notification_widget.info:active:focus,
 .notification_widget.info.active:focus,
-.open &gt; .dropdown-toggle.notification_widget.info:focus,
+.open > .dropdown-toggle.notification_widget.info:focus,
 .notification_widget.info:active.focus,
 .notification_widget.info.active.focus,
-.open &gt; .dropdown-toggle.notification_widget.info.focus {
+.open > .dropdown-toggle.notification_widget.info.focus {
   color: #fff;
   background-color: #269abc;
   border-color: #1b6d85;
 }
 .notification_widget.info:active,
 .notification_widget.info.active,
-.open &gt; .dropdown-toggle.notification_widget.info {
+.open > .dropdown-toggle.notification_widget.info {
   background-image: none;
 }
 .notification_widget.info.disabled:hover,
@@ -12441,27 +12437,27 @@ fieldset[disabled] .notification_widget.info.focus {
 }
 .notification_widget.danger:active,
 .notification_widget.danger.active,
-.open &gt; .dropdown-toggle.notification_widget.danger {
+.open > .dropdown-toggle.notification_widget.danger {
   color: #fff;
   background-color: #c9302c;
   border-color: #ac2925;
 }
 .notification_widget.danger:active:hover,
 .notification_widget.danger.active:hover,
-.open &gt; .dropdown-toggle.notification_widget.danger:hover,
+.open > .dropdown-toggle.notification_widget.danger:hover,
 .notification_widget.danger:active:focus,
 .notification_widget.danger.active:focus,
-.open &gt; .dropdown-toggle.notification_widget.danger:focus,
+.open > .dropdown-toggle.notification_widget.danger:focus,
 .notification_widget.danger:active.focus,
 .notification_widget.danger.active.focus,
-.open &gt; .dropdown-toggle.notification_widget.danger.focus {
+.open > .dropdown-toggle.notification_widget.danger.focus {
   color: #fff;
   background-color: #ac2925;
   border-color: #761c19;
 }
 .notification_widget.danger:active,
 .notification_widget.danger.active,
-.open &gt; .dropdown-toggle.notification_widget.danger {
+.open > .dropdown-toggle.notification_widget.danger {
   background-image: none;
 }
 .notification_widget.danger.disabled:hover,
@@ -12596,11 +12592,11 @@ span.save_widget span.filename {
 span.save_widget span.filename:hover {
   background-color: #e6e6e6;
 }
-[dir=&quot;rtl&quot;] span.save_widget.pull-left {
+[dir="rtl"] span.save_widget.pull-left {
   float: right !important;
   float: right;
 }
-[dir=&quot;rtl&quot;] span.save_widget span.filename {
+[dir="rtl"] span.save_widget span.filename {
   margin-left: 0;
   margin-right: 16px;
 }
@@ -12680,14 +12676,14 @@ span.autosave_status {
 .select-xs {
   height: 24px;
 }
-[dir=&quot;rtl&quot;] .btn-group &gt; .btn,
-.btn-group-vertical &gt; .btn {
+[dir="rtl"] .btn-group > .btn,
+.btn-group-vertical > .btn {
   float: right;
 }
 .pulse,
-.dropdown-menu &gt; li &gt; a.pulse,
-li.pulse &gt; a.dropdown-toggle,
-li.pulse.open &gt; a.dropdown-toggle {
+.dropdown-menu > li > a.pulse,
+li.pulse > a.dropdown-toggle,
+li.pulse.open > a.dropdown-toggle {
   background-color: #F37626;
   color: white;
 }
@@ -12737,7 +12733,7 @@ li.pulse.open &gt; a.dropdown-toggle {
     opacity: 1;
   }
 }
-/*properties of tooltip after &quot;expand&quot;*/
+/*properties of tooltip after "expand"*/
 .bigtooltip {
   overflow: auto;
   height: 200px;
@@ -12748,7 +12744,7 @@ li.pulse.open &gt; a.dropdown-toggle {
   transition-property: height;
   transition-duration: 500ms;
 }
-/*properties of tooltip before &quot;expand&quot;*/
+/*properties of tooltip before "expand"*/
 .smalltooltip {
   -webkit-transition-property: height;
   -webkit-transition-duration: 500ms;
@@ -12818,7 +12814,7 @@ li.pulse.open &gt; a.dropdown-toggle {
   background-color: #f7f7f7;
   border: 1px #ababab solid;
   z-index: 11;
-  content: &quot;&quot;;
+  content: "";
   position: absolute;
   left: 15px;
   top: 10px;
@@ -12833,7 +12829,7 @@ ul.typeahead-list i {
   margin-left: -10px;
   width: 18px;
 }
-[dir=&quot;rtl&quot;] ul.typeahead-list i {
+[dir="rtl"] ul.typeahead-list i {
   margin-left: 0;
   margin-right: -10px;
 }
@@ -12841,16 +12837,16 @@ ul.typeahead-list {
   max-height: 80vh;
   overflow: auto;
 }
-ul.typeahead-list &gt; li &gt; a {
+ul.typeahead-list > li > a {
   /** Firefox bug **/
   /* see https://github.com/jupyter/notebook/issues/559 */
   white-space: normal;
 }
-ul.typeahead-list  &gt; li &gt; a.pull-right {
+ul.typeahead-list  > li > a.pull-right {
   float: left !important;
   float: left;
 }
-[dir=&quot;rtl&quot;] .typeahead-list {
+[dir="rtl"] .typeahead-list {
   text-align: right;
 }
 .cmd-palette .modal-body {
@@ -12866,25 +12862,25 @@ ul.typeahead-list  &gt; li &gt; a.pull-right {
   min-width: 20px;
   color: transparent;
 }
-[dir=&quot;rtl&quot;] .no-shortcut.pull-right {
+[dir="rtl"] .no-shortcut.pull-right {
   float: left !important;
   float: left;
 }
-[dir=&quot;rtl&quot;] .command-shortcut.pull-right {
+[dir="rtl"] .command-shortcut.pull-right {
   float: left !important;
   float: left;
 }
 .command-shortcut:before {
-  content: &quot;(command mode)&quot;;
+  content: "(command mode)";
   padding-right: 3px;
   color: #777777;
 }
 .edit-shortcut:before {
-  content: &quot;(edit)&quot;;
+  content: "(edit)";
   padding-right: 3px;
   color: #777777;
 }
-[dir=&quot;rtl&quot;] .edit-shortcut.pull-right {
+[dir="rtl"] .edit-shortcut.pull-right {
   float: left !important;
   float: left;
 }
@@ -12896,10 +12892,10 @@ ul.typeahead-list  &gt; li &gt; a.pull-right {
   border-width: 1px;
   border-radius: 0px;
 }
-[dir=&quot;ltr&quot;] #find-and-replace .input-group-btn + .form-control {
+[dir="ltr"] #find-and-replace .input-group-btn + .form-control {
   border-left: none;
 }
-[dir=&quot;rtl&quot;] #find-and-replace .input-group-btn + .form-control {
+[dir="rtl"] #find-and-replace .input-group-btn + .form-control {
   border-right: none;
 }
 #find-and-replace #replace-preview .replace .match {
@@ -12954,8 +12950,8 @@ ul.typeahead-list  &gt; li &gt; a.pull-right {
   margin-top: 20px;
 }
 /*# sourceMappingURL=style.min.css.map */
-    &lt;/style&gt;
-&lt;style type=&quot;text/css&quot;&gt;
+    </style>
+<style type="text/css">
     .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
@@ -13025,10 +13021,10 @@ ul.typeahead-list  &gt; li &gt; a.pull-right {
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-    &lt;/style&gt;
+    </style>
 
 
-&lt;style type=&quot;text/css&quot;&gt;
+<style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 body {
   overflow: visible;
@@ -13052,32 +13048,32 @@ div#notebook {
     page-break-inside: avoid;
   }
 }
-&lt;/style&gt;
+</style>
 
-&lt;!-- Loading mathjax macro --&gt;
-&lt;!-- Load mathjax --&gt;
-    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
-    &lt;!-- MathJax configuration --&gt;
-    &lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <!-- MathJax configuration -->
+    <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
-            inlineMath: [ ['$','$'], [&quot;\\(&quot;,&quot;\\)&quot;] ],
-            displayMath: [ ['$$','$$'], [&quot;\\[&quot;,&quot;\\]&quot;] ],
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
             processEscapes: true,
             processEnvironments: true
         },
         // Center justify equations in code and markdown cells. Elsewhere
         // we use CSS to left justify single line equations in code cells.
         displayAlign: 'center',
-        &quot;HTML-CSS&quot;: {
-            styles: {'.MathJax_Display': {&quot;margin&quot;: 0}},
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
             linebreaks: { automatic: true }
         }
     });
-    &lt;/script&gt;
-    &lt;!-- End of mathjax configuration --&gt;
+    </script>
+    <!-- End of mathjax configuration -->
 
-&lt;style&gt;
+<style>
         .cell.nbinteract-left {
             width: 50%;
             float: left;
@@ -13088,16 +13084,16 @@ div#notebook {
             float: right;
         }
 
-        .cell.nbinteract-hide_in &gt; .input {
+        .cell.nbinteract-hide_in > .input {
             display: none;
         }
 
-        .cell.nbinteract-hide_out &gt; .output_wrapper {
+        .cell.nbinteract-hide_out > .output_wrapper {
             display: none;
         }
 
         .cell:after {
-          content: &quot;&quot;;
+          content: "";
           display: table;
           clear: both;
         }
@@ -13109,166 +13105,166 @@ div#notebook {
         .jp-OutputPrompt {
             display: none;
         }
-    &lt;/style&gt;&lt;/head&gt;
-&lt;body&gt;
-  &lt;div tabindex=&quot;-1&quot; id=&quot;notebook&quot; class=&quot;border-box-sizing&quot;&gt;
-    &lt;div class=&quot;container&quot;&gt;
+    </style></head>
+<body>
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container">
       
 
 
 
-  &lt;div class=&quot;cell text_cell&quot;&gt;
-    &lt;button class=&quot;js-nbinteract-widget&quot;&gt;
+  <div class="cell text_cell">
+    <button class="js-nbinteract-widget">
       Loading widgets...
-    &lt;/button&gt;
-  &lt;/div&gt;
+    </button>
+  </div>
 
 
 
 
   
 
-  &lt;div class=&quot;
-      cell border-box-sizing code_cell rendered&quot;&gt;
-    &lt;div class=&quot;input&quot;&gt;
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
 
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;__future__&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_function&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ipywidgets&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interact_manual&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ipywidgets&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;widgets&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span><span class="p">,</span> <span class="n">interact_manual</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+</pre></div>
 
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    </div>
+</div>
+</div>
 
-  &lt;/div&gt;
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Let's-define-a-simple-function&quot;&gt;Let's define a simple function&lt;a class=&quot;anchor-link&quot; href=&quot;#Let's-define-a-simple-function&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-  
-
-  &lt;div class=&quot;
-      cell border-box-sizing code_cell rendered&quot;&gt;
-    &lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;quadratic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;sd&quot;&gt;&amp;quot;&amp;quot;&amp;quot;This is a simple quadratic function.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-  &lt;/div&gt;
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Let's-define-a-simple-function">Let's define a simple function<a class="anchor-link" href="#Let's-define-a-simple-function">&#182;</a></h3>
+</div>
+</div>
+</div>
 
   
 
-  &lt;div class=&quot;
-      cell border-box-sizing code_cell rendered&quot;&gt;
-    &lt;div class=&quot;input&quot;&gt;
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
 
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quadratic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">quadratic</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;This is a simple quadratic function.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+</pre></div>
 
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    </div>
+</div>
+</div>
 
-&lt;div class=&quot;output_wrapper&quot;&gt;
-&lt;div class=&quot;output&quot;&gt;
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">quadratic</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
 
 
-&lt;div class=&quot;output_area&quot;&gt;
+<div class="output_area">
 
     
 
 
 
-&lt;div class=&quot;output_text output_subarea output_execute_result&quot;&gt;
-&lt;pre&gt;625&lt;/pre&gt;
-&lt;/div&gt;
+<div class="output_text output_subarea output_execute_result">
+<pre>625</pre>
+</div>
 
-&lt;/div&gt;
+</div>
 
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 
-  &lt;/div&gt;
+  </div>
 
   
 
-  &lt;div class=&quot;
-      cell border-box-sizing code_cell rendered&quot;&gt;
-    &lt;div class=&quot;input&quot;&gt;
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
 
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;interact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quadratic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">interact</span><span class="p">(</span><span class="n">quadratic</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">);</span>
+</pre></div>
 
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    </div>
+</div>
+</div>
 
-&lt;div class=&quot;output_wrapper&quot;&gt;
-&lt;div class=&quot;output&quot;&gt;
+<div class="output_wrapper">
+<div class="output">
 
 
-&lt;div class=&quot;output_area&quot;&gt;
+<div class="output_area">
 
     
 
 
 
-  &lt;div class=&quot;output_subarea output_widget_view &quot;&gt;
-    &lt;button class=&quot;js-nbinteract-widget&quot;&gt;
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
       Loading widgets...
-    &lt;/button&gt;
-  &lt;/div&gt;
+    </button>
+  </div>
 
-&lt;/div&gt;
+</div>
 
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 
-  &lt;/div&gt;
+  </div>
 
   
 
-  &lt;div class=&quot;
-      cell border-box-sizing code_cell rendered&quot;&gt;
-    &lt;div class=&quot;input&quot;&gt;
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
 
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
 
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    </div>
+</div>
+</div>
 
-  &lt;/div&gt;
+  </div>
 
 
 
-&lt;!-- Loads nbinteract package --&gt;
-&lt;script src=&quot;https://unpkg.com/nbinteract-core&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
+<!-- Loads nbinteract package -->
+<script src="https://unpkg.com/nbinteract-core" async></script>
+<script>
   (function setupNbinteract() {
     // If NbInteract hasn't loaded, wait one second and try again
     if (window.NbInteract === undefined) {
@@ -13285,399 +13281,7 @@ div#notebook {
 
     window.interact = interact
   })()
-&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2020-04/testbinder</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-04/testbinder</guid>
-        
-        
-        <category>ASTRONOMY</category>
-        
-      </item>
-    
-      <item>
-        <title>DAAD RISE Program: Selection Funnel</title>
-        <description>&lt;p&gt;Here I explain how I will select five candidates for an interview for the DAAD RISE program internship position for summer 2020 that I am supervising. This post will be mostly useful for applicants, and my future application-evaluating self. I also wrote a post with a Q&amp;amp;A about the internship based on the questions &lt;a href=&quot;https://ekaterinailin.github.io/articles/2019-12/DAAD-RISE&quot;&gt;here&lt;/a&gt; if you are interested to learn a  little more about the actual science.&lt;/p&gt;
-
-&lt;h2 id=&quot;selection-for-interview&quot;&gt;Selection for interview&lt;/h2&gt;
-
-&lt;p&gt;This time, I am using a number of indicators to define a candidate that will fit the position best regarding the success of the project outcome, their insights into astronomy, and their personal development, among the applicants. They broadly fall into three categories. First, there are thresholds that a candidate must pass in order to be considered. I expect 80-90% of candidates to check the necessary marks. Second, the remaining applications are screened for the main indicators for selection. They are not all equally important, but each can be met to a greater or lesser degree. Third, if there are more than five candidates left after this screening I will add bonus points for skills that are not absolutely necessary but increase the chances that the student will benefit more than other candidates from the opportunity.&lt;/p&gt;
-
-&lt;p&gt;For the second and third criteria I added weights to the indicators that reflect how important each of them are to me.&lt;/p&gt;
-
-&lt;h3 id=&quot;thresholds&quot;&gt;Thresholds&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I do not accept obvious “template” applications.&lt;/li&gt;
-  &lt;li&gt;I do not accept applications that include obvious lies in the CV (e.g. published papers that don’t exist).&lt;/li&gt;
-  &lt;li&gt;I expect the student to present sufficient English skills (I can understand the message you are trying to convey).&lt;/li&gt;
-  &lt;li&gt;The student should demonstrate a professional writing style (necessary to navigate a professional environment).&lt;/li&gt;
-  &lt;li&gt;The student passed most of their exams, perhaps with good grades even (this signals discipline to me, not your talent as a researcher).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;main-indicators-for-selection&quot;&gt;Main indicators for selection&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[35%] A well-structured, personal letter with clear cut thoughts is a clear indication that the applicant reflected on their choice.&lt;/li&gt;
-  &lt;li&gt;[25%] The applicant shows interest in astronomy, and/or attended introductory courses: This will greatly help with getting acquainted with the topic.&lt;/li&gt;
-  &lt;li&gt;[20%] They have some experience in Python: 95% sure we will end up coding a lot.&lt;/li&gt;
-  &lt;li&gt;[20%] They show basic statistics skills: also 95% required.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bonus-criteria&quot;&gt;Bonus criteria&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[45%] They asked questions prior to application that indicate involvement and interest with the topic and the internship in general.&lt;/li&gt;
-  &lt;li&gt;[20%] They noted extracurricular activities that indicate interest in cultural exchange, base research, engagement with charitable causes (this is discouraged in certain countries and I account for that).&lt;/li&gt;
-  &lt;li&gt;[15%] The candidate has worked in a research group as an assistant or intern before, or some other acquaintance with academic working environment.&lt;/li&gt;
-  &lt;li&gt;[10%] They have some experience navigating a Unix based OS (institute IT).&lt;/li&gt;
-  &lt;li&gt;[10%] They expressed interest in learning about the culture and engage with the research group.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;interview&quot;&gt;Interview&lt;/h2&gt;
-
-&lt;p&gt;If you are selected for an interview, you will receive an email around January 22. The interviews will take place the week after via Skype.&lt;/p&gt;
-
-&lt;p&gt;You can prepare for the interview: Review the offer, browse the linked websites, do some research on the surroundings. Be prepared to be asked about your personal goals, and your goals for the collaboration with me. Most importantly, however, reflect on your choice: If you are ranked first on more than one of your applications you will have to choose one, so take your chance to ask me anything that you want to factor into your final decision.&lt;/p&gt;
-
-&lt;h2 id=&quot;ranking&quot;&gt;Ranking&lt;/h2&gt;
-
-&lt;p&gt;The RISE program rules oblige me to accept any of the three top ranked candidates, whoever takes the offered position. The program organizers take care of informing the selected candidates.&lt;/p&gt;
-
-&lt;h2 id=&quot;final-remarks&quot;&gt;Final remarks&lt;/h2&gt;
-
-&lt;p&gt;I consulted and will continue to consult senior researchers I know with more experience selecting students for internships than I have. My considerations in this post are partly based on their advice. Advice I was given does not appear here is that I should listen to my gut feeling regarding whether or not the student and I will get along. This is a difficult criterion to apply, prone to bias in favor of candidates who are similar to myself on multiple axes like character, communication style, gender, ethnicity. Some of these like communication style are certainly beneficial to fruitful collaboration, but it is just as hard to disentangle them from traits that are of no import to the success of the internship. It is not part of my selection funnel but it will certainly unconsciously affect my choice in a close call and there is nothing I or any candidate can do about this except for being aware that there is a degree of randomness.&lt;/p&gt;
-
-&lt;p&gt;Not being selected does not necessarily mean that you are an objectively worse candidate, and certainly it does not mean that you are not suited for any other similar position. If you made it onto the short list, it is a clear evidence that you are heading into a direction where you may become successful.&lt;/p&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-12/DAAD-RISE2</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE2</guid>
-        
-        
-        <category>ASTRONOMY</category>
-        
-      </item>
-    
-      <item>
-        <title>DAAD RISE Q &amp; A: Detect gravitationally bound stars from flaring activity</title>
-        <description>&lt;p&gt;You can apply for a summer research internship with me in Potsdam via the DAAD RISE program &lt;a href=&quot;https://www.daad.de/rise/en/rise-germany/&quot;&gt;here&lt;/a&gt;. The application deadline is on Monday, Dec 16. I collected a number of questions from interested students that I’d like to share with anyone who is interested in applying, or just got curious about the title.&lt;/p&gt;
-
-&lt;h2 id=&quot;this-is-the-abstract-for-the-project-with-a-few-amendments&quot;&gt;This is the abstract for the project (with a few amendments)&lt;/h2&gt;
-
-&lt;p&gt;&lt;u&gt;Are flares hidden multiplicity indicators?&lt;/u&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Around half of the stars in the sky are binaries, systems of two gravitationally bound stars. Some are known because they eclipse, others can be found by the periodic blueshift and redshift of their spectra. Distant binaries can be detected in microlensing events. Binaries with similar masses can be spotted by their overluminosity compared to single stars, and a few systems can even be observed as separate objects, moving in Keplerian orbits in the plane of the sky. But the vast majority of stars that live in multiple systems remains undiscovered.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;However, knowing the fraction of binaries is of primary importance for our understanding of star formation. In the case of binary systems with a solar type (spectral type GV) primary and a low mass secondary (MV) star their small mass ratio aggravates detection because the luminosity of the secondary component contributes less than 1% to total luminosity of the system. The MV hides in the light of its brighter companion.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Fortunately, MVs are known to be actively flaring, while GVs flare less often and relatively less energetically. Flares are explosions that occur in the magnetized atmospheres of stars. They can enhance the stellar flux by orders of magnitude within seconds and last up to several hours.
-Flare signatures can be detected by their characteristic shape in time-resolved optical observations, or light curves. So in principle we can notice the presence of a small secondary star when it brightens up during a flare. And many stars do: More than 100 000 stellar flares were observed
-in the field of view of the Kepler space mission and thousands are currently being observed by TESS.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Our goal for this project is to find binaries using excess flaring activity. During this RISE project, we will be developing an empirically motivated statistical model of the multiplicity-flaring activity relation in stellar systems in the Kepler field stars. We will then test our model by comparing samples with confirmed binarity status to those without. Eventually, we will use our model to update the base multiplicity probability for any star with known flaring activity, and present a collection of likely unresolved binary candidates in the Kepler field based on our studies for follow-up observations.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;and-these-are-the-questions-that-students-have-asked&quot;&gt;And these are the questions that students have asked:&lt;/h2&gt;
-
-&lt;h3 id=&quot;do-we-know-the-mechanism-behind-the-flaring-of-the-lower-mass-secondary-stars&quot;&gt;Do we know the mechanism behind the flaring of the lower mass secondary stars?&lt;/h3&gt;
-
-&lt;p&gt;We believe that the mechanism that drives flares on low mass stars is essentially the same as on the Sun - re-connection of magnetic field lines in the upper atmosphere of the star leads to a sudden relaxation of their topology. This change accelerates particles and produces electromagnetic emission in all wavelength bands from x-ray to radio. But obviously the conditions in the atmospheres of small, cool stars are different from the Sun’s, and we have reason to think that the magnetic fields of these stars must differ in strength and geometry, too. However, the flares that we observe on the Sun and small stars are remarkably similar. So, until we learn otherwise, Sun-like flaring is a good enough model.&lt;/p&gt;
-
-&lt;h3 id=&quot;is-the-flaring-periodic-similar-to-cepheid-variables-or-more-random-in-nature&quot;&gt;Is the flaring periodic, similar to Cepheid variables, or more random in nature?&lt;/h3&gt;
-
-&lt;p&gt;Large flares seem to follow a Poisson process in time, and to be independent of one another. For small flares, there is evidence that flares are “sympathetic”, that is, the occurrence of a flare makes the occurrence of a small flare shortly after/before more likely.&lt;/p&gt;
-
-&lt;p&gt;There are exceptions to this, but they concern exceptional systems - like eccentric close binaries and star-planet systems with Ultra-Hot Jupiters - where we believe that flaring could occur periodically whenever the two objects are closest to each other.&lt;/p&gt;
-
-&lt;h3 id=&quot;does-it-have-something-to-do-with-the-rotation-in-the-binary-system&quot;&gt;Does it have something to do with the rotation in the binary system?&lt;/h3&gt;
-
-&lt;p&gt;It depends on whether you mean the rotation of the individual stars or the orbital parameters of the binary system. The answer is in both cases yes, but the former is much more relevant than the latter. Stellar rotation is tightly linked to flaring: All else equal, the faster the star rotates, the more and the stronger the flares you observe become. The relation between the orbit and flaring is more subtle. Very close orbits, where the two stars exchange mass or perturb each others magnetic fields, may directly cause additional flaring (perhaps even periodically in eccentric systems, see above). But we will be looking into well-separated binaries that do not interact. We treat them as single stars that share age and composition, and are gravitationally bound. It is an open question if there are effects on the flaring activity that stem from the formation history of these binaries, though.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-will-the-statistical-model-of-the-flaring-activity-involve&quot;&gt;What will the statistical model of the flaring activity involve?&lt;/h3&gt;
-
-&lt;p&gt;Would you like to know more about the methods we are going to use, or about the physical parameters that will go into the model?&lt;/p&gt;
-
-&lt;p&gt;In the former case: We’ll definitely use standard Bayesian analysis and fitting methods like maximum likelihood method, MCMC sampling etc. But since we are working with labeled (binary/single/unclear) data, we might also attempt supervised learning methods. There is no big model code base for what we want to study, so we’ll be developing a simple toy model first, and then see how far we can get with this.&lt;/p&gt;
-
-&lt;p&gt;In the latter case: Flaring activity and binarity will be a function of stellar mass for sure, but further down the road we might want to include additional information about the star to make better inferences, like rotation, metallicity, or age. Flaring activity as such also has some characteristic behaviors, which we’ll also incorporate, such as a strong power law relation between the occurrence rate and the energy of the flares.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-will-the-student-spend-most-of-their-time-doing&quot;&gt;What will the student spend most of their time doing?&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;It seems to me that the project will be mostly focused on analyzing archival data to determine a suitable model. Does this sound accurate?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I expect the time to be split between analyzing archival data (35%), the development of a simple model that predicts binarity from flaring (20%),  reading the literature on flaring activity and stellar multiplicity (20%), research group activities like colloquiua (10%), and discussing science with me and others in the group (10%) … and perhaps 5% exploring the place, getting settled, and figuring out logistics. These are, of course, rather rough estimates, and might change depending on how the project goes. If we find that the model is worth developing further and it becomes a more theoretical work, data analysis will be less important. If we figure out that we can infer a lot about the systems in question from a statistical analysis, we will dig into the archives more.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-will-training-be-like-will-there-be-much-supervision&quot;&gt;What will training be like? Will there be much supervision?&lt;/h3&gt;
-
-&lt;p&gt;This will depend on you. Supervision will be as close as it needs to be so that you can continuously make progress, and won’t get stuck on anything for too long. I will likely be supervising very closely (=daily chats) in the beginning, less in the middle of the internship period, and more closely in the end when wrapping up, drawing conclusions, and making further plans.&lt;/p&gt;
-
-&lt;p&gt;I’d prefer to err on the side of closer supervision, but I am happy to let you explore if you decide to do so. This is a learning opportunity for you, and you should get out of it whatever is most valuable to you on the margin. You might want to reflect on what you expect from the internship before you dive into it, and we can figure out a suitable strategy to achieve both our shared and individual goals together.&lt;/p&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-12/DAAD-RISE</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE</guid>
-        
-        
-        <category>ASTRONOMY</category>
-        
-      </item>
-    
-      <item>
-        <title>A good thing happened to me</title>
-        <description>&lt;p&gt;&lt;em&gt;Epistemic status: I report my experience, and add what I understood from talking to others. Comparisons to other conferences are based on two US-based and two European conferences.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In the last few days I attended the &lt;strong&gt;“KITP Conference: Planet-Star Connections in the Era of TESS and Gaia”&lt;/strong&gt; that took place at the Kavli Institute for Theoretical Physics at UC Santa Barbara, CA, USA. I had a surprisingly good experience that I am sharing here.&lt;/p&gt;
-
-&lt;h2 id=&quot;talks&quot;&gt;Talks&lt;/h2&gt;
-
-&lt;p&gt;On average, four out of five talks had excellent quality. They were clear, picked everyone up in the beginning, did not run overtime, and did not seem to oversell results. All talks, except for mine, which was 10 min + 5 min long, were 20 min + 10 min (talk + discussion). There was plenty of time for discussion, clarifications and comments. I noticed little status signalling during the sessions. The overall atmosphere was mutually respectful.&lt;/p&gt;
-
-&lt;p&gt;My own talk went well for me, although I could not help but notice that the level of my talk did not quite fit the rest. Most talks were review-ish, while mine just presented a particular tentative result from my most recent project. But the organizers made it play well with the other talks, as they carefully selected the speakers and invited them to give talks on specific topics. The questions I was asked were rather suggestions on what else to look for in the data. Some I had thought of before, others were new. On balance, I believe it was a good feedback to work with at my stage.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;All talks, includind mine, were &lt;a href=&quot;http://online.kitp.ucsb.edu/online/exostar-c19/&quot;&gt;recorded&lt;/a&gt;. I find most of them worth re-watching. &lt;em&gt;Update:&lt;/em&gt; While reviewing the talks I found both more flaws and more interesting content that I had missed previously. My overall impression, however, remained as described.&lt;/p&gt;
-
-&lt;h2 id=&quot;panel-discussions&quot;&gt;Panel discussions&lt;/h2&gt;
-
-&lt;p&gt;Punchline first: Chairs in panel discussions that take their job seriously are key. Whenever they managed to provide guardrails and good starting points the discussion was fruitful. There are, of course, some who always raise their hands first, but no-one hijacked the conversation entirely. Those who talked a lot added value to the panel overall more often than just grabbing attention.&lt;/p&gt;
-
-&lt;h2 id=&quot;poster-session&quot;&gt;Poster session&lt;/h2&gt;
-
-&lt;p&gt;20-30 posters were on display throughout the conference in the hallway between the lecture hall and the courtyard, so that one could pass by during the breaks and have a look.&lt;/p&gt;
-
-&lt;p&gt;Before the poster session we had a round of lightning talks. I felt that they were too many to really appreciate every single one of them. But it was a good ice breaker for the session.&lt;/p&gt;
-
-&lt;p&gt;During the poster session, however, everyone was crammed into the narrow space between the poster walls. It was very noisy. I talked to three other students about their posters during the session, and to another one later during the week, and got to chat over mine as well. I believe, I could have had more interesting conversations, but I began to lose my voice. Fortunately, the reception after the poster session extended the poster chats into the evening.&lt;/p&gt;
-
-&lt;h2 id=&quot;coffee-breaks-and-receptions&quot;&gt;Coffee breaks and receptions&lt;/h2&gt;
-
-&lt;p&gt;Coffee breaks were 30 min, lunch breaks 90 min. Receptions were open end, but ended after around 2 1/2 hours. Mid-conference we had a free afternoon with an open house hosted by Las Cumbres Observatory in the evening, which I did not attend. The breaks allowed me to follow up on various people’s talks in person, chat with many others sitting at the round tables in the courtyard. I bumped into random people, and started conversations. Others approached me and took interest in the work I presented, or my “early PhD life” experiences.&lt;/p&gt;
-
-&lt;p&gt;The catering is worth mentioning: There was little alcohol, and many vegetarian options. For the first time during a conference, I could maintain a healthy diet on site.&lt;/p&gt;
-
-&lt;h2 id=&quot;participants&quot;&gt;Participants&lt;/h2&gt;
-
-&lt;p&gt;Compared to what I have so far seen at astronomy related conferences, there was an excess of women and luminaries in the field (with a considerable overlap between these two groups). There was a bunch of PhD students, but I confidently place myself far into the junior tail of the years-in-science distribution.&lt;/p&gt;
-
-&lt;p&gt;The crowd was inspiring! So many expert minds at my fingertips, openly discussing the most recent puzzles, questioning long-standing paradigms, and suggesting ways to make progress with the most pressing questions.&lt;/p&gt;
-
-&lt;h2 id=&quot;from-first-steps-to-spotlight-solos-to-group-choreography&quot;&gt;From first steps to spotlight solos to group choreography&lt;/h2&gt;
-
-&lt;p&gt;The thread that ran through the week was a sense of revolution powered by Gaia, TESS, Kepler and other recent, as well as future missions and surveys like PLATO and Luvoir/HabEx. The data treasury has been growing exponentially over the past years and the missions ahead promise that the trend will continue. On the other hand, there is a lack of coordinated programs that would obtain complementary observations needed to lift various degeneracies in our current findings. We might be leaving the era of poking in the dark, and entering a data-rich time with growing coordination across institutes and projects. If this trend continues, more coordination will eventually allow us to tackle the parallelization of programs and observations relatively soon, and make telescopes come together to dance beautiful choreographies.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-to-expect-from-future-conferences&quot;&gt;What to expect from future conferences?&lt;/h2&gt;
-
-&lt;p&gt;This conference was ideal for sparking new ideas, bringing together different subfields, and collectively taking a bird’s eye perspective on the planet-star connection. All of the conference’s features surprised me, and I do not see how I could have predicted them &lt;em&gt;before applying&lt;/em&gt;. The sole robust update is that a conference associated with a KITP program is a relatively safe choice because I learned that these conferences all follow a similar pattern. As for the characteristics to look for in a conference I would now make the following ranking:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;topic (personal interest, fit to own work, broad/narrow theme, redundancy with other conferences)
-    &lt;ul&gt;
-      &lt;li&gt;invited speakers, chairs, and participants&lt;/li&gt;
-      &lt;li&gt;opportunity to make an own contribution&lt;/li&gt;
-      &lt;li&gt;variety in formats and break duration&lt;/li&gt;
-      &lt;li&gt;the LOC’s commitment to creating a welcoming environment (code of conduct)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Caution: priorities shift significantly with the total number of participants, the remaining duration of your contract, and the type of input you are seeking out.&lt;/p&gt;
-
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-05/kitp-conference</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/kitp-conference</guid>
-        
-        <category>conference</category>
-        
-        <category>science</category>
-        
-        <category>astronomy</category>
-        
-        
-        <category>ASTRONOMY</category>
-        
-        <category>ACADEMIA</category>
-        
-      </item>
-    
-      <item>
-        <title>Flying is still bad, but we can do something about it</title>
-        <description>&lt;p&gt;&lt;em&gt;Epistemic status: Taking some modest action, becoming more confident in radical conclusions. Still cautious not to appear hysterical or activist or misanthropic because I do not see myself as either of these.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In a previous post, I dramatically announced that I was about to do something against the culture of excessive flying in academia. Here, I summarize the steps I have taken in the past six weeks. I compile what I learned and some surprising insights, spot difficulties, and declare what I will do next to eventually reduce academic flying by about 80% (&lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_principle&quot;&gt;pareto principle&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Some of the things I did:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Talked to my supervisors, some postdocs, administration staff, and office mates at our institute.&lt;/li&gt;
-  &lt;li&gt;Had an hour-long discussion about the issue in the monthly meeting of PhD students at our institute.&lt;/li&gt;
-  &lt;li&gt;Talked to a nice person who is actively avoiding flying and has become an expert in hacking the railroad ticket system in Europe.&lt;/li&gt;
-  &lt;li&gt;Read a ton of #flyingless tweets and blog posts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Surprising insights:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Apparently, there are time allocation commitees, and similar sorts of consortia, juries etc. that have no good reason to meet in person, or where the benefits of physical proximity are probably dispensable.&lt;/li&gt;
-  &lt;li&gt;Networking is much more important for young people in the field, who do not yet have that network. The seniors’ time may in many cases be better used if they a) gave their talks remotely, or b) did some science at home, and sent off their students instead. Still, there seems to be some &lt;a href=&quot;https://twitter.com/Hannahcknox/status/1097912701676896258&quot;&gt;pressure&lt;/a&gt; on seniors to attend these events in person but also &lt;a href=&quot;https://twitter.com/Elin_Roos_SE/status/1090559388258045952&quot;&gt;support&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;There is emotional attachment to flying. Positively, it seems to induce a feeling of cosmopolitanism, adventure, and status. Negatively, it feeds a fear of missing out. For the younger folks, travelling around the world, or “going places”, may even be a reason to attempt to make a career in academia in the first place.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I found some reasons to be optimistic:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Since the imperative to reduce carbon emission comes from within academia it is difficult for an academic to defend a position that opposes scientific consensus. Ultimately, not acting upon robust scientific facts undermines the value of your own research. This is so straightforward to me that I find it difficult to work out arguments against it off the top of my head.&lt;/li&gt;
-  &lt;li&gt;A visiting scientist mentioned in an email exchange with the administration in our institute that they would rather come by train if not for legal regulations. This is only one instance of a handful of this sort I overheard.&lt;/li&gt;
-  &lt;li&gt;The echo among the PhD students was largely positive. But not all PhD students were present, either.&lt;/li&gt;
-  &lt;li&gt;No-one outright rejected my proposition, although there have been objections of all sorts, from all the people I talked to so far.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Concrete steps that can be taken:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Raise awareness locally, and on social media. This may lower the acceptance threshold for seemingly radical 80/20 cuts, or at least highlight the perks of stay-at-home science.&lt;/li&gt;
-  &lt;li&gt;When the institute runs its own conferences, the LOC should allow for remote participation. We can encourage seniors to give talks via video stream. It is pretty easy to set up and you can still have intimate Q &amp;amp; A sessions, office hours, and the like, in dedicated seminar rooms at the venue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Actions that require some investment but still may be possible:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Require a minimum stay of multiple weeks at some hosting institute if going on a flight outside of Europe.&lt;/li&gt;
-  &lt;li&gt;Require a minimum stay of multiple days at some hosting institute if going on a flight within Europe.&lt;/li&gt;
-  &lt;li&gt;Equip one or multiple seminar rooms with VR infrastructure with fast internet connection and good video call quality.&lt;/li&gt;
-  &lt;li&gt;Make the individual travelling transparent, and hold the section heads accountable for their own and their groups’ flying. This requires some sort of environmental code of conduct. A working group that works out something with representatives from all science branches, IT, administration, finance etc. is a starting point.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Real obstacles and objections to be taken seriously:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pressure to compete with other institutes by attending many events and being seen and recognized. The transition to 80% less flights will require institutions to act collectively.&lt;/li&gt;
-  &lt;li&gt;Compared to the main carbon emitters like coal, academic flying abstinence is unlikely to turn the tables, which is a discouraging thought.&lt;/li&gt;
-  &lt;li&gt;A cousin to feeling of helplessness is the rejection to accept that academics are an elite. If you do not feel that you are somehow put on a pedestal by society to do science for the good of humanity then you will not feel responsibile to act as a role model either.&lt;/li&gt;
-  &lt;li&gt;There is that very German thing called Bundesreisekostengesetz (literal translation: federal travel expense law). Travelling is supposed to be as cheap as possible if you want to have it counted as refundable travel expense. Finance department’s hands are tied here.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My personal next steps:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ask my local green party friends about ways to legally circumvent (or change?) the Bundesreisekostengesetz.&lt;/li&gt;
-  &lt;li&gt;Make a short contribution to the all-institute coffee meeting with the suggestions just discussed to incite debate, and action, hopefully.&lt;/li&gt;
-  &lt;li&gt;I am on the LOC of a workshop run at our institute: I will approach the LOC heads concerning remote talks, video streaming, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will report back as soon as these steps have been taken.&lt;/p&gt;
-
-&lt;p&gt;P.S.: A fellow grad student presented some principles of behaviour change in a group meeting that struck a cord with me. Four prerequisities need to be met to make adults change their habits: An &lt;strong&gt;emotional&lt;/strong&gt; component, expressed in a subjective urge to this change. A &lt;strong&gt;rational&lt;/strong&gt; component that clarifies if the change is realistically doable, and checks if the effects of such a change would give the desired results. There is also a &lt;strong&gt;social&lt;/strong&gt; component, because you will need at someone who encourages you, or a role model. Not sure if considerable social punishment in case of failure would work, too. Finally, the &lt;strong&gt;structural&lt;/strong&gt; constraints are the physical, temporal, financial, and legal conditions for the change. Personally, I would add a &lt;strong&gt;moral&lt;/strong&gt; component that I find hard to cover by either the emotional or rational component alone, depending on how you inform your moral views. Otherwise these categories seem to catch many of the aspects in this post.&lt;/p&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-05/flyingless-update</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/flyingless-update</guid>
-        
-        <category>academia</category>
-        
-        <category>flying</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Flying in academia is wrong, and I need to do something about it</title>
-        <description>&lt;p&gt;&lt;em&gt;Epistemic status: Knowing that climate change is not an existential threat to humanity as a whole, but still very bad, with unforseeable societal consequences if not mitigated. Clearing my mind here on how to practice what I am preaching.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;My flights in my first year in academia more than doubled my carbon footprint. They made up 5 metric tons of &lt;a href=&quot;https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent&quot;&gt;CO2 equivalent&lt;/a&gt;, or 44 hours of flying. This is much more than the world can put up with in the long run. My entire consumption including flying is about 8 metric tons according to &lt;a href=&quot;https://www.carbonfootprint.com/calculator.aspx&quot;&gt;this carbon footprint calculator&lt;/a&gt;. Similar calculators, especially those that are adapted to my living in Germany (taking into account public emissions) show similar results&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. In any of those, even reducing myself to 10-15 hours of flying per year is nowhere close to sustainable. Admitting this hurts. So, either no flying ever again, or admitting to everyone that I am sacrificing their and their descendants’ quality of life, and writing “I am sorry, but your life will get worse. And your children’s even more so…” letters to those who are in dire need &lt;em&gt;already&lt;/em&gt;? The latter seems to me a very undesirable option, the former hard to achieve&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Claiming that the scientific progress for which I am doing the flying is more important than making this world a place worth living is at least sarcastic. No matter how good my science might be or ever become, it is hard to justify that it is worth sacrificing people’s well-being for. I should not be okay with having complete strangers suffering from severe consequences of unpredictable weather extremes, just because I need to meet with those scientists somewhere around the globe. Or attend a workshop, or a summer school, or a conference, or go on a research visit… And I am not okay with it.&lt;/p&gt;
-
-&lt;p&gt;I feel bad about it. I like meeting all these other amazing scientists. I like listening to their talks in person, engage in scientific discussion, being given the chance to present my own ideas and results, feel good about the atmosphere and being part of this sort of ritual. I see how this exchange enriches my field, I also feel the warm touch of exclusiveness of being with the crowd, let it be in the audience, on stage, or at some nice restaurant in the evening. Not all about these gatherings is great. There is a lot of signalling happening during these events, talks or sessions sometimes are of low quality but you may just be stuck in the middle of the lecture hall. The participation costs keep many from joining in the first place, let alone outright discrimination. Also, travelling long distances takes a toll on the health. But I believe that the positive features outweigh the cons. This is, however, only true if I neglect the environmental impact. This is the tipping point where I change my opinion. I’d rather quit participating in such events.&lt;/p&gt;
-
-&lt;p&gt;I am fully aware of the discrepancy between my actions and my words. The information is out there in heaps, proving that I cannot tolerate negative effects on future generations, and even myself, if I do not do anything about my irresponsible standard of living.&lt;/p&gt;
-
-&lt;p&gt;Why do I not leave academia and do something else, if it bugs me so much? Because then someone else would fly. I am in no way irreplaceable in my field, just like everybody else in academia is. It is not the appropriate answer to the dissonance between my actions and my words. The call to action should be that I ultimately reduce my actual flying and that of those in my field. Or flying in acamedia in general.&lt;/p&gt;
-
-&lt;p&gt;I do not think we can wait until a law comes about that will prohibit flying without absolute necessity. It may never happen soon enough, and if it did, we would not be prepared. We would need time to adapt to such a radical change, and scientific research would suffer. A better solution is to adapt now, gradually, but systematically. We have all the magic of the &lt;em&gt;internet&lt;/em&gt; at our fingertips. Real-time communication is nearly free today. The initiative &lt;a href=&quot;https://academicflyingblog.wordpress.com/&quot;&gt;flyingless&lt;/a&gt; has some really good suggestions, and a &lt;a href=&quot;https://www.change.org/p/universities-and-professional-associations-call-on-universities-and-professional-associations-to-greatly-reduce-flying?recruiter=294645973&amp;amp;utm_source=share_petition&amp;amp;utm_medium=copylink&quot;&gt;petition&lt;/a&gt; that sums up their claims. The claims are aimed at university departments and similar organisations, and there is no way I can resort to “But I am just a […] with little power in this respect.”. If you are in academia, as undergrad, graduate, post-doc, or professor - you are part of the problem. Unless you accept that you live in fully hierarchical system with no element of democracy in your department, this is no excuse.&lt;/p&gt;
-
-&lt;p&gt;At this point, I have somethng to do. I will not write about this topic again until I will have done something about it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Footnotes:&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;You can see my results using the German carbon footprint calculator (in German, obviously) &lt;a href=&quot;http://www.uba.co2-rechner.de/de_DE/?bookmark=R5tPXniBc5ZWl7oH&quot;&gt;here&lt;/a&gt;. The 3 non-flying metric tons of CO2 equivalent that I produce according to this calculator could be reduced in the long term by changing my diet from vegetarian to vegan and regional, heating less, switching to renewable energy sources for heating and electricity, moving into a smaller apartment, and the like. All of these interventions are small changes I am implementing step by step. But I cannot go below 2 tons without large cuts on my standard of living. Also, the effectiveness of these changes compared to what I could achieve by just giving up flying is negligible. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Compensation will not work if we want to achieve the Paris goals. This is even admitted by the companies that offer compensation services (&lt;a href=&quot;https://www.atmosfair.de/en/standards/good_offsetting_practices/&quot;&gt;atmosfair&lt;/a&gt;). There are just so many trees we can plant, because this planet is a &lt;em&gt;sphere&lt;/em&gt;. And waiting for emissionless means of transport to replace flying are unrealistic. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-03/flyingless</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-03/flyingless</guid>
-        
-        <category>academia</category>
-        
-        <category>flying</category>
-        
-        
-        <category>ACADEMIA</category>
-        
-      </item>
-    
-      <item>
-        <title>Moral orbits</title>
-        <description>&lt;p&gt;It is of no concern where, spatio-temporally, a moral patient is situated. If a sentient being is or will be suffering, I am morally obliged to help to stop or prevent that suffering. The more this patient is, or will be, suffering, the worse it is not to act.&lt;/p&gt;
-
-&lt;p&gt;If you are familiar with the statements above, read on. You need not agree, or disagree. If you are, however, greatly uncertain about what all of this just meant, this post will be difficult to follow. I may elaborate on details about these statements later, but for now, I just want to jot one idea down:&lt;/p&gt;
-
-&lt;p&gt;Consider the expanding moral circle. It is common sense in western societies to regard all humans as having equal moral value. But this was a long and hard road. It was paved with slavery, antisemitism, racism, and misogyny. We are far from reaching high moral ground, but things have generally improved. This somewhat encouraging development can be put on a trajectory of a growing number of potential moral patients. From closest to you to complete strangers, it looks approximately like this:&lt;/p&gt;
-
-&lt;p&gt;myself → family and friends → local community → extended community → nation → supranational level → world.&lt;/p&gt;
-
-&lt;p&gt;For most people, the moral circle encloses, beyond themselves, their relatives and dear friends. Others, many fewer, are equally concerned about everyone and everywhere, even if they do not yet exist. You can add another axis to this range if you include non-human sentient beings, say elephants or chicken, and a time axis. Attitudes probably exist everywhere on this range, from a very narrow towards a extraordinarily wide moral circle.&lt;/p&gt;
-
-&lt;p&gt;On the one hand, there is no obvious way to go further left on the line above. You might speculate about someone who is mostly morally concerned only about some part of theirs. I, personally, will set aside the though of an even narrower moral circle than pure self-interest. On the other hand, the obvious question for the right edge of the line is this. Is there, outside of Earth’s closest vicinity (hey there, ISS), a moral patient whom I should care about?&lt;/p&gt;
-
-&lt;p&gt;If the answer is yes, and the statements at the beginning of this post are convincing enough, I ought to include these sentient beings into my moral circle. However, we are highly uncertain about the existence of extraterrestrial sentient beings (ESBs). Anything goes, from millions of civilizations in the Milky Way to Our Lonely Human Race (OLHR) being the only one out there.&lt;/p&gt;
-
-&lt;p&gt;The question is this: Am I morally obliged to help find out if there is anyone out there other than OLHR, who deserves my attention as a moral patient? I believe that the answer is yes. Let me explain.&lt;/p&gt;
-
-&lt;p&gt;The answer is yes because, while nobody knows everything, we want, all considered, to make &lt;em&gt;informed&lt;/em&gt; moral decisions. We can call&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;striving to learn all the morally relevant facts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;a secondary moral value. This can justify a very general exploration directive but I will talk about this moral value in a qualified sense:&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;&lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt; If we have reason to believe that there is a morally relevant fact within our reach, we ought to strive to learn this morally relevant fact or to disprove its existence.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The crucial word is &lt;em&gt;relevant&lt;/em&gt;, and there’s the rub. As mentioned before, the uncertainty about the existence of ESBs is very high. If we suspect moral patients in a gold mine in China, we have a strong prior that we will find great numbers of people working hard under awful conditions, dying prematurely, and painfully. Most, I believe, would agree, that in this case, we ought to go to these mines. &lt;em&gt;At the very least, we should check&lt;/em&gt; if there is any truth behind this suspicion. And even in cases where there is often less compelling evidence that suffering might be underway, we agree that we should try to add transparency to the process. Think food security, or physician-patient relations. In other situations, we have little moral obligation to search for suffering. No-one should be morally concerned with what happens inside your dishwasher while it cleans your dinner plates.&lt;/p&gt;
-
-&lt;p&gt;But what if we are &lt;em&gt;very&lt;/em&gt; uncertain? To some degree, we can turn to the expected amount of suffering we may find if we search. If the chances are very high that something that is just a tiny bit morally concerning is true, the overall suffering may still be considerable and worth relieving. If the risk of a grand catastrophe happening is very low but the impact would be disastrous, we still ought to prevent it or be prepared to keep the effects at bay. In our case, however, we are very uncertain about a probability distribution. So talking expected values is of little use. But must try something different.&lt;/p&gt;
-
-&lt;p&gt;The number of ESBs in our Galaxy (to keep arguments about causality limits out of this debate) ranges from zero to maybe 10^16 (a million populations with 10 billion individuals each). If we are clueless our probability distribution will be flat. Any number will be very unlikely. After finding any evidence, in favor or against some range of population size, we can update our distribution, and re-assess the case for further exploration. This is what we should do, according to &lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now there is a number of objections. To name a few:&lt;/p&gt;
-
-&lt;p&gt;Even if we learn something morally revelant, we will be unable to do anything about it, at least for now. Another objection is that we should rather use our scarce resources on problems much more salient to us, and these give us more than enough causes to focus on for the upcoming centuries and beyond. Yet another objection appeals to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Fermi_paradox&quot;&gt;Fermi paradox&lt;/a&gt;. And you could think of marginal returns: Why bother about something that would happen sooner or later anyway (but certainly on time). Then the costs of making it happen earlier may simply be too high for the benefits.&lt;/p&gt;
-
-&lt;p&gt;I will attempt to complement this list of objections, and I will try to answer them with appropriate rigor in later posts. The bottom line in this post shall, for the moment, be just this:&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;It is well possible that we have a moral reason to dedicate considerable resources to research that will help us constrain the population size of extraterrestrial sentient beings.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thoughts on this? Tag @astroilin and #moralorbit on twitter, or let me know: ekaterina dot ilin at posteo dot de&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>2020-04-10</pubDate>
-        <link>http://localhost:4000/articles/2019-02/moral-circle</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-02/moral-circle</guid>
-        
-        
-        <category>EFFECTIVE ALTRUISM</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</script>
+    </div>
+  </div>
+</body>

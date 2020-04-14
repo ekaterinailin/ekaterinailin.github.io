@@ -13132,10 +13132,16 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
+<span class="kn">import</span> <span class="nn">astropy.units</span> <span class="k">as</span> <span class="nn">u</span> 
 
 <span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span><span class="p">,</span> <span class="n">interact_manual</span>
 <span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Markdown</span> <span class="k">as</span> <span class="n">md</span>
+
+<span class="c1"># Define constant</span>
+<span class="n">vsun</span> <span class="o">=</span> <span class="mf">220.</span> <span class="c1"># km/s Sun&#39;s velocity around the Galactic center</span>
 </pre></div>
 
     </div>
@@ -13145,7 +13151,17 @@ div#notebook {
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Let's-define-a-simple-function">Let's define a simple function<a class="anchor-link" href="#Let's-define-a-simple-function">&#182;</a></h3>
+<h1 id="1.-Interstellar-cloud">1. Interstellar cloud<a class="anchor-link" href="#1.-Interstellar-cloud">&#182;</a></h1><p>In 21cm observations, you can find many interstellar clouds in the Galactic plane in the direction of $l = 45^o$. The cloud with the largest radial velocity has $v_r = 73\,$km$\,$s$^{-1}$.</p>
+
+<pre><code>a. What is its distance from us? How far is it from the Galactic centre?
+
+</code></pre>
+<p><img src="sketch.png"  width=400/></p>
+<p>Figure 1: Schematic view of Sun, interstellar cloud and Galactic centre. Both orange angles are $45^o$.</p>
+<p>$R_0$ is the distance from the Sun to the Galactic center. The value varies depending on the method you use to measure it (<a href="https://en.wikipedia.org/wiki/Galactic_Center">Wikipedia: Galactic Center</a>). We adopt $8.2\,$kpc here.</p>
+<p>$l$ is given in the exercise.</p>
+<p>$D = R = R_0 \cdot \sin l$</p>
+
 </div>
 </div>
 </div>
@@ -13158,62 +13174,18 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">quadratic</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;This is a simple quadratic function.&quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">distance</span><span class="p">(</span><span class="n">R_0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mf">45.</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Calculate the distance to the </span>
+<span class="sd">    Sun and the Galactic center.&quot;&quot;&quot;</span>
+    <span class="n">from_us</span> <span class="o">=</span> <span class="n">R_0</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">((</span><span class="n">l</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">rad</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    <span class="n">from_center</span> <span class="o">=</span> <span class="n">R_0</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">((</span><span class="n">l</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">rad</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;The cloud is </span><span class="si">{</span><span class="n">from_us</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> kpc away from the Sun, &quot;</span> \
+           <span class="sa">f</span><span class="s2">&quot;and </span><span class="si">{</span><span class="n">from_center</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> kpc away from the Galactic center.&quot;</span>
 
-    </div>
-</div>
-</div>
+<span class="n">x_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">7.4</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">8.7</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$R_0 [kpc]$&quot;</span><span class="p">)</span>
+<span class="n">y_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">90.</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mf">45.</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$l$ [deg]&quot;</span><span class="p">)</span>
 
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">quadratic</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>625</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">interact</span><span class="p">(</span><span class="n">quadratic</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">);</span>
+<span class="n">interact</span><span class="p">(</span><span class="n">distance</span><span class="p">,</span> <span class="n">R_0</span><span class="o">=</span><span class="n">x_widget</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="n">y_widget</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -13242,6 +13214,453 @@ div#notebook {
 </div>
 
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code> b. Calculate the velocity with which the star is rotating around the Galactic center.
+
+</code></pre>
+<p>Transform the following relation</p>
+<p>$v_r = R_{0}(\frac{v_*}{R} - \frac{v_{\odot}}{R_{0}})\sin l $</p>
+<p>to</p>
+<p>$v_* = (\frac{v_r}{R_{0}\sin l} + \frac{v_{\odot}}{R_{0}})R $</p>
+<p>and plug in the numbers:</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">velocity</span><span class="p">(</span><span class="n">R_0</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">vr</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Calculate the velocity with </span>
+<span class="sd">    which the cloud is rotating around </span>
+<span class="sd">    the Galactic center.&quot;&quot;&quot;</span>
+    <span class="n">vsun</span> <span class="o">=</span> <span class="mf">220.</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="n">R_0</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">((</span><span class="n">l</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">rad</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    <span class="n">vr</span> <span class="o">=</span> <span class="n">R</span> <span class="o">*</span> <span class="p">(</span><span class="n">vr</span> <span class="o">/</span> <span class="n">R</span> <span class="o">+</span> <span class="n">vsun</span> <span class="o">/</span> <span class="n">R_0</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;The cloud is rotating at </span><span class="si">{</span><span class="n">vr</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> km/s.&quot;</span>
+
+<span class="n">x_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">7.4</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">8.7</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$R_0 [kpc]$&quot;</span><span class="p">)</span>
+<span class="n">y_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">90.</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mf">45.</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$l$ [deg]&quot;</span><span class="p">)</span>
+<span class="n">z_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">200.</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mf">73.</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$v$ [km/s]&quot;</span><span class="p">)</span>
+
+<span class="n">interact</span><span class="p">(</span><span class="n">velocity</span><span class="p">,</span> <span class="n">R_0</span><span class="o">=</span><span class="n">x_widget</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="n">y_widget</span><span class="p">,</span> <span class="n">vr</span><span class="o">=</span><span class="n">z_widget</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>c. How many orbits around the Galactic centre did the cloud complete in one Galactic year (the time it takes the Sun to orbit the Galactic centre once)?
+
+</code></pre>
+<p>For the Sun, the time $T_{\odot}$ it takes to complete one orbit around the Galactic centre is:</p>
+<p>$T_{\odot} = \dfrac{2 \pi R_0}{v_{\odot}}$</p>
+<p>In this time, the cloud can travel:</p>
+<p>$d_{cloud} = \dfrac{v_* T_{\odot}}{2 \pi R} = \dfrac{v_* R_0 }{v_0  R} = $</p>
+<p>in units of full rotations of the cloud around the Galactic center.</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">rotations_around_galactic_center</span><span class="p">(</span><span class="n">R_0</span><span class="p">,</span> <span class="n">vs</span><span class="p">,</span> <span class="n">R</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; &quot;&quot;&quot;</span>
+    <span class="n">dcloud</span> <span class="o">=</span> <span class="n">vs</span> <span class="o">*</span> <span class="p">(</span><span class="n">R_0</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">kpc</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">km</span><span class="p">)</span> <span class="o">/</span> <span class="n">vsun</span> <span class="o">/</span> <span class="p">(</span><span class="n">R</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">kpc</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">km</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dcloud</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> rotations around the Galactic center.&quot;</span>
+
+<span class="n">ws_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">400.</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mf">228.</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$v_*$ [km/s]&quot;</span><span class="p">)</span>
+<span class="n">r_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">step</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mf">5.8</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$R [kpc]$&quot;</span><span class="p">)</span>
+
+<span class="n">interact</span><span class="p">(</span><span class="n">rotations_around_galactic_center</span><span class="p">,</span> <span class="n">R_0</span><span class="o">=</span><span class="n">x_widget</span><span class="p">,</span> <span class="n">vs</span><span class="o">=</span><span class="n">ws_widget</span><span class="p">,</span> <span class="n">R</span><span class="o">=</span><span class="n">r_widget</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="2.-Distance-determination-with-Cepheids">2. Distance determination with Cepheids<a class="anchor-link" href="#2.-Distance-determination-with-Cepheids">&#182;</a></h1><p>For three Galactic Cepheids, the parallax $\pi$ (<code>pi_mas</code>, in milliarcseconds), period $P$ (<code>P_d</code>, in days), V-band magnitude $m_V$ and interstellar extinction $A_V$ were measured:</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ext</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;name&quot;</span><span class="p">:[</span><span class="s2">&quot;RT Aur&quot;</span><span class="p">,</span><span class="s2">&quot;X Sgr&quot;</span><span class="p">,</span> <span class="s2">&quot;l Car&quot;</span><span class="p">],</span>
+              <span class="s2">&quot;pi_mas&quot;</span><span class="p">:[</span><span class="mf">2.4</span><span class="p">,</span><span class="mf">3.</span><span class="p">,</span><span class="mf">2.01</span><span class="p">],</span>
+              <span class="s2">&quot;P_d&quot;</span><span class="p">:[</span><span class="mf">3.728190</span><span class="p">,</span> <span class="mf">7.012877</span><span class="p">,</span> <span class="mf">35.551341</span><span class="p">],</span>
+              <span class="s2">&quot;m_V&quot;</span><span class="p">:[</span><span class="mf">5.464</span><span class="p">,</span> <span class="mf">4.556</span><span class="p">,</span> <span class="mf">3.732</span><span class="p">],</span>
+              <span class="s2">&quot;A_V&quot;</span><span class="p">:[</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="o">.</span><span class="mi">58</span><span class="p">,</span><span class="o">.</span><span class="mi">52</span><span class="p">]})</span>
+<span class="n">ext</span> <span class="o">=</span> <span class="n">ext</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+<span class="n">ext</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pi_mas</th>
+      <th>P_d</th>
+      <th>m_V</th>
+      <th>A_V</th>
+    </tr>
+    <tr>
+      <th>name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>RT Aur</th>
+      <td>2.40</td>
+      <td>3.728190</td>
+      <td>5.464</td>
+      <td>0.20</td>
+    </tr>
+    <tr>
+      <th>X Sgr</th>
+      <td>3.00</td>
+      <td>7.012877</td>
+      <td>4.556</td>
+      <td>0.58</td>
+    </tr>
+    <tr>
+      <th>l Car</th>
+      <td>2.01</td>
+      <td>35.551341</td>
+      <td>3.732</td>
+      <td>0.52</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Find the period-luminosity relation from these measurements</strong>. The general form is:</p>
+<p>$M_V = a + b \cdot log P$</p>
+<p>Distances to the three stars can be calculated from the given parallaxes and by using the Taylor expansion of the parallax formula:</p>
+<p>$D = \left(\frac{p}{1^{\prime\prime}}\right)^{-1}\,\text{pc}$</p>
+<p>These distances can then be used in the formula for the distance modulus:</p>
+<p>$m - M = 5\log(D/1\,\text{pc}) - 5 + A$</p>
+<p>This can be rewritten as:</p>
+<p>$ M_V = m_v - 5\log(D/1\,\text{pc}) + 5 - A_V$</p>
+<p>This gives the following numbers</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ext</span><span class="p">[</span><span class="s2">&quot;D_pc&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ext</span><span class="o">.</span><span class="n">pi_mas</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mf">1.</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">arcsec</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">mas</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">arcsec</span><span class="p">))</span>
+<span class="n">ext</span><span class="p">[</span><span class="s2">&quot;M_V&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ext</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">m_V</span> <span class="o">-</span>  <span class="mf">5.</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">D_pc</span><span class="p">)</span> <span class="o">+</span> <span class="mf">5.</span> <span class="o">-</span> <span class="n">x</span><span class="o">.</span><span class="n">A_V</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ext</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pi_mas</th>
+      <th>P_d</th>
+      <th>m_V</th>
+      <th>A_V</th>
+      <th>D_pc</th>
+      <th>M_V</th>
+    </tr>
+    <tr>
+      <th>name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>RT Aur</th>
+      <td>2.40</td>
+      <td>3.728190</td>
+      <td>5.464</td>
+      <td>0.20</td>
+      <td>416.6666666666667</td>
+      <td>-2.8349437914419697</td>
+    </tr>
+    <tr>
+      <th>X Sgr</th>
+      <td>3.00</td>
+      <td>7.012877</td>
+      <td>4.556</td>
+      <td>0.58</td>
+      <td>333.3333333333333</td>
+      <td>-3.638393726401686</td>
+    </tr>
+    <tr>
+      <th>l Car</th>
+      <td>2.01</td>
+      <td>35.551341</td>
+      <td>3.732</td>
+      <td>0.52</td>
+      <td>497.51243781094536</td>
+      <td>-5.272019712897556</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are several ways to determine the coefficients $a$ and $b$. One of them is to plot $M_V$ against $\log P$, draw a line through the points by eye and calculate the slope and point where it crossed the y-axis. Doing that you assume that the relationship between both quantities is linear. If this assumption is true, you can use lienar regression to determine the coefficients.</p>
+<p>The formulas for linear regression are:</p>
+<p>$b = \frac{\sum_i\left(x_i -\overline{x}\right)\left(y_i -\overline{y}\right)}{\sum_i\left(x_i -\overline{x}\right)^2} \qquad\text{and}\quad a = \overline{y} - b\,\overline{x}$</p>
+<p>Here, $y = M_V$ and $x = \log P$. $\overline{y}$ and $\overline{x}$ are their average values.</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">linreg_b</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Linear regression formular for b.&quot;&quot;&quot;</span>
+    <span class="n">xmean</span><span class="p">,</span> <span class="n">ymean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">x</span> <span class="o">-</span> <span class="n">xmean</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">ymean</span><span class="p">))</span> <span class="o">/</span> 
+            <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">x</span> <span class="o">-</span> <span class="n">xmean</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">linreg_a</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Linear regression formula for a.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">-</span> <span class="n">b</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">ext</span><span class="o">.</span><span class="n">P_d</span><span class="p">),</span> <span class="n">ext</span><span class="o">.</span><span class="n">M_V</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">linreg_b</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">linreg_a</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">md</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;$M_V = </span><span class="si">{</span><span class="n">a</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">b</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> \cdot \log P$&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p>$M_V = -1.487 -2.455 \cdot \log P$</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A period of 1.505 days was found for a Cepheid in the galaxy NGC 4321. Its apparent magnitude is $m_V = 25.511$.</p>
+<p><strong>What is the distance to NGC 4321?</strong></p>
+<p>Use the period-luminosity relation you found in (a).</p>
+<p>Using the given period in the period-luminosity relation found in (a) gives:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$M_V = -1.49-2.45\cdot\log P = -1.49-(2.45\cdot \log(1.505))$</p>
+<p>$= -1.923$</p>
+<p>We can now use the distance modulus (equation 2) again. You can assume the extinction is 0 for this.</p>
+<p>$D = 10^{0.2\,(m_V - M_V +5)}\,\textrm{pc}  = 10^{0.2\,(25.511 - (-1.923) +5)}\,\textrm{pc} $</p>
+<p>$= 3.07 \cdot 10^3$ kpc</p>
+<p><strong>Compare this with the value found in literature.</strong></p>
+<p>Literature gives a distance of about $16.9\cdot 10^3$ kpc. The difference is because the period given was meant to be $\log P$, instead of $P$. This was not mentioned clearly in the exercise, but only in the solutions, which I did not read until later. Sorry if this caused any confusion. If you take $\log P = 1.505$, you get a distance of $13.7 \cdot 10^3\,$kpc, which is much closer to the literature value.</p>
+
+</div>
+</div>
+</div>
 
   
 

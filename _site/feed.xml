@@ -5,9 +5,1134 @@
     <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-06-06</pubDate>
-    <lastBuildDate>Sat, 06 Jun 2020 06:07:24 +0200</lastBuildDate>
+    <pubDate>2020-07-03</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2020 13:53:06 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Übungen #5 zum Grundkurs Astronomie II im Sommersemester 2020</title>
+        <description>&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+
+&lt;title&gt;Test&lt;/title&gt;
+
+ &lt;style type=&quot;text/css&quot;&gt;
+        /* Temporary definitions which will become obsolete with Notebook release 5.0 */
+        .ansi-black-fg {
+            color: #3E424D;
+        }
+
+        .ansi-black-bg {
+            background-color: #3E424D;
+        }
+
+        .ansi-black-intense-fg {
+            color: #282C36;
+        }
+
+        .ansi-black-intense-bg {
+            background-color: #282C36;
+        }
+
+        .ansi-red-fg {
+            color: #E75C58;
+        }
+
+        .ansi-red-bg {
+            background-color: #E75C58;
+        }
+
+        .ansi-red-intense-fg {
+            color: #B22B31;
+        }
+
+        .ansi-red-intense-bg {
+            background-color: #B22B31;
+        }
+
+        .ansi-green-fg {
+            color: #00A250;
+        }
+
+        .ansi-green-bg {
+            background-color: #00A250;
+        }
+
+        .ansi-green-intense-fg {
+            color: #007427;
+        }
+
+        .ansi-green-intense-bg {
+            background-color: #007427;
+        }
+
+        .ansi-yellow-fg {
+            color: #DDB62B;
+        }
+
+        .ansi-yellow-bg {
+            background-color: #DDB62B;
+        }
+
+        .ansi-yellow-intense-fg {
+            color: #B27D12;
+        }
+
+        .ansi-yellow-intense-bg {
+            background-color: #B27D12;
+        }
+
+        .ansi-blue-fg {
+            color: #208FFB;
+        }
+
+        .ansi-blue-bg {
+            background-color: #208FFB;
+        }
+
+        .ansi-blue-intense-fg {
+            color: #0065CA;
+        }
+
+        .ansi-blue-intense-bg {
+            background-color: #0065CA;
+        }
+
+        .ansi-magenta-fg {
+            color: #D160C4;
+        }
+
+        .ansi-magenta-bg {
+            background-color: #D160C4;
+        }
+
+        .ansi-magenta-intense-fg {
+            color: #A03196;
+        }
+
+        .ansi-magenta-intense-bg {
+            background-color: #A03196;
+        }
+
+        .ansi-cyan-fg {
+            color: #60C6C8;
+        }
+
+        .ansi-cyan-bg {
+            background-color: #60C6C8;
+        }
+
+        .ansi-cyan-intense-fg {
+            color: #258F8F;
+        }
+
+        .ansi-cyan-intense-bg {
+            background-color: #258F8F;
+        }
+
+        .ansi-white-fg {
+            color: #C5C1B4;
+        }
+
+        .ansi-white-bg {
+            background-color: #C5C1B4;
+        }
+
+        .ansi-white-intense-fg {
+            color: #A1A6B2;
+        }
+
+        .ansi-white-intense-bg {
+            background-color: #A1A6B2;
+        }
+
+        .ansi-bold {
+            font-weight: bold;
+        }
+    &lt;/style&gt;
+
+&lt;!-- Loading mathjax macro --&gt;
+&lt;!-- Load mathjax --&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
+    &lt;!-- MathJax configuration --&gt;
+    &lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], [&quot;\\(&quot;,&quot;\\)&quot;] ],
+            displayMath: [ ['$$','$$'], [&quot;\\[&quot;,&quot;\\]&quot;] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        &quot;HTML-CSS&quot;: {
+            styles: {'.MathJax_Display': {&quot;margin&quot;: 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    &lt;/script&gt;
+    &lt;!-- End of mathjax configuration --&gt;
+
+&lt;style&gt;
+        .cell.nbinteract-left {
+            width: 50%;
+            float: left;
+        }
+
+        .cell.nbinteract-right {
+            width: 50%;
+            float: right;
+        }
+
+        .cell.nbinteract-hide_in &gt; .input {
+            display: none;
+        }
+
+        .cell.nbinteract-hide_out &gt; .output_wrapper {
+            display: none;
+        }
+
+        .cell:after {
+          content: &quot;&quot;;
+          display: table;
+          clear: both;
+        }
+
+        div.output_subarea {
+            max-width: initial;
+        }
+
+        .jp-OutputPrompt {
+            display: none;
+        }
+    &lt;/style&gt;&lt;/head&gt;
+
+
+&lt;body&gt;
+  &lt;div tabindex=&quot;-1&quot; id=&quot;notebook&quot; class=&quot;border-box-sizing&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      
+
+
+
+  &lt;div class=&quot;cell text_cell&quot;&gt;
+    &lt;button class=&quot;js-nbinteract-widget&quot;&gt;
+      Loading widgets...
+    &lt;/button&gt;
+  &lt;/div&gt;
+
+
+
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;matplotlib&lt;/span&gt; inline
+
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;astropy.constants&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;G&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;astropy.units&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;u&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Slider und sowas&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ipywidgets&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FloatSlider&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;IPython.display&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Markdown&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;1.-Eddington-Leuchtkraft&quot;&gt;1. Eddington-Leuchtkraft&lt;a class=&quot;anchor-link&quot; href=&quot;#1.-Eddington-Leuchtkraft&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Die Strahlung, die SMBH ausströmen wird durch die Umwandlung von potentieller Energie gespeist, und nicht durch thermonukleare Prozesse, da letztere nicht effizient genug sind, um die beobachteten Leuchtkräfte zu erklären.&lt;/p&gt;
+&lt;p&gt;Das Schwarze Loch im Zentrum der Milchstraße besitzt eine Masse $M_{BH} = 2.6 \cdot 10^6 M_\odot$.&lt;/p&gt;
+&lt;h2 id=&quot;Bestimme-die-maximal-m&amp;#246;gliche-Leuchtkraft-des-Schwarzen-Lochs-(sowohl-in-erg/s-als-auch-in--$L_\odot$),-wenn-es-eine-Akkretionsscheibe-bes&amp;#228;&amp;#223;e.&quot;&gt;Bestimme die maximal m&amp;#246;gliche Leuchtkraft des Schwarzen Lochs (sowohl in erg/s als auch in  $L_\odot$), wenn es eine Akkretionsscheibe bes&amp;#228;&amp;#223;e.&lt;a class=&quot;anchor-link&quot; href=&quot;#Bestimme-die-maximal-m&amp;#246;gliche-Leuchtkraft-des-Schwarzen-Lochs-(sowohl-in-erg/s-als-auch-in--$L_\odot$),-wenn-es-eine-Akkretionsscheibe-bes&amp;#228;&amp;#223;e.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die maximale Leuchtkraft ist durch die Eddington-Leuchkraft gegeben (&lt;em&gt;siehe Lehrbuch, 5.23&lt;/em&gt;):&lt;/p&gt;
+&lt;p&gt;$L_\mathrm{edd}=\dfrac{4\pi Gcm_\mathrm{p}}{\sigma_\mathrm{T}}\cdot M_\bullet \approx 1.3 \cdot 10^{38} \left(\dfrac{M_\bullet}{M_\odot}\right)$ erg/s&lt;/p&gt;
+&lt;p&gt;Einsetzen von $M_{BH}$ ergibt in erg/s und $L_\odot$:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MBH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.6e6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ledd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MBH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.3e38&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;erg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$L_\mathrm&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{edd}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;=$&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ledd&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.2e&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;$L_\mathrm{edd}=$ 3.38e+44 erg / s&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$L_\mathrm&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{edd}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/L_\odot=$&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ledd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decompose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.2e&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;$L_\mathrm{edd}/L_\odot=$ 8.83e+10&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Wie-viele-Sonnenmassen-m&amp;#252;sste-das-Schwarze-Loch-j&amp;#228;hrlich-akkretieren,-um-$L_\mathrm{edd}$-zu-erreichen?&quot;&gt;Wie viele Sonnenmassen m&amp;#252;sste das Schwarze Loch j&amp;#228;hrlich akkretieren, um $L_\mathrm{edd}$ zu erreichen?&lt;a class=&quot;anchor-link&quot; href=&quot;#Wie-viele-Sonnenmassen-m&amp;#252;sste-das-Schwarze-Loch-j&amp;#228;hrlich-akkretieren,-um-$L_\mathrm{edd}$-zu-erreichen?&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nimm eine Effizienz $\epsilon=0.1$ an.&lt;/p&gt;
+&lt;p&gt;Um $L_\mathrm{edd}$ zu erreichen, muss das Schwarze Loch mit der Eddington-Akkretionsrate Masse akkretieren (&lt;em&gt;siehe Lehrbuch 5.27&lt;/em&gt;):&lt;/p&gt;
+&lt;p&gt;$\dot{M}_\mathrm{edd} = \dfrac{L_\mathrm{edd}}{\epsilon c^2}\approx \dfrac{1}{\epsilon}\cdot 2 \cdot 10^{-9} M_\bullet$ 1/yr&lt;/p&gt;
+&lt;p&gt;Mit gegebener Effizienz und Masse folgt:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dotmedd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2e-9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MBH&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$\dot&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{M}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_\mathrm&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{edd}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;=$&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dotmedd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.3f&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; $M_\odot$ / yr&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;$\dot{M}_\mathrm{edd}=$ 0.052 $M_\odot$ / yr&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Berechne-die-Zeit-$t_2$,-die-es-mindestens-brauchen-w&amp;#252;rde,-bis-das-Schwarze-Loch-seine-Masse-verdoppelt-hat.&quot;&gt;Berechne die Zeit $t_2$, die es mindestens brauchen w&amp;#252;rde, bis das Schwarze Loch seine Masse verdoppelt hat.&lt;a class=&quot;anchor-link&quot; href=&quot;#Berechne-die-Zeit-$t_2$,-die-es-mindestens-brauchen-w&amp;#252;rde,-bis-das-Schwarze-Loch-seine-Masse-verdoppelt-hat.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Da die Wachstumsrate proportional zur Masse ist, haben wir eine Differentialgleichung vor uns, die mit der Exponentialfunktion gelöst werden kann:&lt;/p&gt;
+&lt;p&gt;$\dot{M}_\mathrm{edd} = \dfrac{L_\mathrm{edd}}{\epsilon c^2} = \dfrac{4\pi Gcm_\mathrm{p}}{\sigma_\mathrm{T}\epsilon c^2}\cdot M_\bullet = \alpha \cdot M_\bullet$&lt;/p&gt;
+&lt;p&gt;wobei&lt;/p&gt;
+&lt;p&gt;$\alpha = \dfrac{4\pi Gcm_\mathrm{p}}{\sigma_\mathrm{T}\epsilon c^2} =$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Benutze ganz heftig die Astropy Konstanten &lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# - wenn das kein Grund ist, Python zu benutzen, weiss ich auch nicht:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;G&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m_p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_T&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;1/yr&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+
+&lt;div class=&quot;output_latex output_subarea output_execute_result&quot;&gt;
+$2.2198031 \times 10^{-8} \; \mathrm{\frac{1}{yr}}$
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Vereinfacht ausgedrückt:&lt;/p&gt;
+&lt;p&gt;$\dot{M}(t) = \alpha M(t)$&lt;/p&gt;
+&lt;p&gt;$M(t) = M_{BH} \mathrm{e}^{\alpha t}$&lt;/p&gt;
+&lt;p&gt;$M(t_2)=2M_{BH}=M_{BH} \mathrm{e}^{\alpha t_2}$&lt;/p&gt;
+&lt;p&gt;$t_2 = \dfrac{\ln{2}}{\alpha} = $&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Myr&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+
+&lt;div class=&quot;output_latex output_subarea output_execute_result&quot;&gt;
+$31.225616 \; \mathrm{Myr}$
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;2.-Olbers-Paradoxon&quot;&gt;2. Olbers-Paradoxon&lt;a class=&quot;anchor-link&quot; href=&quot;#2.-Olbers-Paradoxon&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Betrachten wir das euklidische, statische und unendliche Universum: Die Anzahl der Sterne pro Volumeneinheit $n$ in einem solchen Universum ist konstant. Nehmen wir vereinfachend an, dass alle Sterne den Radius $s$ besitzen. Ein solcher Stern mit dem Abstand $R$ von der Erde nimmt für einen Beobachter den Raumwinkel $\alpha=\dfrac{\pi s^2}{R^2}$ auf der Erde ein.&lt;/p&gt;
+&lt;h2 id=&quot;Wie-viele-Sterne-befinden-sich-in-einer-Hohlkugel-mit-den-Radien-$R$-und-$R+\mathrm{d}R$?&quot;&gt;Wie viele Sterne befinden sich in einer Hohlkugel mit den Radien $R$ und $R+\mathrm{d}R$?&lt;a class=&quot;anchor-link&quot; href=&quot;#Wie-viele-Sterne-befinden-sich-in-einer-Hohlkugel-mit-den-Radien-$R$-und-$R+\mathrm{d}R$?&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Hohlkugel bildet ein infinitesimales Volumenelement $\mathrm{d}V$, innerhalb dessen die Dichte der Sterne $n$ beträgt:&lt;/p&gt;
+&lt;p&gt;$n \mathrm{d}V = n \cdot 4\pi R^2 \mathrm{d}R$&lt;/p&gt;
+&lt;h2 id=&quot;Berechne-den-infinitesimalen-Raumwinkel-$\mathrm{d}\omega$,-den-die-Sterne-in-dieser-Hohlkugel-insgesamt-einnehmen.&quot;&gt;Berechne den infinitesimalen Raumwinkel $\mathrm{d}\omega$, den die Sterne in dieser Hohlkugel insgesamt einnehmen.&lt;a class=&quot;anchor-link&quot; href=&quot;#Berechne-den-infinitesimalen-Raumwinkel-$\mathrm{d}\omega$,-den-die-Sterne-in-dieser-Hohlkugel-insgesamt-einnehmen.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nimm an, dass sich die Sternradien in der Hohlkugel nicht überlappen.&lt;/p&gt;
+&lt;p&gt;Jetzt multiplizieren wir also einfach die Zahl der Sterne in der Hohlkugel mit dem Raumwinkel $\alpha$, den sie jeweils darin einnehmen.&lt;/p&gt;
+&lt;p&gt;$\mathrm{d}\omega = \alpha \cdot n \mathrm{d}V =  \dfrac{\pi s^2}{R^2} \cdot n \cdot 4\pi R^2 \mathrm{d}R = 4 \pi^2 n s^2\mathrm{d}R$&lt;/p&gt;
+&lt;p&gt;Der von Sternen eingenommene Raumwinkel in einer Hohlkugel um die Erde herum hängt also nicht von der Entfernung $R$ ab!&lt;/p&gt;
+&lt;h2 id=&quot;Berechne-den-Raumwinkel,-den-die-Sterne-einnehmen,-wenn-wir-&amp;#252;ber-den-gesamten-Himmel-integrieren.-Interpretiere-das-Ergebnis-kosmologisch.&quot;&gt;Berechne den Raumwinkel, den die Sterne einnehmen, wenn wir &amp;#252;ber den gesamten Himmel integrieren. Interpretiere das Ergebnis kosmologisch.&lt;a class=&quot;anchor-link&quot; href=&quot;#Berechne-den-Raumwinkel,-den-die-Sterne-einnehmen,-wenn-wir-&amp;#252;ber-den-gesamten-Himmel-integrieren.-Interpretiere-das-Ergebnis-kosmologisch.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Das Universum sei unendlich, also müssen wir $\mathrm{d}\omega$ über alle R von $0$ bis $\infty$ integrieren:&lt;/p&gt;
+&lt;p&gt;$\displaystyle\int_0^\infty 4 \pi^2 n s^2\mathrm{d}R = \infty$&lt;/p&gt;
+&lt;p&gt;Das Integral divergiert. Der Himmel wäre also, wenn das Universum euklidisch, statisch und unendlich wäre, vollkommen ausgeleuchtet mit Sternen. Aus jeder Richtung würden wir dann Sternenlicht empfangen, sodass das Entfernungsmodul keine Rolle mehr spielt: Der Himmel würde die Temperatur des Durchschnittssterns annehmen. Das ist in der Beobachtung zum Glück nicht der Fall (der Himmel ist dunkel). Diese Beobachtung ist als Olbers-Paradoxon bekannt.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;3.-Halbzeit:-Vertiefung&quot;&gt;3. Halbzeit: Vertiefung&lt;a class=&quot;anchor-link&quot; href=&quot;#3.-Halbzeit:-Vertiefung&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Hier werde ich, sobald ich die Beiträge durchgelesen habe, eine kurze Übersicht über die von euch gewählten Themen hochladen.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- Loads nbinteract package --&gt;
+&lt;script src=&quot;https://unpkg.com/nbinteract-core&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  (function setupNbinteract() {
+    // If NbInteract hasn't loaded, wait one second and try again
+    if (window.NbInteract === undefined) {
+      setTimeout(setupNbinteract, 1000)
+      return
+    }
+
+    var interact = new window.NbInteract({
+      spec: 'ekaterinailin/40f604067d8864c8081790e00f9b2892/master',
+      baseUrl: 'https://mybinder.org',
+      provider: 'gist',
+    })
+    interact.prepare()
+
+    window.interact = interact
+  })()
+&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>2020-07-03</pubDate>
+        <link>http://localhost:4000/articles/2020-07/uebung5</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-07/uebung5</guid>
+        
+        
+        <category>ASTRONOMY</category>
+        
+        <category>DEUTSCH</category>
+        
+        <category>TEACHING</category>
+        
+      </item>
+    
+      <item>
+        <title>Übungen #4 zum Grundkurs Astronomie II im Sommersemester 2020</title>
+        <description>&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+
+&lt;title&gt;Test&lt;/title&gt;
+
+ &lt;style type=&quot;text/css&quot;&gt;
+        /* Temporary definitions which will become obsolete with Notebook release 5.0 */
+        .ansi-black-fg {
+            color: #3E424D;
+        }
+
+        .ansi-black-bg {
+            background-color: #3E424D;
+        }
+
+        .ansi-black-intense-fg {
+            color: #282C36;
+        }
+
+        .ansi-black-intense-bg {
+            background-color: #282C36;
+        }
+
+        .ansi-red-fg {
+            color: #E75C58;
+        }
+
+        .ansi-red-bg {
+            background-color: #E75C58;
+        }
+
+        .ansi-red-intense-fg {
+            color: #B22B31;
+        }
+
+        .ansi-red-intense-bg {
+            background-color: #B22B31;
+        }
+
+        .ansi-green-fg {
+            color: #00A250;
+        }
+
+        .ansi-green-bg {
+            background-color: #00A250;
+        }
+
+        .ansi-green-intense-fg {
+            color: #007427;
+        }
+
+        .ansi-green-intense-bg {
+            background-color: #007427;
+        }
+
+        .ansi-yellow-fg {
+            color: #DDB62B;
+        }
+
+        .ansi-yellow-bg {
+            background-color: #DDB62B;
+        }
+
+        .ansi-yellow-intense-fg {
+            color: #B27D12;
+        }
+
+        .ansi-yellow-intense-bg {
+            background-color: #B27D12;
+        }
+
+        .ansi-blue-fg {
+            color: #208FFB;
+        }
+
+        .ansi-blue-bg {
+            background-color: #208FFB;
+        }
+
+        .ansi-blue-intense-fg {
+            color: #0065CA;
+        }
+
+        .ansi-blue-intense-bg {
+            background-color: #0065CA;
+        }
+
+        .ansi-magenta-fg {
+            color: #D160C4;
+        }
+
+        .ansi-magenta-bg {
+            background-color: #D160C4;
+        }
+
+        .ansi-magenta-intense-fg {
+            color: #A03196;
+        }
+
+        .ansi-magenta-intense-bg {
+            background-color: #A03196;
+        }
+
+        .ansi-cyan-fg {
+            color: #60C6C8;
+        }
+
+        .ansi-cyan-bg {
+            background-color: #60C6C8;
+        }
+
+        .ansi-cyan-intense-fg {
+            color: #258F8F;
+        }
+
+        .ansi-cyan-intense-bg {
+            background-color: #258F8F;
+        }
+
+        .ansi-white-fg {
+            color: #C5C1B4;
+        }
+
+        .ansi-white-bg {
+            background-color: #C5C1B4;
+        }
+
+        .ansi-white-intense-fg {
+            color: #A1A6B2;
+        }
+
+        .ansi-white-intense-bg {
+            background-color: #A1A6B2;
+        }
+
+        .ansi-bold {
+            font-weight: bold;
+        }
+    &lt;/style&gt;
+
+&lt;!-- Loading mathjax macro --&gt;
+&lt;!-- Load mathjax --&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
+    &lt;!-- MathJax configuration --&gt;
+    &lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], [&quot;\\(&quot;,&quot;\\)&quot;] ],
+            displayMath: [ ['$$','$$'], [&quot;\\[&quot;,&quot;\\]&quot;] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        &quot;HTML-CSS&quot;: {
+            styles: {'.MathJax_Display': {&quot;margin&quot;: 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    &lt;/script&gt;
+    &lt;!-- End of mathjax configuration --&gt;
+
+&lt;style&gt;
+        .cell.nbinteract-left {
+            width: 50%;
+            float: left;
+        }
+
+        .cell.nbinteract-right {
+            width: 50%;
+            float: right;
+        }
+
+        .cell.nbinteract-hide_in &gt; .input {
+            display: none;
+        }
+
+        .cell.nbinteract-hide_out &gt; .output_wrapper {
+            display: none;
+        }
+
+        .cell:after {
+          content: &quot;&quot;;
+          display: table;
+          clear: both;
+        }
+
+        div.output_subarea {
+            max-width: initial;
+        }
+
+        .jp-OutputPrompt {
+            display: none;
+        }
+    &lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;div tabindex=&quot;-1&quot; id=&quot;notebook&quot; class=&quot;border-box-sizing&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      
+
+
+
+  &lt;div class=&quot;cell text_cell&quot;&gt;
+    &lt;button class=&quot;js-nbinteract-widget&quot;&gt;
+      Loading widgets...
+    &lt;/button&gt;
+  &lt;/div&gt;
+
+
+
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Die Basics&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Astropy Konstanten und Einheitenrechner&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;astropy.constants&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;G&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;astropy.units&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;u&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Slider und sowas zum Spielen&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ipywidgets&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FloatSlider&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;IPython.display&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Markdown&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;1.-Massiv-und-kompakt:-SMBH&quot;&gt;1. Massiv und kompakt: SMBH&lt;a class=&quot;anchor-link&quot; href=&quot;#1.-Massiv-und-kompakt:-SMBH&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Aufgrund der Strahlung, die aus den Zentren von vielen Galaxien entweicht, vermuten Astronom*innen dort ein Supermassives Schwarzes Loch (SMBH), ein sehr kompaktes und massives Objekt.&lt;/p&gt;
+&lt;h2 id=&quot;Aus-welcher-Beobachtung-k&amp;#246;nnen-wir-schlussfolgern,-dass-es-sich-bei-AGN-um-kompakte-Objekte-mit-Durchmessern-von-wenigen-hundert-Astronomischen-Einheiten-(AU)-handeln-muss?&quot;&gt;Aus welcher Beobachtung k&amp;#246;nnen wir schlussfolgern, dass es sich bei AGN um kompakte Objekte mit Durchmessern von wenigen hundert Astronomischen Einheiten (AU) handeln muss?&lt;a class=&quot;anchor-link&quot; href=&quot;#Aus-welcher-Beobachtung-k&amp;#246;nnen-wir-schlussfolgern,-dass-es-sich-bei-AGN-um-kompakte-Objekte-mit-Durchmessern-von-wenigen-hundert-Astronomischen-Einheiten-(AU)-handeln-muss?&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Variation der Leuchtkraft von SBMH auf Zeitskalen von Tagen:&lt;/strong&gt; Wenn die Einzelteile der AGN kausal zusammenhängen (und das sollten sie besser, sonst müssten wir erklären, warum sie sich gleich verhalten, ohne miteinander in Verbindung zu stehen), dann wird Information vom einen Ende des Objekt zum anderen mit höchstens Lichtgeschwindkeit befördert. Das gibt eine obere Schranke auf die Ausdehnung dieser Objekte in der Größenordnung eines Lichttags:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D_SMBH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lyr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;365.25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;AU&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+
+&lt;span class=&quot;n&quot;&gt;D_SMBH&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+
+&lt;div class=&quot;output_latex output_subarea output_execute_result&quot;&gt;
+$173.14463 \; \mathrm{AU}$
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Das ist etwas größer als die &lt;a href=&quot;https://de.wikipedia.org/wiki/Heliosph%C3%A4re&quot;&gt;Heliosphäre&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Alternativ könnte man auch darauf verweisen, dass AGNs wie Punktquellen erscheinen, und so auf Ausdehnungen kleiner 100 pc beschränkt sind, aber die oben genannte Schranke ist natürlich stärker.&lt;/p&gt;
+&lt;h2 id=&quot;Berechne-die-typische-Masse-eines-Neutronensterns-in-Sonnenmassen-und-die-entsprechende-Fluchtgeschwindigkeit-in-Einheiten-der-Lichtgeschwindigkeit.&quot;&gt;Berechne die typische Masse eines Neutronensterns in Sonnenmassen und die entsprechende Fluchtgeschwindigkeit in Einheiten der Lichtgeschwindigkeit.&lt;a class=&quot;anchor-link&quot; href=&quot;#Berechne-die-typische-Masse-eines-Neutronensterns-in-Sonnenmassen-und-die-entsprechende-Fluchtgeschwindigkeit-in-Einheiten-der-Lichtgeschwindigkeit.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nimm an, dass der maximale Radius eines Neutronensterns 12 km beträgt, und die Dichte $\rho$ etwa $4\cdot 10^{17}\,\frac{\mathrm{kg}}{\mathrm{m}^3}$.&lt;/p&gt;
+&lt;p&gt;Die Masse ergibt:&lt;/p&gt;
+&lt;p&gt;$M = \dfrac{4\pi \rho r^3 }{3}$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Dichte&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;rho_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4e17&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Radius&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;r_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;12.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;km&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;M_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r_N&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decompose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Masse eines Neutronensterns $\approx$ &amp;quot;&lt;/span&gt;
+   &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M_N&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.3f&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;$&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$\,M_\odot$&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;Masse eines Neutronensterns $\approx$ $1.456$$\,M_\odot$&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Für die relativistische Fluchtgeschwindigkeit gilt:&lt;/p&gt;
+&lt;p&gt;$v_{esc} = \sqrt{2V - \left(\frac{V}{c}\right)^2}$&lt;/p&gt;
+&lt;p&gt;wobei $V = \dfrac{GM}{R}$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;v_esc_rel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;sd&quot;&gt;&amp;quot;&amp;quot;&amp;quot;Relativistische Fluchtgeschwindigkeit.&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    &lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    Parameters:&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    -----------&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    rho : astropy Quantity&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;        Dichte&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    R : astropy Quantity&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;        Radius&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;        &lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    Return:&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    -------&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    Fluchtgeschwindigkeit&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;M&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;G&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      nbinteract-hide_in cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Fluchtgeschwindigkeit eines Neutronensterns $\approx$ &amp;quot;&lt;/span&gt;
+   &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v_esc_rel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rho_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decompose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.3f&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;\,c$&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;Fluchtgeschwindigkeit eines Neutronensterns $\approx$ $0.571\,c$&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;hr /&gt;
+&lt;p&gt;Wir wissen aus den Orbits um Sgr A* und den beobachteten Leuchtkräften von AGN, dass die Schwarzen Löcher in den Zentren von Galaxien in der Regel sehr massiv sind ($&amp;gt;10^6 M_\odot$).&lt;/p&gt;
+&lt;h2 id=&quot;Erkl&amp;#228;re,-wie-das-Ph&amp;#228;nomen-der-Superluminal-Motion-darauf-f&amp;#252;hrt,-dass-AGNs-SBMH-enthalten.&quot;&gt;Erkl&amp;#228;re, wie das Ph&amp;#228;nomen der Superluminal Motion darauf f&amp;#252;hrt, dass AGNs SBMH enthalten.&lt;a class=&quot;anchor-link&quot; href=&quot;#Erkl&amp;#228;re,-wie-das-Ph&amp;#228;nomen-der-Superluminal-Motion-darauf-f&amp;#252;hrt,-dass-AGNs-SBMH-enthalten.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Superluminal Motion&lt;/strong&gt;: Quellkomponenten von Radiojets in AGNs bewegen sich scheinbar mit Überlichtgeschwindigkeit. Dies ist durch relativistische Effekte zu erklären. Nahe des Zentrums herrschen Entweich-Geschwindigkeiten sehr nahe der Lichtgeschwindigkeit. Die Geschwindigkeiten von Jets, Winden etc., die von astronomischen Objekten entweichen, sind in der Regel von der Größenordnung der zu diesen Objekten zugehörigen Fluchtgeschwindigkeiten.&lt;/p&gt;
+&lt;p&gt;Wenn die Fluchtgeschwindigkeit nahe der Lichtgeschwindigkeit ist, dann ist das betreffende Objekt sehr dicht ($\sim \sqrt{\rho}$) oder sehr groß ($\sim r$).&lt;/p&gt;
+&lt;p&gt;&quot;Sehr groß&quot; können wir mit der Erkenntnis aus (a) ausschließen. Das Objekt muss also sehr dicht sein.&lt;/p&gt;
+&lt;p&gt;Außerdem muss das Objekt nicht nur dicht, sondern, wie wir durch andere Beobachtungen wissen, auch massiv sein, weswegen ein Neutronenstern nicht infrage kommt.&lt;/p&gt;
+&lt;p&gt;Die einzigen bekannten Objekte, die zugleich genügend dicht und massiv genug sind, um solche Fluchtgeschwindigkeiten zu erzeugen, sind Schwarze Löcher.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;M87, eine elliptische Galaxie in 16.4 Mpc Entfernung, besitzt ein solches berühmtes SMBH. Die Masse des SMBH beträgt $6.5\cdot10^9 M_\odot$. Abbildung 1. zeigt die direkte Umgebung des Schwarzen Lochs im Umkreis weniger Schwarzschild-Radien.&lt;/p&gt;
+&lt;h2 id=&quot;Berechne-mit-Hilfe-der-Abbildung-1-die-Fluchtgeschwindigkeit-aus-der-direkten-Umgebung-des-schwarzen-Lochs.&quot;&gt;Berechne mit Hilfe der Abbildung 1 die Fluchtgeschwindigkeit aus der direkten Umgebung des schwarzen Lochs.&lt;a class=&quot;anchor-link&quot; href=&quot;#Berechne-mit-Hilfe-der-Abbildung-1-die-Fluchtgeschwindigkeit-aus-der-direkten-Umgebung-des-schwarzen-Lochs.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Aus dem Bild können wir eine Ausdehnung von ca. 40$\mu$as abschätzen. Daraus ergibt sich der Radius über das Entfernungsmodul:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Radius&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;R_SMBH_M87&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;16.4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Mpc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;20.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rad * AU&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rad&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;R_SMBH_M87&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+
+&lt;div class=&quot;output_latex output_subarea output_execute_result&quot;&gt;
+$328 \; \mathrm{AU}$
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Masse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;M_SMBH_M87&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;6.5e9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M_sun&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Wir nutzen wieder die Formel für die relativistische Fluchtgeschwindigkeit:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+  &lt;div class=&quot;
+      nbinteract-hide_in cell border-box-sizing code_cell rendered&quot;&gt;
+    &lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Fluchtgeschwindigkeit in der direkten Umgebung des SMBH $\approx$ &amp;quot;&lt;/span&gt;
+   &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v_esc_rel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;R_SMBH_M87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M_SMBH_M87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decompose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.3f&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;\,c$&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+    
+
+
+&lt;div class=&quot;output_markdown rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;p&gt;Fluchtgeschwindigkeit in der direkten Umgebung des SMBH $\approx$ $0.594\,c$&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h1 id=&quot;2.-Halbzeit:-R&amp;#252;ckblick&quot;&gt;2. Halbzeit: R&amp;#252;ckblick&lt;a class=&quot;anchor-link&quot; href=&quot;#2.-Halbzeit:-R&amp;#252;ckblick&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Bei dieser Aufgabe gibt es kein richtig oder falsch, entsprechend erhalten alle, die die Aufgabe vollständig und sorgfältig bearbeiten, die entsprechenden Punkte. Inhaltlichen Punktabzug gibt es nur, wenn die Beiträge eindeutig &lt;strong&gt;nichts&lt;/strong&gt; mit den bisherigen Inhalten Vorlesung zu tun haben, und sich auch nicht begründen lassen. Die Aufgabe sollte euch die Gelegenheit bieten, eure eigenen Akzente bei den behandelten Inhalten zu setzen, und eurer Neugier zu folgen.&lt;/p&gt;
+&lt;p&gt;In der nächsten Übungsrunde wird dann natürlich eine der beiden Fragen ausgewählt und das geplante Vorgehen umgesetzt.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- Loads nbinteract package --&gt;
+&lt;script src=&quot;https://unpkg.com/nbinteract-core&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  (function setupNbinteract() {
+    // If NbInteract hasn't loaded, wait one second and try again
+    if (window.NbInteract === undefined) {
+      setTimeout(setupNbinteract, 1000)
+      return
+    }
+
+    var interact = new window.NbInteract({
+      spec: 'ekaterinailin/fc1b7419a9522900379fb2b598610832/master',
+      baseUrl: 'https://mybinder.org',
+      provider: 'gist',
+    })
+    interact.prepare()
+
+    window.interact = interact
+  })()
+&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>2020-07-03</pubDate>
+        <link>http://localhost:4000/articles/2020-06/uebung4</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung4</guid>
+        
+        
+        <category>ASTRONOMY</category>
+        
+        <category>DEUTSCH</category>
+        
+        <category>TEACHING</category>
+        
+      </item>
     
       <item>
         <title>Übungen #3 zum Grundkurs Astronomie II im Sommersemester 2020</title>
@@ -1123,7 +2248,7 @@
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2020-06/uebung3</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung3</guid>
         
@@ -1944,7 +3069,7 @@ Ich beobachte die Cepheiden in der Wolke über eine gewisse Zeit, und bestimme a
 
 &lt;/html&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung2</guid>
         
@@ -2771,7 +3896,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung1</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung1</guid>
         
@@ -2839,7 +3964,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 
 &lt;p&gt;Not being selected does not necessarily mean that you are an objectively worse candidate, and certainly it does not mean that you are not suited for any other similar position. If you made it onto the short list, it is a clear evidence that you are heading into a direction where you may become successful.&lt;/p&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE2</guid>
         
@@ -2902,7 +4027,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 
 &lt;p&gt;I’d prefer to err on the side of closer supervision, but I am happy to let you explore if you decide to do so. This is a learning opportunity for you, and you should get out of it whatever is most valuable to you on the margin. You might want to reflect on what you expect from the internship before you dive into it, and we can figure out a suitable strategy to achieve both our shared and individual goals together.&lt;/p&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE</guid>
         
@@ -2971,7 +4096,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 &lt;p&gt;Caution: priorities shift significantly with the total number of participants, the remaining duration of your contract, and the type of input you are seeking out.&lt;/p&gt;
 
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2019-05/kitp-conference</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/kitp-conference</guid>
         
@@ -3057,7 +4182,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 
 &lt;p&gt;P.S.: A fellow grad student presented some principles of behaviour change in a group meeting that struck a cord with me. Four prerequisities need to be met to make adults change their habits: An &lt;strong&gt;emotional&lt;/strong&gt; component, expressed in a subjective urge to this change. A &lt;strong&gt;rational&lt;/strong&gt; component that clarifies if the change is realistically doable, and checks if the effects of such a change would give the desired results. There is also a &lt;strong&gt;social&lt;/strong&gt; component, because you will need at someone who encourages you, or a role model. Not sure if considerable social punishment in case of failure would work, too. Finally, the &lt;strong&gt;structural&lt;/strong&gt; constraints are the physical, temporal, financial, and legal conditions for the change. Personally, I would add a &lt;strong&gt;moral&lt;/strong&gt; component that I find hard to cover by either the emotional or rational component alone, depending on how you inform your moral views. Otherwise these categories seem to catch many of the aspects in this post.&lt;/p&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2019-05/flyingless-update</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/flyingless-update</guid>
         
@@ -3099,7 +4224,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>2020-06-06</pubDate>
+        <pubDate>2020-07-03</pubDate>
         <link>http://localhost:4000/articles/2019-03/flyingless</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-03/flyingless</guid>
         
@@ -3109,57 +4234,6 @@ in the field of view of the Kepler space mission and thousands are currently bei
         
         
         <category>ACADEMIA</category>
-        
-      </item>
-    
-      <item>
-        <title>Moral orbits</title>
-        <description>&lt;p&gt;It is of no concern where, spatio-temporally, a moral patient is situated. If a sentient being is or will be suffering, I am morally obliged to help to stop or prevent that suffering. The more this patient is, or will be, suffering, the worse it is not to act.&lt;/p&gt;
-
-&lt;p&gt;If you are familiar with the statements above, read on. You need not agree, or disagree. If you are, however, greatly uncertain about what all of this just meant, this post will be difficult to follow. I may elaborate on details about these statements later, but for now, I just want to jot one idea down:&lt;/p&gt;
-
-&lt;p&gt;Consider the expanding moral circle. It is common sense in western societies to regard all humans as having equal moral value. But this was a long and hard road. It was paved with slavery, antisemitism, racism, and misogyny. We are far from reaching high moral ground, but things have generally improved. This somewhat encouraging development can be put on a trajectory of a growing number of potential moral patients. From closest to you to complete strangers, it looks approximately like this:&lt;/p&gt;
-
-&lt;p&gt;myself → family and friends → local community → extended community → nation → supranational level → world.&lt;/p&gt;
-
-&lt;p&gt;For most people, the moral circle encloses, beyond themselves, their relatives and dear friends. Others, many fewer, are equally concerned about everyone and everywhere, even if they do not yet exist. You can add another axis to this range if you include non-human sentient beings, say elephants or chicken, and a time axis. Attitudes probably exist everywhere on this range, from a very narrow towards a extraordinarily wide moral circle.&lt;/p&gt;
-
-&lt;p&gt;On the one hand, there is no obvious way to go further left on the line above. You might speculate about someone who is mostly morally concerned only about some part of theirs. I, personally, will set aside the though of an even narrower moral circle than pure self-interest. On the other hand, the obvious question for the right edge of the line is this. Is there, outside of Earth’s closest vicinity (hey there, ISS), a moral patient whom I should care about?&lt;/p&gt;
-
-&lt;p&gt;If the answer is yes, and the statements at the beginning of this post are convincing enough, I ought to include these sentient beings into my moral circle. However, we are highly uncertain about the existence of extraterrestrial sentient beings (ESBs). Anything goes, from millions of civilizations in the Milky Way to Our Lonely Human Race (OLHR) being the only one out there.&lt;/p&gt;
-
-&lt;p&gt;The question is this: Am I morally obliged to help find out if there is anyone out there other than OLHR, who deserves my attention as a moral patient? I believe that the answer is yes. Let me explain.&lt;/p&gt;
-
-&lt;p&gt;The answer is yes because, while nobody knows everything, we want, all considered, to make &lt;em&gt;informed&lt;/em&gt; moral decisions. We can call&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;striving to learn all the morally relevant facts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;a secondary moral value. This can justify a very general exploration directive but I will talk about this moral value in a qualified sense:&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;&lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt; If we have reason to believe that there is a morally relevant fact within our reach, we ought to strive to learn this morally relevant fact or to disprove its existence.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The crucial word is &lt;em&gt;relevant&lt;/em&gt;, and there’s the rub. As mentioned before, the uncertainty about the existence of ESBs is very high. If we suspect moral patients in a gold mine in China, we have a strong prior that we will find great numbers of people working hard under awful conditions, dying prematurely, and painfully. Most, I believe, would agree, that in this case, we ought to go to these mines. &lt;em&gt;At the very least, we should check&lt;/em&gt; if there is any truth behind this suspicion. And even in cases where there is often less compelling evidence that suffering might be underway, we agree that we should try to add transparency to the process. Think food security, or physician-patient relations. In other situations, we have little moral obligation to search for suffering. No-one should be morally concerned with what happens inside your dishwasher while it cleans your dinner plates.&lt;/p&gt;
-
-&lt;p&gt;But what if we are &lt;em&gt;very&lt;/em&gt; uncertain? To some degree, we can turn to the expected amount of suffering we may find if we search. If the chances are very high that something that is just a tiny bit morally concerning is true, the overall suffering may still be considerable and worth relieving. If the risk of a grand catastrophe happening is very low but the impact would be disastrous, we still ought to prevent it or be prepared to keep the effects at bay. In our case, however, we are very uncertain about a probability distribution. So talking expected values is of little use. But must try something different.&lt;/p&gt;
-
-&lt;p&gt;The number of ESBs in our Galaxy (to keep arguments about causality limits out of this debate) ranges from zero to maybe 10^16 (a million populations with 10 billion individuals each). If we are clueless our probability distribution will be flat. Any number will be very unlikely. After finding any evidence, in favor or against some range of population size, we can update our distribution, and re-assess the case for further exploration. This is what we should do, according to &lt;em&gt;Our Qualified Obligation to Learn&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now there is a number of objections. To name a few:&lt;/p&gt;
-
-&lt;p&gt;Even if we learn something morally revelant, we will be unable to do anything about it, at least for now. Another objection is that we should rather use our scarce resources on problems much more salient to us, and these give us more than enough causes to focus on for the upcoming centuries and beyond. Yet another objection appeals to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Fermi_paradox&quot;&gt;Fermi paradox&lt;/a&gt;. And you could think of marginal returns: Why bother about something that would happen sooner or later anyway (but certainly on time). Then the costs of making it happen earlier may simply be too high for the benefits.&lt;/p&gt;
-
-&lt;p&gt;I will attempt to complement this list of objections, and I will try to answer them with appropriate rigor in later posts. The bottom line in this post shall, for the moment, be just this:&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;It is well possible that we have a moral reason to dedicate considerable resources to research that will help us constrain the population size of extraterrestrial sentient beings.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thoughts on this? Tag @astroilin and #moralorbit on twitter, or let me know: ekaterina dot ilin at posteo dot de&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>2020-06-06</pubDate>
-        <link>http://localhost:4000/articles/2019-02/moral-circle</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-02/moral-circle</guid>
-        
-        
-        <category>EFFECTIVE ALTRUISM</category>
         
       </item>
     

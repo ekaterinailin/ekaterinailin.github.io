@@ -2,7 +2,11 @@
   descr: "Detect and characterize stellar flares in Kepler and K2 time domain photometry. Features Gaussian Process regression, and injection/recovery of synthetic flares."
   image: pong.png
   github: https://github.com/ekaterinailin/AltaiPony
+  website: https://altaipony.readthedocs.io/
   dependencies:
     - { name: "appaloosa", link: "https://github.com/jradavenport/appaloosa/" }
     - { name: "K2SC", link: "https://github.com/OxES/k2sc"}
     - { name: "lightkurve", link: "http://docs.lightkurve.org/" }
+    - { name: "emcee", link: "https://emcee.readthedocs.io" }
+    - { name: "corner", link: "https://corner.readthedocs.io/" }
+

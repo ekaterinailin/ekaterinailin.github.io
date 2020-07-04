@@ -39,7 +39,7 @@ owner:
   bio: "Astonomy PhD student who cares for the long term future of sentient beings."
   email:
   disqus-shortname:
-  twitter: astroilin
+  twitter:
   facebook: #username
   google:
     plus: #username
@@ -51,7 +51,7 @@ owner:
   github: ekaterinailin
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: astroilin
   skype: #username
   xing: #username
   instagram: #username

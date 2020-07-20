@@ -5,8 +5,8 @@
     <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-07-18</pubDate>
-    <lastBuildDate>Sat, 18 Jul 2020 15:36:59 +0200</lastBuildDate>
+    <pubDate>2020-07-20</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2020 10:30:44 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -253,11 +253,11 @@
 &lt;h1 id=&quot;1.--Lokale-Gruppe&quot;&gt;1.  Lokale Gruppe&lt;a class=&quot;anchor-link&quot; href=&quot;#1.--Lokale-Gruppe&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Galaxiengruppen und -haufen sind lokale Massenkonzentrationen, innerhalb derer die Eigenbewegungder Galaxien gegenüber der gleichmäßigen Hubble-Expansion überwiegt. Die Masse der lokalen Gruppe (sichtbare und dunkle Materie) beträgt etwa $M_\mathrm{LG}=3\cdot10^{12}M_\odot$.&lt;/p&gt;
 &lt;h2 id=&quot;Welche-sind-die-drei-gr&amp;#246;&amp;#223;ten-Galaxien-in-der-Lokalen-Gruppe?-Recherchiere-wie-gro&amp;#223;-ihre-Masse-(inkl.-DM)-zusammen-betr&amp;#228;gt.&quot;&gt;Welche sind die drei gr&amp;#246;&amp;#223;ten Galaxien in der Lokalen Gruppe? Recherchiere wie gro&amp;#223; ihre Masse (inkl. DM) zusammen betr&amp;#228;gt.&lt;a class=&quot;anchor-link&quot; href=&quot;#Welche-sind-die-drei-gr&amp;#246;&amp;#223;ten-Galaxien-in-der-Lokalen-Gruppe?-Recherchiere-wie-gro&amp;#223;-ihre-Masse-(inkl.-DM)-zusammen-betr&amp;#228;gt.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Milchstraße&lt;/li&gt;
-&lt;li&gt;M33 (Andromeda-Galaxie)&lt;/li&gt;
-&lt;li&gt;M31 &lt;/li&gt;
+&lt;li&gt;M31 (Andromeda-Galaxie)&lt;/li&gt;
+&lt;li&gt;M33 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle drei sind Spiralgalaxien - typisch für eine Gruppe ggn. einem Haufen.&lt;/p&gt;
-&lt;p&gt;Recherche über Wikipedia bringt dich auf Paper von Cobrelli 2003, Kafle et al. 2018 und Kafle et al. 2014. Die Massen der Milchstraße und Andromeda sind ähnlich (ca. $8\cdot 10^{11}M_\odot$), M31 ist etwas kleiner (ca. $8\cdot 10^{11}M_\odot$). Es finden sich also über zwei Drittel der Gesamtmasse der Lokalen Gruppe in diesen Galaxien, anderen Schätzungen der Gesamtmasse zufolge sogar noch mehr.&lt;/p&gt;
+&lt;p&gt;Recherche über Wikipedia bringt dich auf Paper von Cobrelli 2003, Kafle et al. 2018 und Kafle et al. 2014. Die Massen der Milchstraße und Andromeda sind ähnlich (ca. $8\cdot 10^{11}M_\odot$), M33 ist etwas kleiner (ca. $5\cdot 10^{10}M_\odot$). Es finden sich also über zwei Drittel der Gesamtmasse der Lokalen Gruppe in diesen Galaxien, anderen Schätzungen der Gesamtmasse zufolge sogar noch mehr.&lt;/p&gt;
 &lt;h2 id=&quot;Wie-weit-reicht-der-Gravitationseinflu&amp;#223;-unserer-lokalen-Galaxiengruppe?-Sch&amp;#228;tze-dazu-grob-ab,-bei-welcher-Entfernung-die-Fluchtgeschwindigkeit-gleich-der-Expansionsgeschwindigkeit-gem&amp;#228;&amp;#223;-des-linearen-Hubble-Gesetzes-ist.&quot;&gt;Wie weit reicht der Gravitationseinflu&amp;#223; unserer lokalen Galaxiengruppe? Sch&amp;#228;tze dazu grob ab, bei welcher Entfernung die Fluchtgeschwindigkeit gleich der Expansionsgeschwindigkeit gem&amp;#228;&amp;#223; des linearen Hubble-Gesetzes ist.&lt;a class=&quot;anchor-link&quot; href=&quot;#Wie-weit-reicht-der-Gravitationseinflu&amp;#223;-unserer-lokalen-Galaxiengruppe?-Sch&amp;#228;tze-dazu-grob-ab,-bei-welcher-Entfernung-die-Fluchtgeschwindigkeit-gleich-der-Expansionsgeschwindigkeit-gem&amp;#228;&amp;#223;-des-linearen-Hubble-Gesetzes-ist.&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Hubble-Konstante kann dabei mit $H_0=70$ km/s/Mpc angenommen werden.&lt;/p&gt;
 &lt;p&gt;Für die Fluchtgeschwindigkeit kennen wir aus früheren Übungen&lt;/p&gt;
 &lt;p&gt;$v_{esc} = \sqrt{\dfrac{2GM_\mathrm{LG}}{r}}$&lt;/p&gt;
@@ -854,7 +854,7 @@ $6.0261474 \times 10^{-30} \; \mathrm{\frac{g}{cm^{3}}}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-07/uebung6</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-07/uebung6</guid>
         
@@ -1391,7 +1391,7 @@ $31.225616 \; \mathrm{Myr}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-07/uebung5</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-07/uebung5</guid>
         
@@ -1979,7 +1979,7 @@ $328 \; \mathrm{AU}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-06/uebung4</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung4</guid>
         
@@ -3106,7 +3106,7 @@ $328 \; \mathrm{AU}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-06/uebung3</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung3</guid>
         
@@ -3927,7 +3927,7 @@ Ich beobachte die Cepheiden in der Wolke über eine gewisse Zeit, und bestimme a
 
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung2</guid>
         
@@ -4754,7 +4754,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung1</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung1</guid>
         
@@ -4822,7 +4822,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 
 &lt;p&gt;Not being selected does not necessarily mean that you are an objectively worse candidate, and certainly it does not mean that you are not suited for any other similar position. If you made it onto the short list, it is a clear evidence that you are heading into a direction where you may become successful.&lt;/p&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE2</guid>
         
@@ -4885,7 +4885,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 
 &lt;p&gt;I’d prefer to err on the side of closer supervision, but I am happy to let you explore if you decide to do so. This is a learning opportunity for you, and you should get out of it whatever is most valuable to you on the margin. You might want to reflect on what you expect from the internship before you dive into it, and we can figure out a suitable strategy to achieve both our shared and individual goals together.&lt;/p&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE</guid>
         
@@ -4954,7 +4954,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 &lt;p&gt;Caution: priorities shift significantly with the total number of participants, the remaining duration of your contract, and the type of input you are seeking out.&lt;/p&gt;
 
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2019-05/kitp-conference</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/kitp-conference</guid>
         
@@ -5040,7 +5040,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 
 &lt;p&gt;P.S.: A fellow grad student presented some principles of behaviour change in a group meeting that struck a cord with me. Four prerequisities need to be met to make adults change their habits: An &lt;strong&gt;emotional&lt;/strong&gt; component, expressed in a subjective urge to this change. A &lt;strong&gt;rational&lt;/strong&gt; component that clarifies if the change is realistically doable, and checks if the effects of such a change would give the desired results. There is also a &lt;strong&gt;social&lt;/strong&gt; component, because you will need at someone who encourages you, or a role model. Not sure if considerable social punishment in case of failure would work, too. Finally, the &lt;strong&gt;structural&lt;/strong&gt; constraints are the physical, temporal, financial, and legal conditions for the change. Personally, I would add a &lt;strong&gt;moral&lt;/strong&gt; component that I find hard to cover by either the emotional or rational component alone, depending on how you inform your moral views. Otherwise these categories seem to catch many of the aspects in this post.&lt;/p&gt;
 </description>
-        <pubDate>2020-07-18</pubDate>
+        <pubDate>2020-07-20</pubDate>
         <link>http://localhost:4000/articles/2019-05/flyingless-update</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/flyingless-update</guid>
         

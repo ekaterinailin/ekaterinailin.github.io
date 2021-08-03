@@ -5,9 +5,57 @@
     <description>Astonomy PhD student who cares for the long term future of sentient beings.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-07-20</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2020 10:30:44 +0200</lastBuildDate>
+    <pubDate>2021-08-03</pubDate>
+    <lastBuildDate>Tue, 03 Aug 2021 19:58:05 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Talks about science: popular and academic</title>
+        <description>&lt;p&gt;This post will be updated as more material comes in :)&lt;/p&gt;
+
+&lt;h2 id=&quot;popular-science&quot;&gt;Popular science&lt;/h2&gt;
+
+&lt;h3 id=&quot;in-german&quot;&gt;In German&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LLHLobUifeY&quot;&gt;Elektromagnetische Wechselwirkung zwischen Sternen und Planeten&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;July 15th 2021&lt;/li&gt;
+      &lt;li&gt;auf Youtube bei “Weltall, Urknall und das Leben”&lt;/li&gt;
+      &lt;li&gt;ca. 30 min&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;in-english&quot;&gt;In English&lt;/h3&gt;
+
+&lt;p&gt;Nothing yet ¯\ &lt;em&gt;(ツ)&lt;/em&gt; /¯&lt;/p&gt;
+
+&lt;h2 id=&quot;talks-at-conferences-the-academic-stuff-english-only&quot;&gt;Talks at conferences (the academic stuff, English only)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://online.kitp.ucsb.edu/online/exostar-c19/ilin/&quot;&gt;Stellar magnetic evolution: Flaring activity in K2 Open Clusters&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;May 20th, 2019&lt;/li&gt;
+      &lt;li&gt;KITP Conference: Planet-Star Connections in the Era of TESS and Gaia&lt;/li&gt;
+      &lt;li&gt;University College Santa Barbara, Kavli Institute for Theoretical Physics&lt;/li&gt;
+      &lt;li&gt;10 min&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>2021-08-03</pubDate>
+        <link>http://localhost:4000/articles/2021-08/videos</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2021-08/videos</guid>
+        
+        
+        <category>ASTRONOMY</category>
+        
+        <category>ENGLISH</category>
+        
+        <category>OUTREACH</category>
+        
+      </item>
     
       <item>
         <title>Übungen #6 zum Grundkurs Astronomie II im Sommersemester 2020</title>
@@ -820,7 +868,7 @@ $6.0261474 \times 10^{-30} \; \mathrm{\frac{g}{cm^{3}}}$
 &lt;p&gt;$\dot{a}^2 = \dfrac{8\pi G\rho_0}{3}\cdot \dfrac{1}{a} - Kc^2$&lt;/p&gt;
 &lt;p&gt;Wobei $Kc^2$ erstmal als Integrationskonstante auftaucht.&lt;/p&gt;
 &lt;h2 id=&quot;Dein-Ergebnis-ist-eine-Form-der-Friedmann-Lema&amp;#238;tre-Gleichung.-Darin-wird-die-Integrationskonstante,-die-in-(d)-auftaucht,-als-$Kc^2$-geschrieben.-Welche-Einheit-besitzt-$K$?&quot;&gt;Dein Ergebnis ist eine Form der Friedmann-Lema&amp;#238;tre Gleichung. Darin wird die Integrationskonstante, die in (d) auftaucht, als $Kc^2$ geschrieben. Welche Einheit besitzt $K$?&lt;a class=&quot;anchor-link&quot; href=&quot;#Dein-Ergebnis-ist-eine-Form-der-Friedmann-Lema&amp;#238;tre-Gleichung.-Darin-wird-die-Integrationskonstante,-die-in-(d)-auftaucht,-als-$Kc^2$-geschrieben.-Welche-Einheit-besitzt-$K$?&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Weil $a$ dimensionslos ist, und $c$ die Lichtgeschwindikgkeit, ergibt sich für die Einheit von $K$:&lt;/p&gt;
-&lt;p&gt;$\left[1/s^4\right] = \left[m^2/s^4\right]\left[1/m^2\right]$&lt;/p&gt;
+&lt;p&gt;$\left[1/s^2\right] = \left[m^2/s^2\right]\left[1/m^2\right]$&lt;/p&gt;
 &lt;p&gt;An dieser Stelle kann man sich fragen, was diese Einheit zu bedeuten hat, und warum $K$ so eingeführt wurde.  Erstaunlich ist, dass $Kc^2$ unter Einbezug der Allgemeinen Relativitätstheorie eine physikalische Bedeutung erhält, nämlich als Krümmungsterm.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -854,7 +902,7 @@ $6.0261474 \times 10^{-30} \; \mathrm{\frac{g}{cm^{3}}}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-07/uebung6</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-07/uebung6</guid>
         
@@ -1391,7 +1439,7 @@ $31.225616 \; \mathrm{Myr}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-07/uebung5</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-07/uebung5</guid>
         
@@ -1979,7 +2027,7 @@ $328 \; \mathrm{AU}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-06/uebung4</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung4</guid>
         
@@ -3106,7 +3154,7 @@ $328 \; \mathrm{AU}$
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-06/uebung3</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/uebung3</guid>
         
@@ -3927,7 +3975,7 @@ Ich beobachte die Cepheiden in der Wolke über eine gewisse Zeit, und bestimme a
 
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung2</guid>
         
@@ -4754,7 +4802,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2020-05/uebung1</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/uebung1</guid>
         
@@ -4822,7 +4870,7 @@ Leider hat noch nie jemand ein WIMP gesehen.&lt;/p&gt;
 
 &lt;p&gt;Not being selected does not necessarily mean that you are an objectively worse candidate, and certainly it does not mean that you are not suited for any other similar position. If you made it onto the short list, it is a clear evidence that you are heading into a direction where you may become successful.&lt;/p&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE2</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE2</guid>
         
@@ -4885,7 +4933,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 
 &lt;p&gt;I’d prefer to err on the side of closer supervision, but I am happy to let you explore if you decide to do so. This is a learning opportunity for you, and you should get out of it whatever is most valuable to you on the margin. You might want to reflect on what you expect from the internship before you dive into it, and we can figure out a suitable strategy to achieve both our shared and individual goals together.&lt;/p&gt;
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2019-12/DAAD-RISE</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-12/DAAD-RISE</guid>
         
@@ -4954,7 +5002,7 @@ in the field of view of the Kepler space mission and thousands are currently bei
 &lt;p&gt;Caution: priorities shift significantly with the total number of participants, the remaining duration of your contract, and the type of input you are seeking out.&lt;/p&gt;
 
 </description>
-        <pubDate>2020-07-20</pubDate>
+        <pubDate>2021-08-03</pubDate>
         <link>http://localhost:4000/articles/2019-05/kitp-conference</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/kitp-conference</guid>
         
@@ -4968,86 +5016,6 @@ in the field of view of the Kepler space mission and thousands are currently bei
         <category>ASTRONOMY</category>
         
         <category>ACADEMIA</category>
-        
-      </item>
-    
-      <item>
-        <title>Flying is still bad, but we can do something about it</title>
-        <description>&lt;p&gt;&lt;em&gt;Epistemic status: Taking some modest action, becoming more confident in radical conclusions. Still cautious not to appear hysterical or activist or misanthropic because I do not see myself as either of these.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In a previous post, I dramatically announced that I was about to do something against the culture of excessive flying in academia. Here, I summarize the steps I have taken in the past six weeks. I compile what I learned and some surprising insights, spot difficulties, and declare what I will do next to eventually reduce academic flying by about 80% (&lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_principle&quot;&gt;pareto principle&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Some of the things I did:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Talked to my supervisors, some postdocs, administration staff, and office mates at our institute.&lt;/li&gt;
-  &lt;li&gt;Had an hour-long discussion about the issue in the monthly meeting of PhD students at our institute.&lt;/li&gt;
-  &lt;li&gt;Talked to a nice person who is actively avoiding flying and has become an expert in hacking the railroad ticket system in Europe.&lt;/li&gt;
-  &lt;li&gt;Read a ton of #flyingless tweets and blog posts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Surprising insights:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Apparently, there are time allocation commitees, and similar sorts of consortia, juries etc. that have no good reason to meet in person, or where the benefits of physical proximity are probably dispensable.&lt;/li&gt;
-  &lt;li&gt;Networking is much more important for young people in the field, who do not yet have that network. The seniors’ time may in many cases be better used if they a) gave their talks remotely, or b) did some science at home, and sent off their students instead. Still, there seems to be some &lt;a href=&quot;https://twitter.com/Hannahcknox/status/1097912701676896258&quot;&gt;pressure&lt;/a&gt; on seniors to attend these events in person but also &lt;a href=&quot;https://twitter.com/Elin_Roos_SE/status/1090559388258045952&quot;&gt;support&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;There is emotional attachment to flying. Positively, it seems to induce a feeling of cosmopolitanism, adventure, and status. Negatively, it feeds a fear of missing out. For the younger folks, travelling around the world, or “going places”, may even be a reason to attempt to make a career in academia in the first place.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I found some reasons to be optimistic:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Since the imperative to reduce carbon emission comes from within academia it is difficult for an academic to defend a position that opposes scientific consensus. Ultimately, not acting upon robust scientific facts undermines the value of your own research. This is so straightforward to me that I find it difficult to work out arguments against it off the top of my head.&lt;/li&gt;
-  &lt;li&gt;A visiting scientist mentioned in an email exchange with the administration in our institute that they would rather come by train if not for legal regulations. This is only one instance of a handful of this sort I overheard.&lt;/li&gt;
-  &lt;li&gt;The echo among the PhD students was largely positive. But not all PhD students were present, either.&lt;/li&gt;
-  &lt;li&gt;No-one outright rejected my proposition, although there have been objections of all sorts, from all the people I talked to so far.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Concrete steps that can be taken:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Raise awareness locally, and on social media. This may lower the acceptance threshold for seemingly radical 80/20 cuts, or at least highlight the perks of stay-at-home science.&lt;/li&gt;
-  &lt;li&gt;When the institute runs its own conferences, the LOC should allow for remote participation. We can encourage seniors to give talks via video stream. It is pretty easy to set up and you can still have intimate Q &amp;amp; A sessions, office hours, and the like, in dedicated seminar rooms at the venue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Actions that require some investment but still may be possible:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Require a minimum stay of multiple weeks at some hosting institute if going on a flight outside of Europe.&lt;/li&gt;
-  &lt;li&gt;Require a minimum stay of multiple days at some hosting institute if going on a flight within Europe.&lt;/li&gt;
-  &lt;li&gt;Equip one or multiple seminar rooms with VR infrastructure with fast internet connection and good video call quality.&lt;/li&gt;
-  &lt;li&gt;Make the individual travelling transparent, and hold the section heads accountable for their own and their groups’ flying. This requires some sort of environmental code of conduct. A working group that works out something with representatives from all science branches, IT, administration, finance etc. is a starting point.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Real obstacles and objections to be taken seriously:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pressure to compete with other institutes by attending many events and being seen and recognized. The transition to 80% less flights will require institutions to act collectively.&lt;/li&gt;
-  &lt;li&gt;Compared to the main carbon emitters like coal, academic flying abstinence is unlikely to turn the tables, which is a discouraging thought.&lt;/li&gt;
-  &lt;li&gt;A cousin to feeling of helplessness is the rejection to accept that academics are an elite. If you do not feel that you are somehow put on a pedestal by society to do science for the good of humanity then you will not feel responsibile to act as a role model either.&lt;/li&gt;
-  &lt;li&gt;There is that very German thing called Bundesreisekostengesetz (literal translation: federal travel expense law). Travelling is supposed to be as cheap as possible if you want to have it counted as refundable travel expense. Finance department’s hands are tied here.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My personal next steps:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ask my local green party friends about ways to legally circumvent (or change?) the Bundesreisekostengesetz.&lt;/li&gt;
-  &lt;li&gt;Make a short contribution to the all-institute coffee meeting with the suggestions just discussed to incite debate, and action, hopefully.&lt;/li&gt;
-  &lt;li&gt;I am on the LOC of a workshop run at our institute: I will approach the LOC heads concerning remote talks, video streaming, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will report back as soon as these steps have been taken.&lt;/p&gt;
-
-&lt;p&gt;P.S.: A fellow grad student presented some principles of behaviour change in a group meeting that struck a cord with me. Four prerequisities need to be met to make adults change their habits: An &lt;strong&gt;emotional&lt;/strong&gt; component, expressed in a subjective urge to this change. A &lt;strong&gt;rational&lt;/strong&gt; component that clarifies if the change is realistically doable, and checks if the effects of such a change would give the desired results. There is also a &lt;strong&gt;social&lt;/strong&gt; component, because you will need at someone who encourages you, or a role model. Not sure if considerable social punishment in case of failure would work, too. Finally, the &lt;strong&gt;structural&lt;/strong&gt; constraints are the physical, temporal, financial, and legal conditions for the change. Personally, I would add a &lt;strong&gt;moral&lt;/strong&gt; component that I find hard to cover by either the emotional or rational component alone, depending on how you inform your moral views. Otherwise these categories seem to catch many of the aspects in this post.&lt;/p&gt;
-</description>
-        <pubDate>2020-07-20</pubDate>
-        <link>http://localhost:4000/articles/2019-05/flyingless-update</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/flyingless-update</guid>
-        
-        <category>academia</category>
-        
-        <category>flying</category>
-        
         
       </item>
     

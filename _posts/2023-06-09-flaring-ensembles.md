@@ -27,7 +27,7 @@ But the Sun is old, so its flares are weak, and Earth is at a safe distance. How
 
 In addition to being the most abundant kind of star, it so happens that Earth-like planets in the habitable zone are also most abundant around exactly those flare-spitting monsters. Also, among all stars, M dwarfs also live the longest – 10–100 times longer than the Sun. Statistically, this makes them the place with the most opportunities for producing life, and then sustaining it for a long time. But with its activity, the star might just nip things in the bud. So no aliens? (Or just none that need an atmosphere to breathe?)
 
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2006/11/artist_s_impression_of_evaporating_exoplanet/9709020-3-eng-GB/Artist_s_impression_of_evaporating_exoplanet_pillars.jpg)" height="300" alt="Image not loaded" border="3" align="center">**Figure 2: Artist’s impression of a planet losing its atmosphere due to the intense radiation and particles from its host star. Credit: ESA**
+<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2006/11/artist_s_impression_of_evaporating_exoplanet/9709020-3-eng-GB/Artist_s_impression_of_evaporating_exoplanet_pillars.jpg" height="300" alt="Image not loaded" border="3" align="center">**Figure 2: Artist’s impression of a planet losing its atmosphere due to the intense radiation and particles from its host star. Credit: ESA**
 
 ### Don’t assume the Sun to find habitable planets
 

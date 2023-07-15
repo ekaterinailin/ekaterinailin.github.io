@@ -6,9 +6,16 @@ categories: [ASTRONOMY, ENGLISH, SCIENCE, PAPER]
 author: ekaterina
 comments: true
 
+
+image:
+  feature: https://s3.amazonaws.com/adsabs-thumbnails/seri/MNRAS/0523/stad1690/stad1690fig3.jpeg
+  credit: Ilin et al. 2023
+  creditlink: https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4326I/abstract
+
+
 ---
 
-_This post is based on Ilin et al. [(2021)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.1723I) and [(2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1649I/abstract)._
+_This post is based on Ilin et al. [(2021)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.1723I) and [(2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4326I/abstract)._
 
 ### Introduction: The problem of stars being point sources on the sky
 
@@ -40,7 +47,7 @@ Flares on the Sun occur pretty close to the solar equator. That’s roughly in t
 
 However, the method we used above to tell the flares’ latitudes only works if the flare is very large, and the star rotates very fast. You need to look for about 120 years non-stop at a star to find one such flare. (Nobody has 120 years, so we look at many stars simultaneously to save time). As of now, we only know of a handful of flares where we can apply this technique. But what about the smaller flares, and the more slowly rotating stars, that make up the majority[^3] of both flares, and stars? We need a better trick to locate them.
 
-This is what [our most recent paper](https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1649I/abstract) is about. It is about a new technique to tell where flares occur on the stellar surface, although we only see it as a point source.
+This is what [our most recent paper](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4326I/abstract) is about. It is about a new technique to tell where flares occur on the stellar surface, although we only see it as a point source.
 
 To understand how we can pull this trick, we need some context about inclination, that is, the orientation of the star’s rotation axis. The inclination of its rotation axis towards the observer, and the latitude of a flare, are ambiguous. A flare at a low latitude on a star with a certain inclination looks almost the same as a flare at a higher latitude on a star with a higher inclination. To lift this ambiguity, for the rapidly rotating stars with large flares, we had to use the high-resolution spectroscopy to measure the inclination, so that we could tell the latitude. 
 

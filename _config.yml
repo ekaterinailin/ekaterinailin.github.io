@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: astronomy, effective altruism
+title: stars and planets
 email: 
-description: Astonomy PhD student who cares for the long term future of sentient beings.
+description: Astronomer
 url: # the base hostname & protocol for your site
 keywords: ["blog", "astrophysics", "effective altruism"]
 
@@ -35,11 +35,11 @@ kramdown:
 owner:
   name: Ekaterina Ilin
   avatar: leonids-logo.png
-  job: "astrophysics, effective altruism, feminism"
-  bio: "Astronomer who cares for the long term future of sentient beings."
+  job: "stars and planets"
+  bio: "A few million years are nothing."
   email:
   disqus-shortname:
-  twitter: astroilin
+  twitter: 
   facebook: #username
   google:
     plus: #username

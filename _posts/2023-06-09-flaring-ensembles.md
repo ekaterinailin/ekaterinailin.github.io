@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The hidden maps of tiny stars"
-excerpt: "The locations of flares influence the habitability of exoplanet, but it is tricky to tell them on stars that look like points on the sky to us. We came up with two tricks how we can do it anyways."
+excerpt: "The locations of flares influence the habitability of exoplanets, but it is tricky to tell them on stars that look like points on the sky to us. We came up with two tricks how we can do it anyways."
 categories: [ASTRONOMY, ENGLISH, SCIENCE, PAPER]
 author: ekaterina
 comments: true

@@ -1,5 +1,5 @@
 - name: AltaiPony
-  descr: "Detect and characterize stellar flares in Kepler, K2 and TESS time domain photometry. Features Gaussian Process regression, injection/recovery of synthetic flares, and statistics on flare frequency distributions."
+  descr: "Detect and characterize stellar flares in Kepler and TESS time domain photometry. Features injection/recovery of synthetic flares, and statistics on flare frequency distributions."
   image: pong.png
   github: https://github.com/ekaterinailin/AltaiPony
   website: https://altaipony.readthedocs.io/

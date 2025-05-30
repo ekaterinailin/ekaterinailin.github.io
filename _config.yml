@@ -1,71 +1,14 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
-title: stars and planets
-email: 
-description: Astronomer
-url: # the base hostname & protocol for your site
-keywords: ["blog", "astrophysics", "effective altruism"]
+title: Ekaterina Ilin
+description: Astrophysicist | Star-Planet Interactions | Stellar Magnetism
+theme: minima
+author: Ekaterina Ilin
+email: ilin@astron.nl
+github_username: ekaterinailin
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+header_pages:
+  - index.md
+  - cv.md
+  - publications.md
+  
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Ekaterina Ilin
-  avatar: leonids-logo.png
-  job: "stars and planets"
-  bio: "A few million years are nothing."
-  email:
-  disqus-shortname:
-  twitter: 
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: ekaterinailin
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: astroilin
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username

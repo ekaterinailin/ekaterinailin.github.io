@@ -11,7 +11,7 @@ permalink: /talks/
 
 - [Gibt es Leben auf fernen Planeten?](https://www.wissenschaft.de/astronomie-physik/bdw-podcast-folge-18/)  
   📅 July 17th, 2025  
-  📺 Bild der Wissenschaft Podcast – Folge 18   
+  🎤 Bild der Wissenschaft Podcast – Folge 18   
   ⏱️ ca. 50 min
 
 

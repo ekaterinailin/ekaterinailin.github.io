@@ -8,6 +8,13 @@ permalink: /talks/
 
 ### In German
 
+
+- [Gibt es Leben auf fernen Planeten?](https://www.wissenschaft.de/astronomie-physik/bdw-podcast-folge-18/)  
+  📅 July 17th, 2025  
+  📺 Bild der Wissenschaft Podcast – Folge 18   
+  ⏱️ ca. 50 min
+
+
 - [Elektromagnetische Wechselwirkung zwischen Sternen und Planeten](https://www.youtube.com/watch?v=LLHLobUifeY)  
   📅 July 15th, 2021  
   📺 YouTube: *Urknall, Weltall und das Leben*  

@@ -8,7 +8,7 @@ title: Publications
 <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
   <img src="/assets/papers/ilin2025.jpg" alt="artwork: Danielle Futselaar" style="width: 200px; height: auto;">
   <div>
-    <strong>Close-in planet found triggering flares on its host star.</strong>  <br>
+    <strong>Close-in planet induces flares on its host star.</strong>  <br>
     <em>Nature (2025)</em>  
     <br>→ Statistical analysis of flare occurrence times observed with TESS and CHEOPS.
     <br>

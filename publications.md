@@ -6,6 +6,19 @@ title: Publications
 ### Selected First-Author Publications
 
 <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+  <img src="/assets/papers/ilin2025.jpg" alt="artwork: Danielle Futselaar" style="width: 200px; height: auto;">
+  <div>
+    <strong>Close-in planet found triggering flares on its host star.</strong>  <br>
+    <em>Nature (2025)</em>  
+    <br>→ Statistical analysis of flare occurrence times observed with TESS and CHEOPS.
+    <br>
+    <a href="https://rdcu.be/euu5D" target="_blank">[Read the paper]</a>
+
+  </div>
+</div>
+
+
+<div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
   <img src="/assets/papers/ilin2024b.png" alt="X-ray light curve" style="width: 200px; height: auto;">
   <div>
     <strong>The corona of a fully convective star with a near-polar flare</strong>  <br>

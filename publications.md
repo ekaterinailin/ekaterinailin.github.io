@@ -12,7 +12,7 @@ title: Publications
     <em>Nature (2025)</em>  
     <br>→ Statistical analysis of flare occurrence times observed with TESS and CHEOPS.
     <br>
-    <a href="https://rdcu.be/euu5D" target="_blank">[Read the paper]</a>
+     <a href="https://rdcu.be/euu5D" target="_blank">[Read the paper]</a> <a href="/assets/papers/ilin2025_accepted.pdf" target="_blank">[Download the accepted paper]</a>
 
   </div>
 </div>

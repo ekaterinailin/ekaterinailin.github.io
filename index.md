@@ -14,4 +14,4 @@ I’m an astrophysicist studying the magnetic activity of low-mass stars and how
 I hold a PhD in astrophysics from the Leibniz Institute for Astrophysics Potsdam, and worked as a postdoctoral researcher at the Netherlands Institute for Radio Astronomy (ASTRON). Currently, I hold a Max-Planck Research Group Leader position at the Max-Planck Institute for Solar System Research. 
 Feel free to explore my [CV](./cv.html) or read more about my [research and publications](./publications.html).
 
-📧 [ilin@astron.nl](mailto:ilin@astron.nl) | 🧑‍💻 [GitHub](https://github.com/ekaterinailin)
+📧 [ilin [at] mps.mpg.de](mailto:ilin@mps.mpg.de) | 🧑‍💻 [GitHub](https://github.com/ekaterinailin)

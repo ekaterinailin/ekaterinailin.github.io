@@ -13,11 +13,13 @@ You can download my full academic CV here:
 - **BSc in Physics**, Karlsruhe Institute of Technology (2012–2016)
 
 ## Positions
-- **Postdoc**, ASTRON, Netherlands (2023–present)
+- **Max-Planck Research Group Leader**, MPS Göttingen, Germany (2026–present)
+- **Postdoc**, ASTRON, Netherlands (2023–2026)
 - **Postdoc**, AIP, Germany (2022–2023)
 - **Fulbright Research Fellow**, AMNH, US (2021–2022)
 
 ## Research Interests
+- Magnetic companion system
 - Star-planet magnetic interactions  
 - Stellar flares & coronal activity 
 - Time-domain space photometry

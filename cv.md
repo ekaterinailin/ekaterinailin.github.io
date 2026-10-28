@@ -19,7 +19,7 @@ You can download my full academic CV here:
 - **Fulbright Research Fellow**, AMNH, US (2021–2022)
 
 ## Research Interests
-- Magnetic companion system
+- Magnetic companion systems
 - Star-planet magnetic interactions  
 - Stellar flares & coronal activity 
 - Time-domain space photometry
